@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMC 3.0 · Mesa de análisis</title>
+  <link rel="stylesheet" href="/style.css">
+  <script id="mt5Catalog" type="application/json">
+    {
+      "forex": [
+        "EURUSD", "EURAUD", "EURCAD", "EURCHF", "EURGBP", "EURJPY", "EURNZD",
+        "AUDCAD", "AUDCHF", "AUDJPY", "AUDUSD", "GBPUSD", "GBPAUD", "GBPCAD",
+        "GBPCHF", "GBPJPY", "GBPNZD", "NZDCAD", "NZDCHF", "NZDJPY", "NZDUSD",
+        "USDCAD", "USDCHF", "USDJPY", "CADCHF", "CADJPY"
+      ],
+      "indices": {"GER40": "GER30", "NAS100": "NDX100", "SPX": "SPX500", "US30": "US30"},
+      "commodities": {"Oro": "XAUUSD", "Brent": "UKOUSD", "US Oil · WTI": "USOUSD"}
+    }
+  </script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+<main>
+  <header class="masthead">
+    <div><h1>SMC <span>3.0</span></h1><p id="account">Cargando cuenta…</p></div>
+    <div class="sync"><button id="sync">Sincronizar MT5</button><small id="syncStatus" role="status"></small></div>
+  </header>
+  <section class="metrics" aria-label="Estado de la cuenta">
+    <div><p>Balance</p><strong id="balance">—</strong></div>
+    <div><p>Equidad</p><strong id="equity">—</strong></div>
+    <div><p>Resultado neto</p><strong id="net">—</strong></div>
+    <div><p>Posiciones cerradas</p><strong id="closedCount">—</strong></div>
+  </section>
+  <nav class="app-tabs" role="tablist" aria-label="Secciones de SMC 3.0">
+    <button type="button" class="app-tab" id="marketTab" role="tab" aria-selected="true" aria-controls="marketPanel">Mercado</button>
+    <button type="button" class="app-tab" id="analysisTab" role="tab" aria-selected="false" aria-controls="analysisPanel" tabindex="-1">Análisis detallado</button>
+    <button type="button" class="app-tab" id="journalTab" role="tab" aria-selected="false" aria-controls="journalPanel" tabindex="-1">Diario de MT5</button>
+  </nav>
+  <section id="marketPanel" class="tab-panel" role="tabpanel" aria-labelledby="marketTab">
+  <section class="grid">
+    <article class="panel chart-panel" id="chartPanel">
+      <div class="section-title chart-heading">
+        <h2>Gráfico</h2>
+        <span id="chartStatus" role="status">Cargando velas…</span>
+        <button type="button" id="chartFullscreen">Pantalla completa</button>
+      </div>
+      <p id="marketStatus" class="status" role="status">Conectando con el motor local…</p>
+      <form id="chartForm" class="toolbar">
+        <label>Símbolo<select id="symbol" required aria-label="Símbolo Forex"></select></label>
+        <label>Marco<select id="tf"><option selected>D1</option><option>H4</option><option>H1</option><option>M15</option><option>M5</option><option>M1</option></select></label>
+        <button type="submit">Cargar gráfico</button>
+        <label>Velas visibles<select id="windowSize"><option value="auto" selected>Por ancho</option><option>80</option><option>160</option><option>320</option><option id="customWindowSize" hidden></option></select></label>
+        <button type="button" id="back" aria-label="Velas anteriores">←</button>
+        <button type="button" id="forward" aria-label="Velas siguientes">→</button>
+        <button type="button" id="centerChart" disabled>Centrar</button>
+        <button type="button" id="resetPriceScale" disabled>Ajustar precio</button>
+        <label class="check"><input type="checkbox" id="fitDailyLevels"> Incluir PDH/PDL en la escala</label>
+        <label class="check"><input type="checkbox" id="showDeals" checked> Ver operaciones</label>
+      </form>
+      <div class="ict-panel">
+        <div class="ict-controls">
+          <strong>Motor ICT 2.0</strong>
+          <label class="check"><input type="checkbox" id="ictPoi" checked> POI</label>
+          <label class="check"><input type="checkbox" id="ictFvg" checked> FVG</label>
+          <label class="check"><input type="checkbox" id="ictOb" checked> OB</label>
+          <label class="check"><input type="checkbox" id="showDailyLiquidity" checked> PDH/PDL</label>
+          <label class="check"><input type="checkbox" id="showFridayReference" checked> Último viernes HH/LL</label>
+          <label class="check"><input type="checkbox" id="showOpenings" checked> Rangos de apertura M15</label>
+          <button type="button" id="liveView" hidden>Volver al gráfico en vivo</button>
+        </div>
+        <p id="ictStatus" class="status" role="status">Esperando velas cerradas de EURUSD…</p>
+        <p id="ictZones" class="status"></p>
+        <p id="dailyLevels" class="status"></p>
+        <p id="fridayLevels" class="status"></p>
+        <p id="dailyEvents" class="status"></p>
+        <div id="book22Panel" class="book22-panel" hidden>
+          <div class="ict-controls">
+            <label class="check"><input type="checkbox" id="showBook22" checked> Modelos del Libro 22</label>
+            <label>Señal M15<select id="book22Signal"></select></label>
+          </div>
+          <div class="ict-controls book22-tabs" role="tablist" aria-label="Vista de la señal">
+            <button id="book22OverviewTab" type="button" role="tab" aria-selected="true" aria-controls="book22Overview">Resumen</button>
+            <button id="book22DetailTab" type="button" role="tab" aria-selected="false" aria-controls="book22Detail" tabindex="-1">Análisis detallado</button>
+          </div>
+          <div id="book22Overview" role="tabpanel" aria-labelledby="book22OverviewTab"><p id="book22Status" class="status" role="status"></p></div>
+          <div id="book22Detail" role="tabpanel" aria-labelledby="book22DetailTab" hidden>
+            <p id="book22DetailTitle" class="status" role="status"></p>
+            <dl id="book22DetailRows"></dl>
+          </div>
+        </div>
+        <p id="openingSchedule" class="status"></p>
+        <p id="openingNotice" class="status opening-notice" role="status"></p>
+      </div>
+      <div class="canvas"><canvas id="chart" class="pan-ready" aria-label="Velas de MetaTrader 5 y marcajes" aria-describedby="zoomHelp"></canvas></div>
+      <p id="zoomHelp" class="status">Rueda para acercar o alejar. En Explorar, arrastra las velas para desplazarte. Arrastra el eje derecho para cambiar la escala de precio.</p>
+      <p id="pointer" class="status">Reloj de MT5</p>
+      <div id="chartTooltip" class="chart-tooltip" role="tooltip" hidden>
+        <strong id="chartTooltipTitle"></strong>
+        <span id="chartTooltipFrame"></span>
+        <p id="chartTooltipDetails"></p>
+      </div>
+    </article>
+    <aside class="panel marks">
+      <div class="section-title"><h2>Marcaje</h2><span id="markScope">EURUSD · D1</span></div>
+      <label>Herramienta<select id="tool"><option value="">Explorar</option><option value="POI">POI candidato</option><option>Nivel</option><option>Tendencia</option><option>Idea</option><option id="referenceTool" value="referencia" hidden>Medir vela para referencia</option></select></label>
+      <label>Nota de la idea<textarea id="label" maxlength="500" rows="6" placeholder="Sesgo, zona, confirmación e invalidación"></textarea></label>
+      <button type="button" id="ictTemplate">Usar ficha ICT</button>
+      <p id="markStatus" role="status">Elige una herramienta para marcar sobre el gráfico.</p>
+      <details class="reference-panel">
+        <summary>Referencias de TradingView</summary>
+        <form id="referenceForm">
+          <div class="toolbar">
+            <label>Símbolo de TradingView<input id="referenceSymbol" placeholder="FXCM:EURUSD" maxlength="48" spellcheck="false" required></label>
+            <label>Marco<select id="referenceFrame"><option>D1</option><option>H4</option><option>H1</option><option>M15</option><option>M5</option><option>M1</option></select></label>
+            <label>Precio de referencia<input id="referencePrice" inputmode="decimal" maxlength="18" placeholder="1.09850" required></label>
+          </div>
+          <button type="submit">Guardar referencia</button>
+        </form>
+        <p id="referenceStatus" class="status" role="status"></p>
+        <div id="referenceSaved" hidden>
+          <label>Referencia guardada<select id="referenceSelect"></select></label>
+          <p id="referenceSource" class="status"></p>
+          <a id="referenceDxy" href="https://www.tradingview.com/symbols/TVC-DXY/" target="_blank" rel="noopener noreferrer" hidden>Abrir TVC:DXY en TradingView</a>
+          <div id="referenceActions" class="toolbar" hidden>
+            <button type="button" id="referenceOpen">Abrir gráfico MT5</button>
+            <label>Precio de vela MT5<select id="referenceField"><option value="2">Máximo</option><option value="3">Mínimo</option><option value="1">Apertura</option><option value="4">Cierre</option></select></label>
+            <button type="button" id="referenceMeasure">Medir en vela cerrada</button>
+          </div>
+          <p id="referenceResult" class="status" role="status"></p>
+          <button type="button" id="referenceDelete">Borrar referencia</button>
+        </div>
+      </details>
+      <div id="marks"></div>
+    </aside>
+  </section>
+  </section>
+  <section id="analysisPanel" class="tab-panel" role="tabpanel" aria-labelledby="analysisTab" hidden>
+    <article class="panel detailed-analysis">
+      <div class="analysis-heading">
+        <div><p class="eyebrow">Lectura final del motor</p><h2>Análisis ICT 3.0</h2></div>
+        <label>Mercado<select id="analysisSymbol" aria-label="Mercado para analizar"></select></label>
+      </div>
+      <p id="ict3DetailStatus" class="status" role="status">Preparando el análisis de EURUSD…</p>
+      <p id="ict3Legend" class="analysis-legend">Notación: <strong>observado</strong> = velas cerradas · <strong>hipótesis</strong> = lectura condicional · <strong>simulación</strong> = objetivo 3R/5R informativo. Una zona candidata nunca es una entrada y el motor no autoriza órdenes.</p>
+      <div id="ict3Final" class="final-analysis" aria-live="polite"></div>
+      <p class="analysis-footnote">El servidor conserva los cálculos técnicos para la IA. Esta página muestra únicamente la conclusión; es observación de mercado, no una orden.</p>
+    </article>
+  <section class="panel scanner" aria-labelledby="scanHeading">
+    <div class="section-title"><h2 id="scanHeading">Escáner de POI · D1</h2></div>
+    <details id="intradayMonitor">
+      <summary id="intradayStatus">Monitor M15 de los 26 pares y US30</summary>
+      <p class="status">Análisis de la última M15 cerrada de cada activo, aunque no tenga un gráfico abierto.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th scope="col">Activo</th><th scope="col">Último cierre M15 (MT5)</th><th scope="col">Cierre analizado (MT5)</th><th scope="col">Última lectura</th><th scope="col">Estado</th></tr></thead>
+        <tbody id="intradayRows"></tbody>
+      </table></div>
+    </details>
+    <details id="universeMonitor">
+      <summary id="universeStatus">Comprobación de cierres D1 de MT5</summary>
+      <p class="status">El motor comprueba el universo por turnos. El análisis del gráfico se actualiza mientras lo tienes abierto. El escaneo de dos años se ejecuta al solicitarlo.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Activo MT5</th><th scope="col">Último cierre D1 (MT5)</th><th scope="col">Última comprobación</th><th scope="col">Estado</th></tr></thead>
+          <tbody id="universeRows"></tbody>
+        </table>
+      </div>
+    </details>
+    <form id="scanForm" class="toolbar">
+      <label>Activos
+        <select id="scanTarget">
+          <option value="forex">26 pares · MT5</option>
+          <option value="indices">4 índices · MT5</option>
+          <option value="commodities">Oro, Brent y US Oil · MT5</option>
+          <optgroup id="scanForex" label="Pares · MT5"></optgroup>
+          <optgroup id="scanIndices" label="Índices · MT5"></optgroup>
+          <optgroup id="scanCommodities" label="Materias primas · MT5"></optgroup>
+          <optgroup label="TradingView"><option value="TVC:DXY">TVC:DXY · estudio visual</option></optgroup>
+        </select>
+      </label>
+      <label id="scanDateLabel">Fecha de corte · MT5<input id="scanDate" type="date" disabled></label>
+      <button id="scanSubmit" type="submit" disabled>Escanear velas cerradas</button>
+      <button id="scanOpenChart" type="button" disabled>Abrir gráfico MT5</button>
+    </form>
+    <p id="scanSource" class="status" role="status">Cargando lista de instrumentos…</p>
+    <p id="scanStatus" class="status" role="status"></p>
+    <div id="scanResults" class="table-wrap" hidden>
+      <table>
+        <thead><tr><th scope="col">Activo MT5</th><th scope="col">Velas D1</th><th scope="col">Último cierre MT5</th><th scope="col">FVG / OB</th><th scope="col">POI candidatos</th></tr></thead>
+        <tbody id="scanRows"></tbody>
+      </table>
+    </div>
+    <div id="scanDetails" class="table-wrap" hidden>
+      <table>
+        <thead><tr><th scope="col">Zona D1</th><th scope="col">Origen</th><th scope="col">Confirmación</th><th scope="col">Límites</th><th scope="col">Clasificación</th><th scope="col">Contactos</th><th scope="col">Primera mecha</th><th scope="col">Invalidación por cierre</th></tr></thead>
+        <tbody id="scanZoneRows"></tbody>
+      </table>
+    </div>
+    <div id="dxyPanel" hidden>
+      <p class="status">TVC:DXY · estudio visual. TradingView indica que las velas de este símbolo están disponibles en su sitio.</p>
+      <a href="https://www.tradingview.com/chart/?symbol=TVC%3ADXY&amp;interval=D" target="_blank" rel="noopener noreferrer">Abrir gráfico D1 en TradingView</a>
+      <details id="dxyWidget">
+        <summary>Probar vista integrada de TradingView</summary>
+        <iframe id="dxyFrame" title="Gráfico D1 de TVC:DXY en TradingView" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+      </details>
+    </div>
+  </section>
+  </section>
+  <section id="journalPanel" class="tab-panel" role="tabpanel" aria-labelledby="journalTab" hidden>
+  <section class="panel journal">
+    <div class="section-title"><h2>Diario de MT5</h2><span id="recon" role="status"></span></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Cierre · hora MT5</th><th>Símbolo</th><th>Lado</th><th>Lotes</th><th>Entrada</th><th>Salida</th><th>Motivo</th><th>Neto</th><th>Lectura ICT</th></tr></thead>
+      <tbody id="tradeRows"></tbody>
+    </table></div>
+  </section>
+  </section>
+</main>
+</body>
+</html>

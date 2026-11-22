@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+data/
+graphify-out/
+graphify-tmp/
+motor_smc/fuentes/ict2/
+.codex/
+.pytest_cache/
+*.pyc
