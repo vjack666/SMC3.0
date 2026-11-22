@@ -1,0 +1,1542 @@
+{
+  "generated_at": "2026-11-22T20:47:02.775431+00:00",
+  "project_root": "C:/Users/v_jac/Desktop/MT5-POI-Compartido/SMC3.0",
+  "catalog_raw": {
+    "forex": [
+      "EURUSD",
+      "EURAUD",
+      "EURCAD",
+      "EURCHF",
+      "EURGBP",
+      "EURJPY",
+      "EURNZD",
+      "AUDCAD",
+      "AUDCHF",
+      "AUDJPY",
+      "AUDUSD",
+      "GBPUSD",
+      "GBPAUD",
+      "GBPCAD",
+      "GBPCHF",
+      "GBPJPY",
+      "GBPNZD",
+      "NZDCAD",
+      "NZDCHF",
+      "NZDJPY",
+      "NZDUSD",
+      "USDCAD",
+      "USDCHF",
+      "USDJPY",
+      "CADCHF",
+      "CADJPY"
+    ],
+    "indices": {
+      "GER40": "GER30",
+      "NAS100": "NDX100",
+      "SPX": "SPX500",
+      "US30": "US30"
+    },
+    "commodities": {
+      "Oro": "XAUUSD",
+      "Brent": "UKOUSD",
+      "US Oil · WTI": "USOUSD"
+    }
+  },
+  "symbols_by_group": {
+    "forex": [
+      "EURUSD",
+      "EURAUD",
+      "EURCAD",
+      "EURCHF",
+      "EURGBP",
+      "EURJPY",
+      "EURNZD",
+      "AUDCAD",
+      "AUDCHF",
+      "AUDJPY",
+      "AUDUSD",
+      "GBPUSD",
+      "GBPAUD",
+      "GBPCAD",
+      "GBPCHF",
+      "GBPJPY",
+      "GBPNZD",
+      "NZDCAD",
+      "NZDCHF",
+      "NZDJPY",
+      "NZDUSD",
+      "USDCAD",
+      "USDCHF",
+      "USDJPY",
+      "CADCHF",
+      "CADJPY"
+    ],
+    "indices": [
+      {
+        "label": "GER40",
+        "terminal_name": "GER30"
+      },
+      {
+        "label": "NAS100",
+        "terminal_name": "NDX100"
+      },
+      {
+        "label": "SPX",
+        "terminal_name": "SPX500"
+      },
+      {
+        "label": "US30",
+        "terminal_name": "US30"
+      }
+    ],
+    "commodities": [
+      {
+        "label": "Oro",
+        "terminal_name": "XAUUSD"
+      },
+      {
+        "label": "Brent",
+        "terminal_name": "UKOUSD"
+      },
+      {
+        "label": "US Oil · WTI",
+        "terminal_name": "USOUSD"
+      }
+    ]
+  },
+  "symbol_count": 33,
+  "terminal_names": [
+    "EURUSD",
+    "EURAUD",
+    "EURCAD",
+    "EURCHF",
+    "EURGBP",
+    "EURJPY",
+    "EURNZD",
+    "AUDCAD",
+    "AUDCHF",
+    "AUDJPY",
+    "AUDUSD",
+    "GBPUSD",
+    "GBPAUD",
+    "GBPCAD",
+    "GBPCHF",
+    "GBPJPY",
+    "GBPNZD",
+    "NZDCAD",
+    "NZDCHF",
+    "NZDJPY",
+    "NZDUSD",
+    "USDCAD",
+    "USDCHF",
+    "USDJPY",
+    "CADCHF",
+    "CADJPY",
+    "GER30",
+    "NDX100",
+    "SPX500",
+    "US30",
+    "XAUUSD",
+    "UKOUSD",
+    "USOUSD"
+  ],
+  "terminal_name_count": 33,
+  "dataset": {
+    "provider": "Dukascopy (via npx dukascopy-node), bid OHLC",
+    "description": "Cloud/CI EURUSD dataset; NOT the Director's MT5 terminal data",
+    "date_range": "2006-01-01 -> 2025-12-31 (~20 years)",
+    "source_command": "npx dukascopy-node -i eurusd -from 2006-01-01 -to 2026-01-01 -t {h1|h4|d1} -f csv",
+    "metadata_json": {
+      "H1": {
+        "n": 124377,
+        "t_min": "2006-01-01 21:00:00",
+        "t_max": "2025-12-31 21:00:00",
+        "years": 20.0,
+        "close_last": 1.17455
+      },
+      "H4": {
+        "n": 32133,
+        "t_min": "2006-01-01 20:00:00",
+        "t_max": "2025-12-31 20:00:00",
+        "years": 20.0,
+        "close_last": 1.17455
+      },
+      "D1": {
+        "n": 6258,
+        "t_min": "2006-01-01 00:00:00",
+        "t_max": "2025-12-31 00:00:00",
+        "years": 20.0,
+        "close_last": 1.17455
+      }
+    },
+    "files": {
+      "D1": {
+        "file": "EURUSD_D1.csv",
+        "exists": true,
+        "size_bytes": 271857,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close"
+        ],
+        "column_count": 5,
+        "row_count": 6258,
+        "first_time": "2006-01-01",
+        "last_time": "2025-12-31",
+        "malformed_row_count": 0,
+        "gap_count": 1043,
+        "missing_intervals_est": 1047,
+        "sha256": "ff119f55b0224f75aa3b75f7a6773e5b75c21d2251f1b3b3954d5ae1f27db23e",
+        "sha256_declared": "9738c970f3b9ef75e83aad3509a69d267a895fb47ac8176f75b78a24bf1665d2",
+        "sha256_match": false
+      },
+      "H4": {
+        "file": "EURUSD_H4.csv",
+        "exists": true,
+        "size_bytes": 1685328,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close"
+        ],
+        "column_count": 5,
+        "row_count": 32133,
+        "first_time": "2006-01-01 20:00:00",
+        "last_time": "2025-12-31 20:00:00",
+        "malformed_row_count": 0,
+        "gap_count": 1057,
+        "missing_intervals_est": 11692,
+        "sha256": "46a950e087ed57cf2cc20ed13f3cfc7d2b7862d33f77b4a4f9cce1a40729efde",
+        "sha256_declared": "91b985650a95882552511ccb36726f4914174d4e95cb192b52f9a194deacfc8b",
+        "sha256_match": false
+      },
+      "H1": {
+        "file": "EURUSD_H1.csv",
+        "exists": true,
+        "size_bytes": 6523705,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close"
+        ],
+        "column_count": 5,
+        "row_count": 124377,
+        "first_time": "2006-01-01 21:00:00",
+        "last_time": "2025-12-31 21:00:00",
+        "malformed_row_count": 0,
+        "gap_count": 1069,
+        "missing_intervals_est": 50920,
+        "sha256": "2dbb5757895e52218f0e6be6fa761b0944b32005f72a3ad896899cd3e2bca022",
+        "sha256_declared": "c83e608678f98c55fbddeecc1b363ff3c6c3b8cee0ac95c3c34318a5a24a1139",
+        "sha256_match": false
+      }
+    },
+    "canonical_total_rows": 162768,
+    "duplicate_copy": "data/ict2/datasets/eurusd_dukascopy_20y/ (identical sizes; same three CSVs)"
+  },
+  "mt5": {
+    "importable": true,
+    "initialize_ok": true,
+    "connected": true,
+    "terminal_info": {
+      "community_account": false,
+      "community_connection": false,
+      "connected": true,
+      "dlls_allowed": false,
+      "trade_allowed": true,
+      "tradeapi_disabled": false,
+      "email_enabled": false,
+      "ftp_enabled": false,
+      "notifications_enabled": false,
+      "mqid": false,
+      "build": 6325,
+      "maxbars": 1000000,
+      "codepage": 0,
+      "ping_last": 167017,
+      "community_balance": 0.0,
+      "retransmission": 0.004521051144391071,
+      "company": "MetaQuotes Software Corp."
+    },
+    "probe_method": "mt5.copy_rates_from_pos(symbol, tf, 0, 5) - bounded sample of 5 most recent bars per timeframe",
+    "symbols_with_data": {
+      "EURUSD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "EURAUD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "EURCAD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "EURCHF": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "EURGBP": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "EURJPY": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "EURNZD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "AUDCAD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "AUDCHF": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "AUDJPY": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "AUDUSD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "GBPUSD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "GBPAUD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "GBPCAD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "GBPCHF": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "GBPJPY": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "GBPNZD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "NZDCAD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "NZDCHF": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "NZDJPY": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "NZDUSD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "USDCAD": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "USDCHF": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "USDJPY": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "CADCHF": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "CADJPY": {
+        "group": "forex",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "GER30": {
+        "group": "indices",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-19T20:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T18:00:00",
+            "last": "2026-11-20T22:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T21:45:00",
+            "last": "2026-11-20T22:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T22:35:00",
+            "last": "2026-11-20T22:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T22:54:00",
+            "last": "2026-11-20T22:58:00"
+          }
+        }
+      },
+      "NDX100": {
+        "group": "indices",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:54:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "SPX500": {
+        "group": "indices",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:53:00",
+            "last": "2026-11-20T23:57:00"
+          }
+        }
+      },
+      "US30": {
+        "group": "indices",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:53:00",
+            "last": "2026-11-20T23:57:00"
+          }
+        }
+      },
+      "XAUUSD": {
+        "group": "commodities",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "UKOUSD": {
+        "group": "commodities",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      },
+      "USOUSD": {
+        "group": "commodities",
+        "timeframes": {
+          "D1": {
+            "count": 5,
+            "first": "2026-11-16T00:00:00",
+            "last": "2026-11-20T00:00:00"
+          },
+          "H4": {
+            "count": 5,
+            "first": "2026-11-20T04:00:00",
+            "last": "2026-11-20T20:00:00"
+          },
+          "H1": {
+            "count": 5,
+            "first": "2026-11-20T19:00:00",
+            "last": "2026-11-20T23:00:00"
+          },
+          "M15": {
+            "count": 5,
+            "first": "2026-11-20T22:45:00",
+            "last": "2026-11-20T23:45:00"
+          },
+          "M5": {
+            "count": 5,
+            "first": "2026-11-20T23:35:00",
+            "last": "2026-11-20T23:55:00"
+          },
+          "M1": {
+            "count": 5,
+            "first": "2026-11-20T23:55:00",
+            "last": "2026-11-20T23:59:00"
+          }
+        }
+      }
+    },
+    "symbols_with_data_count": 33,
+    "symbols_checked": 33,
+    "probe_note": "Datos de cuenta eliminados: solo se publica estado de conexión y versión."
+  },
+  "mt5_connected": true,
+  "data_directory_files": [
+    {
+      "name": "avisos-apertura.json",
+      "size_bytes": 713,
+      "type": "dict"
+    },
+    {
+      "name": "corte-inicial.md",
+      "size_bytes": 1687
+    },
+    {
+      "name": "cuenta.json",
+      "size_bytes": 112,
+      "type": "dict",
+      "values_redacted": true
+    },
+    {
+      "name": "diario-<redactado>.json",
+      "size_bytes": 23759,
+      "type": "dict"
+    },
+    {
+      "name": "ict-revision-eurusd.json",
+      "size_bytes": 12490,
+      "type": "list",
+      "length": 5,
+      "item_type": "dict",
+      "item_keys": [
+        "bias",
+        "status",
+        "context_reason",
+        "regime",
+        "structure",
+        "retest",
+        "sequence",
+        "last_closed_by_tf",
+        "pois",
+        "time",
+        "events"
+      ]
+    },
+    {
+      "name": "marcajes.json",
+      "size_bytes": 585,
+      "type": "dict"
+    }
+  ],
+  "ict2_file_count": 128,
+  "ict2_dataset_files": [
+    {
+      "rel": "datasets/eurusd_dukascopy_20y/EURUSD_D1.csv",
+      "size_bytes": 271857
+    },
+    {
+      "rel": "datasets/eurusd_dukascopy_20y/EURUSD_H1.csv",
+      "size_bytes": 6523705
+    },
+    {
+      "rel": "datasets/eurusd_dukascopy_20y/EURUSD_H4.csv",
+      "size_bytes": 1685328
+    },
+    {
+      "rel": "datasets/eurusd_dukascopy_20y/README.md",
+      "size_bytes": 589
+    },
+    {
+      "rel": "datasets/eurusd_dukascopy_20y/SHA256SUMS",
+      "size_bytes": 243
+    },
+    {
+      "rel": "datasets/eurusd_dukascopy_20y/metadata.json",
+      "size_bytes": 468
+    }
+  ],
+  "databases": [],
+  "database_count": 0,
+  "symbols_with_data": [
+    "AUDCAD",
+    "AUDCHF",
+    "AUDJPY",
+    "AUDUSD",
+    "CADCHF",
+    "CADJPY",
+    "EURAUD",
+    "EURCAD",
+    "EURCHF",
+    "EURGBP",
+    "EURJPY",
+    "EURNZD",
+    "EURUSD",
+    "GBPAUD",
+    "GBPCAD",
+    "GBPCHF",
+    "GBPJPY",
+    "GBPNZD",
+    "GBPUSD",
+    "GER30",
+    "NDX100",
+    "NZDCAD",
+    "NZDCHF",
+    "NZDJPY",
+    "NZDUSD",
+    "SPX500",
+    "UKOUSD",
+    "US30",
+    "USDCAD",
+    "USDCHF",
+    "USDJPY",
+    "USOUSD",
+    "XAUUSD"
+  ],
+  "symbols_with_data_method": "mt5.copy_rates_from_pos(symbol, tf, 0, 5) probe for D1,H4,H1,M15,M5,M1; all 33 returned real candles",
+  "redaction_note": "Se han eliminado credenciales, datos financieros y rutas locales. Solo se conserva la existencia y tamaño de archivos de datos locales."
+}

@@ -1,0 +1,543 @@
+{
+  "generated_at": 1795381001,
+  "generated_at_utc": "2026-11-22T20:56:41Z",
+  "method": "Árbol de claves leído de archivos JSON reales exportados por el motor; no es un esquema diseñado.",
+  "files": {
+    "analysis.json": {
+      "enabled": "bool",
+      "source": "str",
+      "symbol": "str",
+      "frame": "str",
+      "time_basis": "str",
+      "asof": "int",
+      "latest_closed": "int",
+      "bias": "str",
+      "status": "str",
+      "context_reason": "str",
+      "regime": {
+        "D1": "str",
+        "H1": "str",
+        "H4": "str",
+        "M15": "str"
+      },
+      "structure": {
+        "bars": "int",
+        "bos_dir": "int",
+        "momentum": "int",
+        "trend": "str"
+      },
+      "retest": "str",
+      "last_closed_by_tf": {
+        "D1": "int",
+        "H4": "int",
+        "H1": "int",
+        "M15": "int"
+      },
+      "marks": [
+        {
+          "id": "str",
+          "tf": "str",
+          "kind": "str",
+          "direction": "int",
+          "low": "float",
+          "high": "float",
+          "open": "int",
+          "confirmed": "int",
+          "touch": "int",
+          "related": "bool"
+        }
+      ],
+      "pois": "[]",
+      "daily_liquidity": {
+        "pdh": "float",
+        "pdl": "float",
+        "source_open": "int",
+        "session_open": "int",
+        "pdh_m15_open": "int",
+        "pdl_m15_open": "int",
+        "m15_count": "int",
+        "events": "[]"
+      },
+      "ict3_breaks": [
+        {
+          "session_open": "int",
+          "source_open": "int",
+          "level_name": "str",
+          "level": "float",
+          "direction": "int",
+          "signal_open": "int",
+          "signal_close": "int",
+          "body_ratio": "float",
+          "body_multiple": "float",
+          "close_extension": "float",
+          "close_location": "float",
+          "strong_body": "bool",
+          "strong_range": "bool",
+          "strong_extension": "bool",
+          "strong": "bool",
+          "state": "str",
+          "event_id": "str",
+          "observed_at": "int",
+          "state_time": "int",
+          "accept_time": "int",
+          "accept_open": "int"
+        }
+      ],
+      "ict3": {
+        "schema_version": "str",
+        "mode": "str",
+        "events": [
+          {
+            "event_id": "str",
+            "symbol": "str",
+            "session_open": "int",
+            "observed_at": "int",
+            "state_time": "int",
+            "accept_time": "int",
+            "level_name": "str",
+            "level": "float",
+            "direction": "int",
+            "force": {
+              "body_ratio": "float",
+              "body_multiple": "float",
+              "close_extension": "float",
+              "close_location": "float",
+              "strong": "bool"
+            },
+            "link_state": "str",
+            "current_state": "str",
+            "retest_at": "int",
+            "poi_candidates": [
+              {
+                "zone_id": "str",
+                "kind": "str",
+                "direction": "int",
+                "low": "float",
+                "high": "float",
+                "confirmed_at": "int",
+                "first_touch_at": "NoneType",
+                "association_reason": "NoneType",
+                "rejected_reason": "str"
+              }
+            ],
+            "primary_poi": "str",
+            "transition_history": [
+              {
+                "from": "str",
+                "to": "str",
+                "at": "int",
+                "reason": "str"
+              }
+            ],
+            "window_results": {
+              "4": {
+                "window_bars": "int",
+                "retest_within": "bool",
+                "state": "str",
+                "bars_observed": "int",
+                "window_complete": "bool",
+                "horizon": "int"
+              },
+              "8": {
+                "window_bars": "int",
+                "retest_within": "bool",
+                "state": "str",
+                "bars_observed": "int",
+                "window_complete": "bool",
+                "horizon": "int"
+              },
+              "16": {
+                "window_bars": "int",
+                "retest_within": "bool",
+                "state": "str",
+                "bars_observed": "int",
+                "window_complete": "bool",
+                "horizon": "int"
+              },
+              "32": {
+                "window_bars": "int",
+                "retest_within": "bool",
+                "state": "str",
+                "bars_observed": "int",
+                "window_complete": "bool",
+                "horizon": "int"
+              }
+            },
+            "observation_windows": [
+              "int"
+            ],
+            "pending_evidence": [
+              "str"
+            ],
+            "wait_reason": "str",
+            "entry_authorized": "bool",
+            "mode": "str"
+          }
+        ],
+        "load": {
+          "m5_loaded": "bool",
+          "m1_loaded": "bool",
+          "last_closed_m5": "NoneType",
+          "last_closed_m1": "NoneType",
+          "coverage": {
+            "m5_bars_closed": "int",
+            "m1_bars_closed": "int",
+            "m5_first_closed": "NoneType",
+            "m1_first_closed": "NoneType",
+            "events_requested": "int"
+          },
+          "load_reason": "str"
+        }
+      },
+      "book22": [
+        {
+          "id": "str",
+          "model": "str",
+          "side": "str",
+          "direction": "int",
+          "alignment": "str",
+          "level": "float",
+          "h4_bias": "str",
+          "source_d1": "int",
+          "tick_size": "float",
+          "first_open": "int",
+          "signal_open": "int",
+          "signal_close": "int",
+          "stop_anchor": "float",
+          "stop_basis": "str",
+          "sl": "float",
+          "status": "str",
+          "reason": "str",
+          "evaluated": "int",
+          "session_open": "int"
+        }
+      ],
+      "friday_reference": {
+        "high": "float",
+        "low": "float",
+        "source_open": "int",
+        "source_close": "int"
+      },
+      "exported_frames": {
+        "M15": {
+          "latest_closed": "int",
+          "marks": "int",
+          "keys": [
+            "str"
+          ]
+        },
+        "H4": {
+          "latest_closed": "int",
+          "marks": "int",
+          "keys": [
+            "str"
+          ]
+        },
+        "H1": {
+          "latest_closed": "int",
+          "marks": "int",
+          "keys": [
+            "str"
+          ]
+        },
+        "D1": {
+          "latest_closed": "int",
+          "marks": "int",
+          "keys": [
+            "str"
+          ]
+        }
+      },
+      "export_note": "str"
+    },
+    "poi.json": {
+      "instrument": "str",
+      "asof": "int",
+      "asof_utc": "str",
+      "engine_source": "str",
+      "schema_version": "str",
+      "count": "int",
+      "note": "str",
+      "pois": [
+        {
+          "id": "str",
+          "instrument": "str",
+          "kind": "str",
+          "origin_tf": "str",
+          "direction": "int",
+          "low": "float",
+          "high": "float",
+          "opened_at": "int",
+          "opened_at_utc": "str",
+          "confirmed_at": "int",
+          "confirmed_at_utc": "str",
+          "first_touch_at": "int",
+          "first_touch_at_utc": "str",
+          "related_to_ict3_event": "bool",
+          "source": "str"
+        }
+      ]
+    },
+    "liquidity.json": {
+      "instrument": "str",
+      "asof": "int",
+      "asof_utc": "str",
+      "daily": {
+        "pdh": "float",
+        "pdl": "float",
+        "source_open": "int",
+        "session_open": "int",
+        "pdh_m15_open": "int",
+        "pdl_m15_open": "int",
+        "m15_count": "int",
+        "events": "[]"
+      },
+      "levels": [
+        {
+          "name": "str",
+          "price": "float",
+          "source_open": "int",
+          "source_open_utc": "str",
+          "session_open": "int",
+          "first_m15_open": "int",
+          "first_m15_open_utc": "str",
+          "origin_tf": "str",
+          "source": "str"
+        }
+      ],
+      "daily_events": "[]",
+      "note": "str"
+    },
+    "events.json": {
+      "instrument": "str",
+      "asof": "int",
+      "asof_utc": "str",
+      "schema_version": "str",
+      "mode": "str",
+      "count": "int",
+      "events": [
+        {
+          "event_id": "str",
+          "symbol": "str",
+          "session_open": "int",
+          "observed_at": "int",
+          "state_time": "int",
+          "accept_time": "int",
+          "level_name": "str",
+          "level": "float",
+          "direction": "int",
+          "force": {
+            "body_ratio": "float",
+            "body_multiple": "float",
+            "close_extension": "float",
+            "close_location": "float",
+            "strong": "bool"
+          },
+          "link_state": "str",
+          "current_state": "str",
+          "retest_at": "int",
+          "poi_candidates": [
+            {
+              "zone_id": "str",
+              "kind": "str",
+              "direction": "int",
+              "low": "float",
+              "high": "float",
+              "confirmed_at": "int",
+              "first_touch_at": "NoneType",
+              "association_reason": "NoneType",
+              "rejected_reason": "str"
+            }
+          ],
+          "primary_poi": "str",
+          "transition_history": [
+            {
+              "from": "str",
+              "to": "str",
+              "at": "int",
+              "reason": "str"
+            }
+          ],
+          "window_results": {
+            "4": {
+              "window_bars": "int",
+              "retest_within": "bool",
+              "state": "str",
+              "bars_observed": "int",
+              "window_complete": "bool",
+              "horizon": "int"
+            },
+            "8": {
+              "window_bars": "int",
+              "retest_within": "bool",
+              "state": "str",
+              "bars_observed": "int",
+              "window_complete": "bool",
+              "horizon": "int"
+            },
+            "16": {
+              "window_bars": "int",
+              "retest_within": "bool",
+              "state": "str",
+              "bars_observed": "int",
+              "window_complete": "bool",
+              "horizon": "int"
+            },
+            "32": {
+              "window_bars": "int",
+              "retest_within": "bool",
+              "state": "str",
+              "bars_observed": "int",
+              "window_complete": "bool",
+              "horizon": "int"
+            }
+          },
+          "observation_windows": [
+            "int"
+          ],
+          "pending_evidence": [
+            "str"
+          ],
+          "wait_reason": "str",
+          "entry_authorized": "bool",
+          "mode": "str"
+        }
+      ],
+      "event_timeline": [
+        {
+          "event_id": "str",
+          "level_name": "str",
+          "level": "float",
+          "direction": "int",
+          "observed_at": "int",
+          "observed_at_utc": "str",
+          "accept_time": "int",
+          "accept_time_utc": "str",
+          "retest_at": "int",
+          "retest_at_utc": "str",
+          "link_state": "str",
+          "current_state": "str",
+          "primary_poi": "str",
+          "poi_candidate_ids": [
+            "str"
+          ],
+          "transitions": [
+            {
+              "from": "str",
+              "to": "str",
+              "at": "int",
+              "at_utc": "str",
+              "reason": "str"
+            }
+          ],
+          "wait_reason": "str",
+          "pending_evidence": [
+            "str"
+          ],
+          "entry_authorized": "bool",
+          "mode": "str"
+        }
+      ],
+      "break_studies": [
+        {
+          "session_open": "int",
+          "source_open": "int",
+          "level_name": "str",
+          "level": "float",
+          "direction": "int",
+          "signal_open": "int",
+          "signal_close": "int",
+          "body_ratio": "float",
+          "body_multiple": "float",
+          "close_extension": "float",
+          "close_location": "float",
+          "strong_body": "bool",
+          "strong_range": "bool",
+          "strong_extension": "bool",
+          "strong": "bool",
+          "state": "str",
+          "event_id": "str",
+          "observed_at": "int",
+          "state_time": "int",
+          "accept_time": "int",
+          "accept_open": "int"
+        }
+      ],
+      "load": {
+        "m5_loaded": "bool",
+        "m1_loaded": "bool",
+        "last_closed_m5": "NoneType",
+        "last_closed_m1": "NoneType",
+        "coverage": {
+          "m5_bars_closed": "int",
+          "m1_bars_closed": "int",
+          "m5_first_closed": "NoneType",
+          "m1_first_closed": "NoneType",
+          "events_requested": "int"
+        },
+        "load_reason": "str"
+      },
+      "note": "str"
+    },
+    "chart_objects.json": {
+      "instrument": "str",
+      "asof": "int",
+      "asof_utc": "str",
+      "time_basis": "str",
+      "last_closed_by_tf": {
+        "D1": "int",
+        "H4": "int",
+        "H1": "int",
+        "M15": "int"
+      },
+      "zones": [
+        {
+          "object_id": "str",
+          "type": "str",
+          "tf": "str",
+          "kind": "str",
+          "direction": "int",
+          "price_low": "float",
+          "price_high": "float",
+          "opened": "int",
+          "opened_utc": "str",
+          "confirmed": "int",
+          "confirmed_utc": "str",
+          "touch": "int",
+          "touch_utc": "str",
+          "related_to_event": "bool"
+        }
+      ],
+      "horizontal_lines": [
+        {
+          "object_id": "str",
+          "type": "str",
+          "name": "str",
+          "price": "float",
+          "origin_tf": "str",
+          "source": "str",
+          "time": "int",
+          "time_utc": "str"
+        }
+      ],
+      "event_markers": [
+        {
+          "object_id": "str",
+          "type": "str",
+          "event_id": "str",
+          "label": "str",
+          "time": "int",
+          "time_utc": "str",
+          "price": "float",
+          "state": "str"
+        }
+      ],
+      "counts": {
+        "zones": "int",
+        "horizontal_lines": "int",
+        "event_markers": "int"
+      },
+      "note": "str"
+    }
+  }
+}

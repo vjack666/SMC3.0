@@ -1,0 +1,793 @@
+[
+  {
+    "symbol": "EURUSD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BULLISH",
+      "H4": "BEARISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 137,
+    "pois": 656,
+    "events": 5,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "EURAUD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BULLISH",
+      "H4": "BULLISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 125,
+    "pois": 604,
+    "events": 6,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "EURCAD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BULLISH",
+      "H4": "BULLISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 117,
+    "pois": 589,
+    "events": 5,
+    "states": [
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "EXPANSION_NO_ENTRY",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "EURCHF",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BULLISH",
+      "H4": "BEARISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 127,
+    "pois": 562,
+    "events": 5,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "EURGBP",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BULLISH",
+      "H4": "BULLISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 96,
+    "pois": 476,
+    "events": 6,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "EURJPY",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BEARISH",
+      "H4": "BEARISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 129,
+    "pois": 639,
+    "events": 6,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "EXPANSION_NO_ENTRY",
+      "POI_INVALID",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "EURNZD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BULLISH",
+      "H4": "BULLISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 114,
+    "pois": 549,
+    "events": 6,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "AUDCAD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BEARISH",
+      "H4": "BEARISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 133,
+    "pois": 596,
+    "events": 5,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "AUDCHF",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BULLISH",
+      "H4": "BEARISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 130,
+    "pois": 630,
+    "events": 5,
+    "states": [
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "AUDJPY",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BULLISH",
+      "H4": "BEARISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 120,
+    "pois": 612,
+    "events": 5,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "POI_INVALID",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "AUDUSD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BEARISH",
+      "H4": "BEARISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 129,
+    "pois": 609,
+    "events": 5,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "GBPUSD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BEARISH",
+      "H4": "BULLISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 138,
+    "pois": 644,
+    "events": 7,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "GBPAUD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BEARISH",
+      "H4": "BEARISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 131,
+    "pois": 602,
+    "events": 6,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "GBPCAD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BEARISH",
+      "H4": "BEARISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 106,
+    "pois": 528,
+    "events": 4,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "GBPCHF",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BEARISH",
+      "H4": "BULLISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 115,
+    "pois": 546,
+    "events": 5,
+    "states": [
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "EXPANSION_NO_ENTRY",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "GBPJPY",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BULLISH",
+      "H4": "BEARISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 122,
+    "pois": 610,
+    "events": 7,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "GBPNZD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BULLISH",
+      "H4": "BULLISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 107,
+    "pois": 524,
+    "events": 5,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "NZDCAD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BEARISH",
+      "H4": "BULLISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 117,
+    "pois": 561,
+    "events": 6,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "NZDCHF",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BEARISH",
+      "H4": "BULLISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 108,
+    "pois": 536,
+    "events": 5,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "NZDJPY",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_LTF_CONFIRMATION",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BULLISH",
+      "H4": "BULLISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 128,
+    "pois": 628,
+    "events": 6,
+    "states": [
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "NZDUSD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BEARISH",
+      "H4": "BEARISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 130,
+    "pois": 632,
+    "events": 6,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "USDCAD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BULLISH",
+      "H4": "BEARISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 148,
+    "pois": 706,
+    "events": 4,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "USDCHF",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BULLISH",
+      "H4": "BEARISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 141,
+    "pois": 664,
+    "events": 5,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "POI_INVALID",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "USDJPY",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BEARISH",
+      "H4": "BULLISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 120,
+    "pois": 632,
+    "events": 5,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "CADCHF",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BEARISH",
+      "H4": "BULLISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 127,
+    "pois": 584,
+    "events": 4,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "CADJPY",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BEARISH",
+      "H4": "BULLISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 128,
+    "pois": 649,
+    "events": 5,
+    "states": [
+      "ACCEPTED_BREAK_WAIT_RETEST"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "GER30",
+    "status": "EXPORTED",
+    "asof": 1795214700,
+    "asof_utc": "2026-11-20T22:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BEARISH",
+      "H4": "BULLISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 132,
+    "pois": 810,
+    "events": 9,
+    "states": [
+      "EXPANSION_NO_ENTRY",
+      "OBSERVABLE_SETUP",
+      "POI_INVALID",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "NDX100",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_LTF_CONFIRMATION",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BULLISH",
+      "H4": "BULLISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 133,
+    "pois": 695,
+    "events": 6,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "SPX500",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BULLISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BULLISH",
+      "H1": "BULLISH",
+      "H4": "BEARISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 129,
+    "pois": 659,
+    "events": 5,
+    "states": [
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "US30",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BULLISH",
+      "H4": "BULLISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 135,
+    "pois": 682,
+    "events": 6,
+    "states": [
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "EXPANSION_NO_ENTRY",
+      "POI_INVALID",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "XAUUSD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BEARISH",
+      "H4": "BULLISH",
+      "M15": "BULLISH"
+    },
+    "marks_m15": 146,
+    "pois": 710,
+    "events": 4,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "POI_INVALID",
+      "RETESTING_POI"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "UKOUSD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BULLISH",
+      "H4": "BULLISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 128,
+    "pois": 715,
+    "events": 6,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  },
+  {
+    "symbol": "USOUSD",
+    "status": "EXPORTED",
+    "asof": 1795218300,
+    "asof_utc": "2026-11-20T23:45:00Z",
+    "bias": "BEARISH",
+    "state": "WAIT_CONTEXT",
+    "regime": {
+      "D1": "BEARISH",
+      "H1": "BULLISH",
+      "H4": "BEARISH",
+      "M15": "BEARISH"
+    },
+    "marks_m15": 141,
+    "pois": 738,
+    "events": 7,
+    "states": [
+      "ACCEPTANCE_LOST",
+      "ACCEPTED_BREAK_WAIT_RETEST",
+      "POI_INVALID"
+    ],
+    "mode": "OBSERVE_ONLY_NO_ORDER",
+    "schema_version": "0.2-research"
+  }
+]

@@ -1,0 +1,6 @@
+-- SIN ESQUEMA SQL REAL EN ESTA COPIA.
+-- No se crea una base de datos ficticia. Fuentes reales verificadas:
+--   datasets/eurusd_dukascopy_20y/EURUSD_D1.csv  (time,open,high,low,close)
+--   datasets/eurusd_dukascopy_20y/EURUSD_H4.csv  (time,open,high,low,close)
+--   datasets/eurusd_dukascopy_20y/EURUSD_H1.csv  (time,open,high,low,close)
+-- Ver metadata.json y data_inventory.json para recuentos y rangos reales.
