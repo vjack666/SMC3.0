@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795381001,
-  "generated_at_utc": "2026-11-22T20:56:41Z",
+  "generated_at": 1795381182,
+  "generated_at_utc": "2026-11-22T20:59:42Z",
   "repository": "https://github.com/vjack666/SMC3.0",
   "branch": "main",
   "folder": "reports/ict3_ai_analysis",
@@ -43,32 +43,33 @@
   ],
   "instruments_unavailable": [],
   "file_count": 342,
-  "total_bytes": 83408788,
+  "hash_basis": "SHA-256 sobre bytes con saltos de línea normalizados a LF, idénticos al contenido raw de GitHub.",
+  "total_bytes": 80705456,
   "files": [
     {
       "path": "data_quality.md",
-      "bytes": 2627,
-      "sha256": "48e68da531f6dad7f40b64a3c1822e40c6045c5217c0b4d9271e365dfe5cfe14"
+      "bytes": 2559,
+      "sha256": "583531b6a17e4f515e85d787092f9df54d2d079c67784f5e40f4e3616d0fd4fb"
     },
     {
       "path": "database/data_inventory.json",
-      "bytes": 41198,
-      "sha256": "f64713262816834e3f08bd574f4de58ff6514355474b0bf3c932809bdd2f5d48"
+      "bytes": 39656,
+      "sha256": "72af4ef9d0da195f4496bf83e110d42e0a8215a36ec70c05ca0440255d3b1e68"
     },
     {
       "path": "database/README.md",
-      "bytes": 516,
-      "sha256": "42653e84dbf7d862c78278982cd4308a011088b71ed00a33260f7a149a2fc716"
+      "bytes": 511,
+      "sha256": "3a360fb251eee7aaf44ee571f54f4a5a4ff6efae39b0cebf4d34df01c09d0be0"
     },
     {
       "path": "database/schema.sql",
-      "bytes": 421,
-      "sha256": "3e465972479f1f4c7d30667a3320049d69e9e337c292a30a8ce64fe176f22d77"
+      "bytes": 415,
+      "sha256": "261a55899d929bbedc2d48a359a87ce881666e0a50e693713c848e73084fdadc"
     },
     {
       "path": "evidence/api_schema.md",
-      "bytes": 14963,
-      "sha256": "b692781e679731f2756901b2cd7d4be7dba5d079b517dfeaf46cb099b170d221"
+      "bytes": 14600,
+      "sha256": "95c46eefc38fb395b2e44a7cc51c1a383c7589ea4d73c02f11e44f6a53bd0e70"
     },
     {
       "path": "evidence/export_script.py",
@@ -77,8 +78,8 @@
     },
     {
       "path": "evidence/instrument_summary.json",
-      "bytes": 17993,
-      "sha256": "199ca95672c6b3815a54059db65d3cfb3e9c44190e6cdda3503e1eb643b1bfaf"
+      "bytes": 17200,
+      "sha256": "891a7109b69a733d0c45c1e0797be613c030199b91bc3bdf5cc646eb80429715"
     },
     {
       "path": "evidence/probe_engine.py",
@@ -87,1653 +88,1653 @@
     },
     {
       "path": "evidence/raw/AUDCAD_D1.json",
-      "bytes": 295391,
-      "sha256": "8213a8f8cf575455973e1d2dcb1fea459d8972b37fcee7a8963a92a6e3bcc765"
+      "bytes": 286027,
+      "sha256": "66d44a32f2f475e0b34ccb8f68972658146770103d1907edfe5feb36c9f5ed31"
     },
     {
       "path": "evidence/raw/AUDCAD_H1.json",
-      "bytes": 300645,
-      "sha256": "0ac6311db30c6b04314bbee306dce0f73bdb1570f921a7aa069647a3ebb6abac"
+      "bytes": 291053,
+      "sha256": "26d56764db66ea2e4f812005ac88aa57300157a571c62a3cab8c6afd36f56851"
     },
     {
       "path": "evidence/raw/AUDCAD_H4.json",
-      "bytes": 302508,
-      "sha256": "88bbc3752f87a1e887f35b95e22ed72a1241049f1c919b673a55d3801eedf42c"
+      "bytes": 292832,
+      "sha256": "e6dc1f3778c72500e459b8aa2750699bf9103734474a76e1775cbf1ef3077826"
     },
     {
       "path": "evidence/raw/AUDCAD_M15.json",
-      "bytes": 331478,
-      "sha256": "21c3284954086728929ada23787e67243ea2193ff8ae81e5b27946f10e5b33c1"
+      "bytes": 320766,
+      "sha256": "a546f4dc5f3fce5b619f1a2b5cf2e4f239dd32de453bb2c45ed2fc9d18939156"
     },
     {
       "path": "evidence/raw/AUDCHF_D1.json",
-      "bytes": 287297,
-      "sha256": "e1e27f7502b2dbb1c7bfd454afd49b6fc3eadfe9035d688dd362e0deb69e8179"
+      "bytes": 278146,
+      "sha256": "25aaad6dbb0ea3e56c5b51b39f466f08846376415e2b26b907b29908b05105ee"
     },
     {
       "path": "evidence/raw/AUDCHF_H1.json",
-      "bytes": 299394,
-      "sha256": "c9bb522c4b95124852c8d1b3b13234341f5f7efe4083f2bf68b101883a00d97e"
+      "bytes": 289715,
+      "sha256": "c641c960ef5d01f66cb99be069c8590d993a1f09da73d03b77e384f9abe920fd"
     },
     {
       "path": "evidence/raw/AUDCHF_H4.json",
-      "bytes": 300968,
-      "sha256": "b82e0c9d4481168500bbca2938c24cbd9354c51030c4ab5965d20fa5d125c469"
+      "bytes": 291217,
+      "sha256": "d82198986acf55564daa911058f85e23a7bc74a98fd7b66fd01cacdb20eb740b"
     },
     {
       "path": "evidence/raw/AUDCHF_M15.json",
-      "bytes": 320145,
-      "sha256": "1dbf9b60f26a6e0f6898d50251a6b93df49adfd302067d67e7012d0f06a0cf53"
+      "bytes": 309761,
+      "sha256": "7bd19541b4fe132e831b03a958f4bcabdcf7db53331a87c10cc95cab6413e6a4"
     },
     {
       "path": "evidence/raw/AUDJPY_D1.json",
-      "bytes": 292371,
-      "sha256": "009aa787315f8e4d0772f46e07b79ef37986f89f20d16e0b80bff87bea7534f0"
+      "bytes": 282851,
+      "sha256": "da14b37f86683ae49a45778f6b33136c89b1a570b74be0d635b79faa3d65d4f7"
     },
     {
       "path": "evidence/raw/AUDJPY_H1.json",
-      "bytes": 290577,
-      "sha256": "e8ff25a3fbf8c3b29d9154525341f16085e80f6ae249e393219f3260beb1aa33"
+      "bytes": 281141,
+      "sha256": "48cd117cd506eb27cbdd245d740d3c769da707f6684d15a60e2bdbe0f6579ae8"
     },
     {
       "path": "evidence/raw/AUDJPY_H4.json",
-      "bytes": 291081,
-      "sha256": "cf96977fdd4e4274733abb859c1eb20b0fcad2fd9a6f40dff6468aab77e8b384"
+      "bytes": 281621,
+      "sha256": "5e650e8f641fa97a813bfc2f45c3b3e1f7fcc71b2284723777a2f7b473fe6bf3"
     },
     {
       "path": "evidence/raw/AUDJPY_M15.json",
-      "bytes": 307324,
-      "sha256": "7dab0bbb9f3710582764fe3e68d66dee02a84e7c6216a82464793da41497976f"
+      "bytes": 297312,
+      "sha256": "104d979e1e7a3ad5c4ed35700760180b542180ff7b292c7d8c2e89f4ea3f9599"
     },
     {
       "path": "evidence/raw/AUDUSD_D1.json",
-      "bytes": 292722,
-      "sha256": "d9e534bfa1c587be02d5f0505ff68c0529a8ce4c2352d7703d70f0d90328cb9e"
+      "bytes": 283356,
+      "sha256": "78e3053e6693b60f84f11b63b620bd328b82bc07a46e70cbbb4e9369a0878661"
     },
     {
       "path": "evidence/raw/AUDUSD_H1.json",
-      "bytes": 295204,
-      "sha256": "158820755ed5a447a1fbdb97e27f36bdb58c588a4e803cb9a66db2bf836e5b1e"
+      "bytes": 285730,
+      "sha256": "c1f329c33758e862ca794a25c3e1bbb497d09a074e97aad2c2e5cd1fdb36697d"
     },
     {
       "path": "evidence/raw/AUDUSD_H4.json",
-      "bytes": 293521,
-      "sha256": "fd0443832863f195144416811eae555e9d8931c171dd05102f37304a66621684"
+      "bytes": 284119,
+      "sha256": "a4731198db822f303b7bc1f98bb079d7cde2aa1f5267de1dce94a464abd637d4"
     },
     {
       "path": "evidence/raw/AUDUSD_M15.json",
-      "bytes": 319893,
-      "sha256": "e6b31246a96016e1348abb9ab5ef930fa2999d4eac5efe640e7d248c85a2719b"
+      "bytes": 309545,
+      "sha256": "773c686b8a515d30d440c0cc0a80a5b4a704bba7f35e815d377303e1c82836d4"
     },
     {
       "path": "evidence/raw/CADCHF_D1.json",
-      "bytes": 229175,
-      "sha256": "9d47cd6f6500ec3d2b146fbe0a48801b39763c9b9e08de937c3c79f06a85c220"
+      "bytes": 221818,
+      "sha256": "e27281aec59f2c406060818a82ab88c107993685df2e9825b339113342bed55f"
     },
     {
       "path": "evidence/raw/CADCHF_H1.json",
-      "bytes": 240930,
-      "sha256": "7c7140ba57d9929274d824de09634a3e90593b705c73c142df84c8f7663fc885"
+      "bytes": 233057,
+      "sha256": "8ecc488161e493b788703d57eedaa94b48c3d5a539ee3b6f467c605409a5c547"
     },
     {
       "path": "evidence/raw/CADCHF_H4.json",
-      "bytes": 232140,
-      "sha256": "e8f55bf9bdd5035852d3916b42320db5011eb5a07ab6a65f2e3cf02c43fe9adf"
+      "bytes": 224651,
+      "sha256": "bd36edff64f1c8ceda2ac6c501d536a0c2086389a4999d679fd944d9ac7d2d8a"
     },
     {
       "path": "evidence/raw/CADCHF_M15.json",
-      "bytes": 251108,
-      "sha256": "9ba34d7fbb2e496c5bf1e3770ea23d05003e5e926ce6b3606a456af8036e26de"
+      "bytes": 242906,
+      "sha256": "aba0906d7efeaaccc8c2664b3a055c8fbcc1d125084270d4529dce60b80aaf07"
     },
     {
       "path": "evidence/raw/CADJPY_D1.json",
-      "bytes": 291767,
-      "sha256": "fb4da1cf7815dd4451b18dafa96f751dbecaddfaa95b1027e887c835918aad1d"
+      "bytes": 282375,
+      "sha256": "fc52a2e4d005266be5466eeb0d2f541feab77a192fa6a5385fa26ddda583efab"
     },
     {
       "path": "evidence/raw/CADJPY_H1.json",
-      "bytes": 293370,
-      "sha256": "580ebba9c97b88c156a5d1bf4e15d572113541c687d42ee7e06cece598007690"
+      "bytes": 283906,
+      "sha256": "168c1732331ba304a517d1f6cfdc68a38e4b40a50f87c374c3c000aac57e1642"
     },
     {
       "path": "evidence/raw/CADJPY_H4.json",
-      "bytes": 296659,
-      "sha256": "6371f99a71c1472ace20dd8e337ee80d5aed5ce6ca07835a7e5b75f90b96de2c"
+      "bytes": 287051,
+      "sha256": "0f9e87e0cc4c2431fcc862b76c90dbc66a821b5c1cb0f5d2b25c3cd7ded72f5e"
     },
     {
       "path": "evidence/raw/CADJPY_M15.json",
-      "bytes": 311879,
-      "sha256": "00b107a43222495a32804fc0f48a00ee6661c754612979816e38f23332f7c8f3"
+      "bytes": 301775,
+      "sha256": "3141d8a0466f2f9c708e1bba60c420506ca5061f668ef3cc4cc815ad24bc82a2"
     },
     {
       "path": "evidence/raw/EURAUD_D1.json",
-      "bytes": 338981,
-      "sha256": "32400bd644228d77574ff04d78baa1b6775db8b967c146c4bb67883a93c1f34a"
+      "bytes": 328335,
+      "sha256": "86c792bfe950ba05077ac3caa7f61b86d50eb077d6fea96ce1fc73b37de92fed"
     },
     {
       "path": "evidence/raw/EURAUD_H1.json",
-      "bytes": 343998,
-      "sha256": "85d5175be0a35b840b80f363c12ed05bb218130d9740a195d22e07df120a24dc"
+      "bytes": 333124,
+      "sha256": "3ef7333be9208f79344a4028bda2c3b37fcf8cb5541e826ae24a5f61012b1b59"
     },
     {
       "path": "evidence/raw/EURAUD_H4.json",
-      "bytes": 340234,
-      "sha256": "fee8fad436bd263b540b2d7b5b92be62054a6c00cfe8b3ff4de8102d34254020"
+      "bytes": 329528,
+      "sha256": "6a794a02c7e74bc732c90e2c9eff96e2a60e1b2a122ff26f7c94a0aa6001a5ee"
     },
     {
       "path": "evidence/raw/EURAUD_M15.json",
-      "bytes": 363064,
-      "sha256": "f2a8acedad69ca699820252c27ea9248379434eaf957f4a461114568b38ada3e"
+      "bytes": 351549,
+      "sha256": "933d3859e9db055517402ae027d96de541b15b96465469bef0b364b58800be7d"
     },
     {
       "path": "evidence/raw/EURCAD_D1.json",
-      "bytes": 266560,
-      "sha256": "fe01d1a4eae0d939744704fa9ad2ad9cfd80eceef47c71ef3098a9c271edc9be"
+      "bytes": 258136,
+      "sha256": "6493d06c9eb9a2e87877c2b059cc4112665f7362c117119cd991e6c4b3b2a680"
     },
     {
       "path": "evidence/raw/EURCAD_H1.json",
-      "bytes": 272591,
-      "sha256": "f6a73c8ac07a8088c35fc27695f316807eaacb420186c11fb884610be16c7236"
+      "bytes": 263915,
+      "sha256": "eb751fd3cf5a79dccb9e73c6ee6372de948f8a660b0833d20888bc42b68a3bb0"
     },
     {
       "path": "evidence/raw/EURCAD_H4.json",
-      "bytes": 271231,
-      "sha256": "def88960ee3270ec32b8937fb134eb993314a3f85a32f559ea5a7420a67b5104"
+      "bytes": 262615,
+      "sha256": "9a7ca5acc130247b7702a43caf82c10d63eb58445785cbd2051967745f08012e"
     },
     {
       "path": "evidence/raw/EURCAD_M15.json",
-      "bytes": 282240,
-      "sha256": "db073c1f2d0fcd6bf33eae2507722e728bf798b762ce8194b3c4fa1ebe162124"
+      "bytes": 273259,
+      "sha256": "d7a99fcee16174e653d3bb84d0d4c8c53b08c6647e8f6603ec29798cd802c999"
     },
     {
       "path": "evidence/raw/EURCHF_D1.json",
-      "bytes": 273753,
-      "sha256": "c22e39270f15af90e7fef80d42566e2d176c59bf8f9c09a40b04edb29f4b36c4"
+      "bytes": 265130,
+      "sha256": "01cdaeb6e5063106bfbe2a1e7ed2b85009f140eb5cb0553f40f033c62510963d"
     },
     {
       "path": "evidence/raw/EURCHF_H1.json",
-      "bytes": 288585,
-      "sha256": "fef01223341d3b2f7b06eefa3a3c6bc55ef9c66621f8a7fea0bd6e3b1b074930"
+      "bytes": 279314,
+      "sha256": "322b8ab34103aa11653a30b0e74edbc5ed7657ebeec643125886949b3e33dd24"
     },
     {
       "path": "evidence/raw/EURCHF_H4.json",
-      "bytes": 283329,
-      "sha256": "ca9adfe9c5d506df2c1645126ff6a68aeb6dac7dafab481876cf004294a90689"
+      "bytes": 274286,
+      "sha256": "fbacd2c37ace22d0c6b1a384a99c2242164a5ce25a73439312780b8c45f4eabd"
     },
     {
       "path": "evidence/raw/EURCHF_M15.json",
-      "bytes": 296015,
-      "sha256": "c9b11488e7b9fbb3410d09a97e0766ca12ea9a5d0f01294b5e8f63d94f289f2f"
+      "bytes": 286492,
+      "sha256": "4d4c4461c6d6b46ce7b4d5f1763412b20fe91eed41ffb646a6fe3fcdad0c8dfd"
     },
     {
       "path": "evidence/raw/EURGBP_D1.json",
-      "bytes": 262496,
-      "sha256": "d532d54a2edd8dfefbdb4c5c0a325cd88a3aff03f4d5900528be436318f7d239"
+      "bytes": 254086,
+      "sha256": "dad46fe14160707b0e940489c9bb2f58385a0195883d7d32c0f05be03b0dc8d0"
     },
     {
       "path": "evidence/raw/EURGBP_H1.json",
-      "bytes": 262246,
-      "sha256": "afcfab23290bc804a44cad97ac4e02e2a9ce003c568299fa472d6fc9aee84304"
+      "bytes": 253848,
+      "sha256": "394e04cf3849f1b3d8f8cff966360e6a57cd47b8893a482cdedc0e3a2db752f4"
     },
     {
       "path": "evidence/raw/EURGBP_H4.json",
-      "bytes": 258419,
-      "sha256": "5bc7fa4e5923ce9c23984225198000136d69208391a744a1f6408f7dea2dd5a6"
+      "bytes": 250189,
+      "sha256": "23070fea130228f1e33b6acb424b88c474da22f590b2550b57dab48f5bb4fce2"
     },
     {
       "path": "evidence/raw/EURGBP_M15.json",
-      "bytes": 284188,
-      "sha256": "503b9dbbbd47ed30dd27bec215d54e960688e75d3c7450e08e3280b847b604a2"
+      "bytes": 275027,
+      "sha256": "08ebdaa3a453abfb9ffa3d234d41406f75ef8c550f9b7108a597cf66989889f3"
     },
     {
       "path": "evidence/raw/EURJPY_D1.json",
-      "bytes": 356643,
-      "sha256": "80a77560836f83f32976e687a3521f47086e4b25c279bc311307fd564649d0b1"
+      "bytes": 345221,
+      "sha256": "e7c7221b26870a11e065df3e49f1008c01da17d4f9fc5075dafcd0518a904787"
     },
     {
       "path": "evidence/raw/EURJPY_H1.json",
-      "bytes": 361578,
-      "sha256": "60224629e84c4fef093f6093f35e3c5931654a46abf4e2be664ebd2ec1ec5c0f"
+      "bytes": 349940,
+      "sha256": "b062ca9e5e3b1174f7f581c963a0673167b466c8f0a133dd70bfa97a39f58f7b"
     },
     {
       "path": "evidence/raw/EURJPY_H4.json",
-      "bytes": 358240,
-      "sha256": "d7cf260ba7a3d3df82ca4f02bafe7ddf376340e4a6fce3894dd109bdbe8cb8a0"
+      "bytes": 346746,
+      "sha256": "4bfcf7effed44494891fe2ce99c3f3a057bb1698558c649e7bcf6de09ef58728"
     },
     {
       "path": "evidence/raw/EURJPY_M15.json",
-      "bytes": 376200,
-      "sha256": "5b857d49f3aa4b569e2c6cc144204a4ac36128c732dbef3112f3b8599f2c9784"
+      "bytes": 364074,
+      "sha256": "6e56db9e3439d64a67cb1657671e499b7abd382db86449e8b3a28a042803ff14"
     },
     {
       "path": "evidence/raw/EURNZD_D1.json",
-      "bytes": 304185,
-      "sha256": "7fbc950e431160d3054e52cc9ea0e05e40b2c1c6ea5772b1f404be303d9cdf5a"
+      "bytes": 294635,
+      "sha256": "d515301c8dd975700900d8855751f11cd31d66f35e6727aa4d38f02520761f7c"
     },
     {
       "path": "evidence/raw/EURNZD_H1.json",
-      "bytes": 312278,
-      "sha256": "481bf279c77288d617838a30bf8267ae06636c911adfc253e8b88aac230f3d6f"
+      "bytes": 302380,
+      "sha256": "11a9da53174b39692606827eda1cc5526f1bec21d915dde7e5da13cfe9affa7d"
     },
     {
       "path": "evidence/raw/EURNZD_H4.json",
-      "bytes": 309580,
-      "sha256": "74e392c76713bee378cea3eb9bf81b8629544fdf5386ce1463dbbc51e39a7199"
+      "bytes": 299802,
+      "sha256": "bd133099fba824b97065302831bd44cfebb6c0ee9d6a1d03420544106d7c5baf"
     },
     {
       "path": "evidence/raw/EURNZD_M15.json",
-      "bytes": 332422,
-      "sha256": "03bed8088e5286e2e2e9a845fb89aeb04d9eb8df04635b2a93d3b3ce35016208"
+      "bytes": 321836,
+      "sha256": "846d8f66c0f76b35aa12e0124ff6900c7f3ca4c27d2be58277cd2e3208ef1dcb"
     },
     {
       "path": "evidence/raw/EURUSD_D1.json",
-      "bytes": 305530,
-      "sha256": "645e144df32fd87e6b99e338d0982fb3e5381f1f3c0a10dc6197a8e4086cb7e4"
+      "bytes": 295794,
+      "sha256": "49192fa1caabda4f5aa2074d140e997a3bff90648b3fc4b34aa36a9f9c13ce9f"
     },
     {
       "path": "evidence/raw/EURUSD_H1.json",
-      "bytes": 306905,
-      "sha256": "e1d7f2f9c9f36d36dd723f589afb21c66f1f348e0852f262e699002914e6545a"
+      "bytes": 297109,
+      "sha256": "16a311716c37c2f11bf0892f8346a8092db0f1bfb4d3255b9773a5be24171d9c"
     },
     {
       "path": "evidence/raw/EURUSD_H4.json",
-      "bytes": 305260,
-      "sha256": "68bbc12c199a676e0a1aa706f6c47939f585baa418e7f7d2333d3d14d0005aa4"
+      "bytes": 295536,
+      "sha256": "d036e128c15bded84109c42329197c534bdc0a8153fd51a06ec8452f8a5c578d"
     },
     {
       "path": "evidence/raw/EURUSD_M15.json",
-      "bytes": 329118,
-      "sha256": "7caa34a1978730eae233fd5ba0a4568c17d9d537c0074bb840e37a3c7cc89b6d"
+      "bytes": 318535,
+      "sha256": "b7a6583b2542f6d8539b5aa076a619cce8c094e53e76a2e1c7330f8bcce07f6e"
     },
     {
       "path": "evidence/raw/GBPAUD_D1.json",
-      "bytes": 348866,
-      "sha256": "503d0b2ebd0fec8df433827d789aeb397ce9044adb94f10a2b383050eebf0f69"
+      "bytes": 337964,
+      "sha256": "149cedd01f12d898b6fb4d9d03ccb213d6f8d8035313ba8a9951ad4d67a0b6b3"
     },
     {
       "path": "evidence/raw/GBPAUD_H1.json",
-      "bytes": 349121,
-      "sha256": "4eafd5749064224295524c2008effd0b2864ec67412815f1f75a6a097ff14624"
+      "bytes": 338219,
+      "sha256": "5d3010aed4b7aad46388241b40742cdc8ce7c943ab78cd24eccd19a23941bc30"
     },
     {
       "path": "evidence/raw/GBPAUD_H4.json",
-      "bytes": 349579,
-      "sha256": "a9d49687de456094f045f9cb1bdbaa472fd274ea9837fb0289506a184e3e5e34"
+      "bytes": 338665,
+      "sha256": "b5367ad71858fc1c43135ff27e596f17a0ccee57fddc2aa36bedd9475946ae32"
     },
     {
       "path": "evidence/raw/GBPAUD_M15.json",
-      "bytes": 374193,
-      "sha256": "8ba52daac79f5632c6d2adc6ef962f62f2f74d1b56455bbc33bfe1c74c6f9b66"
+      "bytes": 362394,
+      "sha256": "3c402c274266f55c4824e30215fedf62411a8b7bc6acd6b1b6db9270ba89240d"
     },
     {
       "path": "evidence/raw/GBPCAD_D1.json",
-      "bytes": 203090,
-      "sha256": "466b6a993f5edd9e5fcd7bec04c9994792d72f2edf4033ea0691f7a8e5e355f6"
+      "bytes": 196554,
+      "sha256": "0231d80398bdb55ae65c9f10903eddbc7a86f5225537d700f3cd57969297d950"
     },
     {
       "path": "evidence/raw/GBPCAD_H1.json",
-      "bytes": 201302,
-      "sha256": "ed1f76f269d7d5c4dac4dbdef7feede504c6dd9d9d0f32799e7aa0b93a2a6218"
+      "bytes": 194838,
+      "sha256": "8f48059c9416c4816feb937c98b2e5b3f6a1d77fb32e8161053bb3d30f69e5fd"
     },
     {
       "path": "evidence/raw/GBPCAD_H4.json",
-      "bytes": 205049,
-      "sha256": "0681fcadbaf33f260848fa0eaaf0bfe11d9118334205bae30a73dedbaa5e954e"
+      "bytes": 198429,
+      "sha256": "c07ce7337bc6605a320d3e5513139fb538ab9d098c50d186de2e110d4c90d311"
     },
     {
       "path": "evidence/raw/GBPCAD_M15.json",
-      "bytes": 214799,
-      "sha256": "c09fc69a310458547f4aa6c759b41d01be5461f3d2bae3f429925357c8963126"
+      "bytes": 207851,
+      "sha256": "33e7e566e04db600e0141c225141293f0d511f8383cf8417968c1f4966cfdf92"
     },
     {
       "path": "evidence/raw/GBPCHF_D1.json",
-      "bytes": 258505,
-      "sha256": "d93667fab97cb8f2a840932c50055ca33b2e9bbdd20445996ffbdace07f07b35"
+      "bytes": 250260,
+      "sha256": "74580f7759a86b13c96adc2d7435e320bd2c4adb99beec6d34cf886636a75791"
     },
     {
       "path": "evidence/raw/GBPCHF_H1.json",
-      "bytes": 265986,
-      "sha256": "08098b386afafb41b63aec568fde9a036c72877ee9535cf7dc9bf7fb22e52aed"
+      "bytes": 257417,
+      "sha256": "54d829c13bde49d4591cf255d69b938dc6fd48a083bec0b5d167cb1b95af0c13"
     },
     {
       "path": "evidence/raw/GBPCHF_H4.json",
-      "bytes": 266122,
-      "sha256": "4eddf6c0acab693aef713f30389c3da5a53d105bad6f07a216376707d1b74677"
+      "bytes": 257541,
+      "sha256": "54278964071fdec7fe0d70f87eb7871ac56491c631f0689160d050382290e422"
     },
     {
       "path": "evidence/raw/GBPCHF_M15.json",
-      "bytes": 280057,
-      "sha256": "b66755276f81d6108338c645ce69aea40110800b60f7de7d24c471f2caa597d4"
+      "bytes": 270994,
+      "sha256": "7441a1e15f9558ec692fbb7e9f19f84a7828f054cf0bf1daff0a22b91b0c81f1"
     },
     {
       "path": "evidence/raw/GBPJPY_D1.json",
-      "bytes": 371611,
-      "sha256": "90128235c405537bdbf0abce32f949a88cdebb9755e1cf567919ac6d6a64b6ae"
+      "bytes": 359847,
+      "sha256": "e347782d7bb5581b7402558b0904075bde501f010385c79715dac0d6ae440972"
     },
     {
       "path": "evidence/raw/GBPJPY_H1.json",
-      "bytes": 372710,
-      "sha256": "a53e3f204a630cd9c166e4d54191afc0d232e34fad8351345b14a0b51d8a381f"
+      "bytes": 360898,
+      "sha256": "fa256011b1477dc9f3941447c03b1d1e87ffea6eb32a650db33f9141df5ac597"
     },
     {
       "path": "evidence/raw/GBPJPY_H4.json",
-      "bytes": 370492,
-      "sha256": "2dd4a619ca24eee6568a9996d6959e9c5611b5968093e737d6fad6e95c351895"
+      "bytes": 358776,
+      "sha256": "4804a352e2d516eece233bf408d88ee52a57d5f691545ef244d1d37ed4b26ea6"
     },
     {
       "path": "evidence/raw/GBPJPY_M15.json",
-      "bytes": 390096,
-      "sha256": "a8ab12ef3c92aa84c56cfdaf14aef85fb5e39c4ddf954a8e44ee67e5bfb74506"
+      "bytes": 377690,
+      "sha256": "1fe417ecb9de98af4c91631469fcb45f26323feadb2c7ff4a8142cf925b7964b"
     },
     {
       "path": "evidence/raw/GBPNZD_D1.json",
-      "bytes": 249440,
-      "sha256": "0070e5ce407511356404c29ba524753be3e46211317bed4c5b34fe388cb43063"
+      "bytes": 241478,
+      "sha256": "51689621164ba6f4646d0231cc0053cbb5bc000b973ef5116602d35c8ab86184"
     },
     {
       "path": "evidence/raw/GBPNZD_H1.json",
-      "bytes": 251090,
-      "sha256": "f07633d284aefc3fe68acf783e6f5cdace2e79716abda89822971cce4a909d1c"
+      "bytes": 243056,
+      "sha256": "7054f831383a197df6f534a63934d55df4b884ef0c534f9d3321067f56364abb"
     },
     {
       "path": "evidence/raw/GBPNZD_H4.json",
-      "bytes": 252230,
-      "sha256": "afb0ec7f0eda93213c9c7e2d6e502582970da00935ecdcd4d0db34ce700b321e"
+      "bytes": 244148,
+      "sha256": "0f6c8ff35b5db61d3ce8181c87a1f7b87c0e4965a0e4530a1e7b0ed5b919a7f5"
     },
     {
       "path": "evidence/raw/GBPNZD_M15.json",
-      "bytes": 270346,
-      "sha256": "6170fbee22d3a7531afdf1b9e2fe94079c7322c53284d896e4ecbb7d74f83b1f"
+      "bytes": 261637,
+      "sha256": "288fd4dbace777ffc24d7f95ec93f0933e6f91ae6b6fb2b1bfbf36e542ac8295"
     },
     {
       "path": "evidence/raw/GBPUSD_D1.json",
-      "bytes": 418602,
-      "sha256": "c692a9277a7e2b5abcb9e305062858f9511264392d755c539acee27d680961fe"
+      "bytes": 405502,
+      "sha256": "1ca57665320e6ef8350aaa38f9d81d7b2b38104a91fdfde90e00b923d3637cc2"
     },
     {
       "path": "evidence/raw/GBPUSD_H1.json",
-      "bytes": 419209,
-      "sha256": "171b4fa679b8d2e7be5abb2509502de43c90e1fae6f1dead409c309e33d75f64"
+      "bytes": 406085,
+      "sha256": "4cb9e158c5a67842bf8307153591f294ee1bebcdfa9e6524f171d1179245dcc5"
     },
     {
       "path": "evidence/raw/GBPUSD_H4.json",
-      "bytes": 415209,
-      "sha256": "0ad90014598725a49097e6661b73389dee3fd8f273040673eaa5248356575d9c"
+      "bytes": 402253,
+      "sha256": "46bf73802bfdbff8f90325c22c8148b742bb6b77746777bfabd9fd2434f8cd41"
     },
     {
       "path": "evidence/raw/GBPUSD_M15.json",
-      "bytes": 438057,
-      "sha256": "6168737b19283097e5bd980ea39a0fe088cb382d0fa3eb36e01205950a0794bb"
+      "bytes": 424261,
+      "sha256": "77cc50401969e35353640004554aa56bc3a72564fcfea4a61b5f2227bb3232f5"
     },
     {
       "path": "evidence/raw/GER30_D1.json",
-      "bytes": 578403,
-      "sha256": "44d2536f139542f080db93b8bf14a1383aa0f6fad2b1939369d82bd4b2907a1d"
+      "bytes": 559794,
+      "sha256": "281c53f246475d46a3150f9863be4b47526d2e194fc24b4377d3d7fc0fc36e53"
     },
     {
       "path": "evidence/raw/GER30_H1.json",
-      "bytes": 578960,
-      "sha256": "696cd09f26cfcabcc7bc85507f890b37dd36ca805292abcdd23edb4075d1c12c"
+      "bytes": 560327,
+      "sha256": "107fe4899051d1fe9b8c0f599f4ce218c073c7c6cc8b7025f4d40dd3d9193a85"
     },
     {
       "path": "evidence/raw/GER30_H4.json",
-      "bytes": 580329,
-      "sha256": "64aa0d3583900834dfa4217967069397a0473db39a744679019066a7adc6ab16"
+      "bytes": 561636,
+      "sha256": "e8771171c7e144855d16cf79f5e4670b52d4714c541ebe42d93ac39b3d31a7ce"
     },
     {
       "path": "evidence/raw/GER30_M15.json",
-      "bytes": 578095,
-      "sha256": "6a933ddc325a18bb9d8036914e2172e341b9cc88da09677c9f939a9c15725a67"
+      "bytes": 559617,
+      "sha256": "eec7f23ce937175e545b5507a7297310559ae838575e3d7b826a93701c964eda"
     },
     {
       "path": "evidence/raw/NDX100_D1.json",
-      "bytes": 362408,
-      "sha256": "1777126b2be4d2d08f35ae53a06cbe2017c26e94e82b5f24d4883431f5fabd5d"
+      "bytes": 350836,
+      "sha256": "623dde5d3e9850f2662c2dfd7d909302eae8c46d8fcc2cb619cd24c613b771ac"
     },
     {
       "path": "evidence/raw/NDX100_H1.json",
-      "bytes": 357191,
-      "sha256": "fa489b0320c2d5d30da8419c1fd2eb81b3277146819d7c3c4e7a85cc0d528e4e"
+      "bytes": 345847,
+      "sha256": "3a9363d54523426f3e3efabefda4edc88f47b2eeea07e9839c6064352159dcc7"
     },
     {
       "path": "evidence/raw/NDX100_H4.json",
-      "bytes": 361056,
-      "sha256": "49bfae29c226b8f0d70a19c734e9e499f7ca3c9360de6a9be7b537b03b99e83c"
+      "bytes": 349544,
+      "sha256": "0eedff5a84ab757c384e3e1b418ec07b3917173ec5b5f71c8092d061aa2444d4"
     },
     {
       "path": "evidence/raw/NDX100_M15.json",
-      "bytes": 372080,
-      "sha256": "4bda93f214ac91068319eb2bddccbd889f50689bd1f67388ff43533edc6ecbc1"
+      "bytes": 360222,
+      "sha256": "4080c8800df058c6e0b7e997be6a663779fe1b413b6b7ecc71b30e4ec3c3448b"
     },
     {
       "path": "evidence/raw/NZDCAD_D1.json",
-      "bytes": 307131,
-      "sha256": "71c6d7bc45a438cbd28c4d8dc62f38c0a2a03b055cc2db0082944f61ee83838b"
+      "bytes": 297410,
+      "sha256": "647c292329ab2c2fca6100bf85edaf4afa541912c7e41a01dfc83145aa6779f3"
     },
     {
       "path": "evidence/raw/NZDCAD_H1.json",
-      "bytes": 314214,
-      "sha256": "97c4cbaaba9a0f248a57d9d94cd9c90b6151cf5238dbc1c4b3491e43f7cbcb97"
+      "bytes": 304181,
+      "sha256": "3ccf8e5f84f5096939211ce3889ee70f2744537728ed25aa83918e93567c9464"
     },
     {
       "path": "evidence/raw/NZDCAD_H4.json",
-      "bytes": 313968,
-      "sha256": "8b24e8cf92a4430111f4546ec60fdf641e569b343c2f8482aba7a1818dcf1db4"
+      "bytes": 303947,
+      "sha256": "66bd7631e4d51f4defc2ab55bf806dd554b0b619e9c337e4c2ba3640a867fc82"
     },
     {
       "path": "evidence/raw/NZDCAD_M15.json",
-      "bytes": 342825,
-      "sha256": "56f1123ce4f82328bf2b86162a092e6d2eb573f5f1300dee06939a3af3d6a538"
+      "bytes": 331792,
+      "sha256": "ea223e7e716d0f9b6aa19e611bdd6fc9f008afe14a2e25a2eb1430c552898b10"
     },
     {
       "path": "evidence/raw/NZDCHF_D1.json",
-      "bytes": 244633,
-      "sha256": "1aac41cdd7f5321139db1e440ffd452220257b029fa5e619de3fec280fef0f04"
+      "bytes": 236844,
+      "sha256": "850ff1f733395d7ede01bcd6d020cec8836d72c042331062d0ad635bd78ad1a2"
     },
     {
       "path": "evidence/raw/NZDCHF_H1.json",
-      "bytes": 256956,
-      "sha256": "99616f7bc034adf74fc1d26c610063137e24a8fc21b100941b5c70261dbb855a"
+      "bytes": 248627,
+      "sha256": "c5032a9fd00113fc822b21baf00e8bb96e18e370cef797d08705ffc6d38417fe"
     },
     {
       "path": "evidence/raw/NZDCHF_H4.json",
-      "bytes": 256650,
-      "sha256": "c67a77077161e1e23a752944076ad8383f173db4e18ba09088e78ec96708c10f"
+      "bytes": 248333,
+      "sha256": "ae850f6bae462c2ef9163a27da249cfc0ac378faf21e9c6aac8af37d44350181"
     },
     {
       "path": "evidence/raw/NZDCHF_M15.json",
-      "bytes": 276323,
-      "sha256": "9e0b93652150647419603ea137cc95a24d8d3c39a9fa1e47bcdb41cd9576fa48"
+      "bytes": 267353,
+      "sha256": "146f5684a4874239c432b0e662862d6729c954487ac2e0e2d0474e5706ce3fdb"
     },
     {
       "path": "evidence/raw/NZDJPY_D1.json",
-      "bytes": 335200,
-      "sha256": "e32bc0a11c7cb022b110d6c1014a953fe829cbf94568827dd83821e02299d38f"
+      "bytes": 324479,
+      "sha256": "edee22378f860435ca140e8e69e53d0e6f8b7ce82db39997fb8d8f93fcacbc4a"
     },
     {
       "path": "evidence/raw/NZDJPY_H1.json",
-      "bytes": 340412,
-      "sha256": "aa65ce554c997a6d44d4ed89a5cf50b40611875fea3e4947ef22f18381bf61db"
+      "bytes": 329463,
+      "sha256": "e6568480553780e686afc35d4ddf57a93507fdfb9133bbd4b3bbdd54156e2aac"
     },
     {
       "path": "evidence/raw/NZDJPY_H4.json",
-      "bytes": 339008,
-      "sha256": "a349513eaea87f4e96d3a4c7e5d2b51713fd29730743b6d7c67d5cddd838a60e"
+      "bytes": 328119,
+      "sha256": "18921b6df91ed72c358075b6c46db12c37bc7cd0829ea9845ec1f9e19bc8df0e"
     },
     {
       "path": "evidence/raw/NZDJPY_M15.json",
-      "bytes": 355573,
-      "sha256": "99989e2fefdabf4730657c34dbf2f798cc5b21a481dcb9c698bbeeae78406a55"
+      "bytes": 344103,
+      "sha256": "e6afec14691bace6c74c3db0a5cd652d5988344d175be00fec97df63765fb8ac"
     },
     {
       "path": "evidence/raw/NZDUSD_D1.json",
-      "bytes": 342718,
-      "sha256": "eff2bf7182755cd2dee2b1a58f4bb91f72b3ac6e1c8b22ad7ea4a383da31d6a5"
+      "bytes": 331840,
+      "sha256": "892d819e156ac48b41e67b7d7724586b0e5fbe986bf5e501d7a3a0e8e1563c01"
     },
     {
       "path": "evidence/raw/NZDUSD_H1.json",
-      "bytes": 345357,
-      "sha256": "792a889323c5695dc22e7792be71e332c9d88cb4435199910f38301fb958078a"
+      "bytes": 334359,
+      "sha256": "2bf5e6a792170a92ddcdb5eb0c98c900d14150a0350f4b80dd729dbe1a9b67ce"
     },
     {
       "path": "evidence/raw/NZDUSD_H4.json",
-      "bytes": 348141,
-      "sha256": "ecd35a5498b694f461279d6a27972eff89ad58d87aa96f03bb878cfef479f0db"
+      "bytes": 337023,
+      "sha256": "7c7acb36381dcdd3451530ba312c6db64ce422f050834223889762741c7cc833"
     },
     {
       "path": "evidence/raw/NZDUSD_M15.json",
-      "bytes": 369236,
-      "sha256": "bf7136f3ea739a6f66e10f0e6925a1b435e513adcfb52188a790aebd4682ee6a"
+      "bytes": 357395,
+      "sha256": "21dc997f98e4547b2ba33afd38409192f0d967ff89a45b0dcfc0211d24fc1764"
     },
     {
       "path": "evidence/raw/SPX500_D1.json",
-      "bytes": 308248,
-      "sha256": "265b36369a2bd2445764162bef9a6ddc8f134fea445690fc941c4e6ed3de3d97"
+      "bytes": 298228,
+      "sha256": "d40a641b93e6b80390f928f459227b739655b78f7f8122abccb1712674339a8b"
     },
     {
       "path": "evidence/raw/SPX500_H1.json",
-      "bytes": 309965,
-      "sha256": "ad2faa971c9f2160a8e07cfb57b939fc90e535dac7f3238857fa2c4198a928d1"
+      "bytes": 299873,
+      "sha256": "989da3ab0b650398759bd04b96bc62ffadf57369d5b1aadd4228b283a862d66f"
     },
     {
       "path": "evidence/raw/SPX500_H4.json",
-      "bytes": 307235,
-      "sha256": "1ff57a568045e4ff9e06eb1392e5075ddfa536e10e04e4dd7dacb15a52fcbd79"
+      "bytes": 297263,
+      "sha256": "1b74004048eb61772dd1685a4b0f5581879372014514e53291389254f06d5044"
     },
     {
       "path": "evidence/raw/SPX500_M15.json",
-      "bytes": 322859,
-      "sha256": "8c7eebf5e321cf7cba4fd56e13a2ab4da2133d0bc701e064b0961a2cf8193b02"
+      "bytes": 312347,
+      "sha256": "0543bd20301d01cc9bbcfee44c16fc0f20ce02cce642240fd74c246434bfc674"
     },
     {
       "path": "evidence/raw/UKOUSD_D1.json",
-      "bytes": 346823,
-      "sha256": "876000234d4a05e467cd9eccbe477f0ee8fb1a5b3f92dd1e5f9c2746133895ac"
+      "bytes": 335612,
+      "sha256": "8d320e911afa5df8ff24a8cfc7a5651152e79860f68cbf32d0f6537b61ba1f96"
     },
     {
       "path": "evidence/raw/UKOUSD_H1.json",
-      "bytes": 347447,
-      "sha256": "e57feaeaabef89e5aa6499121bed96c78dda44c2564d15b7656ab60090cce392"
+      "bytes": 336212,
+      "sha256": "25ac34f21bd5da1aa6179610a2c80caa4c3b6c1da463bbe27da97bd14c0e2e55"
     },
     {
       "path": "evidence/raw/UKOUSD_H4.json",
-      "bytes": 348815,
-      "sha256": "1eff47e6ba012b009ac8c464af2d785b750b4d7d990c2ae26ade373defa710d5"
+      "bytes": 337520,
+      "sha256": "1d96c1a2b72b6de7a09b0fd574edf9ab6db3c16353f84c4152e0e4dec7208749"
     },
     {
       "path": "evidence/raw/UKOUSD_M15.json",
-      "bytes": 354898,
-      "sha256": "2c349a0b84eac3bd8391e4ad5a74971b1c4e0f3d79b5b8c0318fe14613cbb965"
+      "bytes": 343461,
+      "sha256": "099515e62c6b51a7dcfb294993494872c336c85c9011efd6520baff09e1afd25"
     },
     {
       "path": "evidence/raw/US30_D1.json",
-      "bytes": 396893,
-      "sha256": "c40092fc47d67b453a18f091c1dd8c16ddb3329a388716517c41329a861cbefb"
+      "bytes": 384112,
+      "sha256": "c4e7a7967be26d9baa5af0628d9bca2bc4fa3763a55b3de42cd8561fb9dbec01"
     },
     {
       "path": "evidence/raw/US30_H1.json",
-      "bytes": 397111,
-      "sha256": "f741ad3d908a07facb9b369e5f3c6540e5a72198506fc3b1d4c871338dc89ae7"
+      "bytes": 384318,
+      "sha256": "6e17b83fe0b7b2edd5bab0b40392d99cce370132d2d574f4b5f35c1d6c43afdc"
     },
     {
       "path": "evidence/raw/US30_H4.json",
-      "bytes": 401853,
-      "sha256": "5bf56ccbcadbfac64d75ce308b40ab93edb50a7290e1231437fb7d848cd2abad"
+      "bytes": 388856,
+      "sha256": "ffbeae680b2801af872095a43ee6dd85c8dd0c94f8d1058c6771e63a2027559d"
     },
     {
       "path": "evidence/raw/US30_M15.json",
-      "bytes": 408396,
-      "sha256": "667e9e79305539b25b8d0eb54cf041bcced315a12d6b1eabd86d58007e35a484"
+      "bytes": 395210,
+      "sha256": "79f53a794964bd9dce2508c3d651bc6ce0e564ccf0bf8efcec16663c32299cb4"
     },
     {
       "path": "evidence/raw/USDCAD_D1.json",
-      "bytes": 269562,
-      "sha256": "abd0a335d28a1bc79f2992619c324b150bd68bddd4f2a5e0cde2ffeda457f5c9"
+      "bytes": 260935,
+      "sha256": "b679b81798da6f1253c60bf0b236810bf9e451f3fc4d7e3c4362d1e9589be7d4"
     },
     {
       "path": "evidence/raw/USDCAD_H1.json",
-      "bytes": 273107,
-      "sha256": "2116fdb3ba6e48f51b5b3b8ede0664eb449086543dcfafdac953308aac6bd5e1"
+      "bytes": 264324,
+      "sha256": "fdf73042799882ce1c3472e41f5336de8cf18ce8b20b8ac83c176abd03a4139e"
     },
     {
       "path": "evidence/raw/USDCAD_H4.json",
-      "bytes": 272326,
-      "sha256": "78c64db505304e28bf3e5309a5772a27d0e437365e87320bc6d8f3aea5dd440e"
+      "bytes": 263579,
+      "sha256": "b973dd284f782dd45159d956e2c5d37b93f688d304e428293a0320ed7ca15a8e"
     },
     {
       "path": "evidence/raw/USDCAD_M15.json",
-      "bytes": 285396,
-      "sha256": "a1f57ee24300aa5ea87eb78bf4071e97bcc3dc41c6a98d06e9caefe178951e86"
+      "bytes": 276183,
+      "sha256": "d18f21dcdf05c14ff5b861e10a4fd6dd6e559c07e809346ef4a6090bfebccbf4"
     },
     {
       "path": "evidence/raw/USDCHF_D1.json",
-      "bytes": 317197,
-      "sha256": "2d6337b1fa6cca78cbda54ea941f7e9122516af332ef370f12c486d052c862dd"
+      "bytes": 307070,
+      "sha256": "46bc0094a21fc5e8809075ce27244715b50c7b1d6a45c2f808868dfaff789b55"
     },
     {
       "path": "evidence/raw/USDCHF_H1.json",
-      "bytes": 324384,
-      "sha256": "d85cce120c7440ada8556f71811596dcf229922c90085c8dcd5d318c7c7ad01c"
+      "bytes": 313945,
+      "sha256": "775414e50d6c64e4e0c1d90fb77ac6bb28837b3d4f588ce9302ff1a6d4691ac2"
     },
     {
       "path": "evidence/raw/USDCHF_H4.json",
-      "bytes": 315277,
-      "sha256": "ee2135acf39bd79ef9b1d1f68163f107348266e55ebcddce5de0d5193d3d9fa3"
+      "bytes": 305234,
+      "sha256": "58b78f1ce8e53a45d4d5b20b8f2ef5ae052b648acbdc06012e6440d06e837c52"
     },
     {
       "path": "evidence/raw/USDCHF_M15.json",
-      "bytes": 344128,
-      "sha256": "6d331f0f656626f16f8bd643f24d8773e7d0804887b0ec5aeb51972e5d0ec65e"
+      "bytes": 333017,
+      "sha256": "b1cafe037871edaf10240d9ff171f8827629939ab359573b41ea427678d8e4f6"
     },
     {
       "path": "evidence/raw/USDJPY_D1.json",
-      "bytes": 275007,
-      "sha256": "26e94c09189c5c8802ae0cb207d980a1a76d2fab2bbacf6b87ce0422772aa624"
+      "bytes": 266118,
+      "sha256": "914ba41e594ef59a32ddd05eb5bee59ab30523eaee844c5621a50fd68568b477"
     },
     {
       "path": "evidence/raw/USDJPY_H1.json",
-      "bytes": 271212,
-      "sha256": "d224b3da2edfcbb74a9ebf5c2eebb3186db3b93eeb540f810c0715e88e112a9e"
+      "bytes": 262491,
+      "sha256": "93f362062174479c2c2c0bb5d94838ed373b0cc8115523608364bfc6ca143e2f"
     },
     {
       "path": "evidence/raw/USDJPY_H4.json",
-      "bytes": 276938,
-      "sha256": "2634884e887d615e64e6606a158a72c80060f1972f1547eded70e010172ca090"
+      "bytes": 267965,
+      "sha256": "fb64f4f5bed7a72ac85c6a5e9a5eaa6811fc27682a0bcdca47bbc2551c8c5159"
     },
     {
       "path": "evidence/raw/USDJPY_M15.json",
-      "bytes": 289491,
-      "sha256": "84c9c8a93bc7e0458c66c0380481540ffca384d4fc2436eb8087847e6290fe79"
+      "bytes": 280131,
+      "sha256": "cd62472a4c8a87c5599d21e24f1d41a0987c50a2d5968f48944c9131799c36ed"
     },
     {
       "path": "evidence/raw/USOUSD_D1.json",
-      "bytes": 429976,
-      "sha256": "65dc1ab5af1155855d94794712ab86bd9f2b2ee1055a9b43366b44a9ade4fe0b"
+      "bytes": 416227,
+      "sha256": "50f79cf2b1410aafb4fb57f03382fc6eefca9d1b74f2806d2d9f0ff1918f4def"
     },
     {
       "path": "evidence/raw/USOUSD_H1.json",
-      "bytes": 428075,
-      "sha256": "b88c632cb541192c7e2fd6a1ddffe827bbffd90d54f705443ecb01098a0c115e"
+      "bytes": 414410,
+      "sha256": "7f35e666dd4b7c198e7814f4bdd16bd56eb2d60f85898fcd8ce8b112d93e0f6d"
     },
     {
       "path": "evidence/raw/USOUSD_H4.json",
-      "bytes": 431065,
-      "sha256": "b56414988a2389493037758211b18bda9236a95469a77902bc83b90df768313a"
+      "bytes": 417268,
+      "sha256": "b88ce37cc25389e480b57c08047feef7291dbcaa3110eb9d670af2a05e05e0c5"
     },
     {
       "path": "evidence/raw/USOUSD_M15.json",
-      "bytes": 444682,
-      "sha256": "17e249fcde96dbf01cabfbccb8ca6e88b1112bd99675156ff5f963145f1c3b2a"
+      "bytes": 430449,
+      "sha256": "e3b2e6ba2f016a0cc1eddb88320a8fa1181d4a309531d4d66e9fc98267d40ca3"
     },
     {
       "path": "evidence/raw/XAUUSD_D1.json",
-      "bytes": 287019,
-      "sha256": "b52fecaa3197704f1183c9ed870ad8df32cf34c84f4905419ab82017291585d8"
+      "bytes": 277629,
+      "sha256": "6fe16bc946595b9e7757f57a1de0eaee9e4a4b1e38e7525e4306c3b414fc4894"
     },
     {
       "path": "evidence/raw/XAUUSD_H1.json",
-      "bytes": 283025,
-      "sha256": "6ab9e35954c64eedd659d62252fbeac0f8a9bac08df01a00f15a2c4fdd913d53"
+      "bytes": 273815,
+      "sha256": "9a056879b61950b6bb529ea7f518774587a0c9d5e8353dea7bc30023e6c9b54d"
     },
     {
       "path": "evidence/raw/XAUUSD_H4.json",
-      "bytes": 288257,
-      "sha256": "163b02138a0de28217582983c0d51234fe056c8facad074f4dd9a4dfbfa035f3"
+      "bytes": 278819,
+      "sha256": "87150ee16f9c1c1ce701807ae1160bdcc6ae0130d1aec515a48470a21c51a220"
     },
     {
       "path": "evidence/raw/XAUUSD_M15.json",
-      "bytes": 301166,
-      "sha256": "81f05c5184f6b570db73cc822501fb98972659e863883270804c8b98816ea7b6"
+      "bytes": 291283,
+      "sha256": "88cefedae1fca775652bc7a28d10c69d90fb1b96932737f61e78163606a861ad"
     },
     {
       "path": "instruments/AUDCAD/analysis.json",
-      "bytes": 333808,
-      "sha256": "91a0f0abbb5a6360b7c26b60b929b91dc3ea832480ea5a236d4d46ee8289ed8f"
+      "bytes": 322985,
+      "sha256": "dedb221e8f12c2e5cf7f3117681e6e74dca43b29539114521840b21fafd33591"
     },
     {
       "path": "instruments/AUDCAD/analysis.md",
-      "bytes": 5914,
-      "sha256": "150e9bdd71d41aeaa6b26f9353719e3a91fbc5c49ecedc28d7dc30082f4e7c4b"
+      "bytes": 5839,
+      "sha256": "61c1b1fd2f38e17c6d929453efb16d759bc3a2e04ac18c815cc889bde471f1d8"
     },
     {
       "path": "instruments/AUDCAD/chart_objects.json",
-      "bytes": 224059,
-      "sha256": "d07629366ba694501ead80aec9ddb8141024d39750f3acfd685c997faa24afc7"
+      "bytes": 216327,
+      "sha256": "51929504c3bec02f828d81f02ebc57c5511046c08d414d563c34fe73726aad96"
     },
     {
       "path": "instruments/AUDCAD/events.json",
-      "bytes": 274410,
-      "sha256": "3b560632cca2c5ad72b692258050f958f4ff5fee72fc931fb73e5b37b70a195b"
+      "bytes": 265534,
+      "sha256": "bd5bff4978783c2469a035c0857546b9696c2d42a29cf120fc7663e9ab23e388"
     },
     {
       "path": "instruments/AUDCAD/liquidity.json",
-      "bytes": 15466,
-      "sha256": "2ba63e95331c7fe9145582d28c6782eec45b9557049bd82d3af66c862485d2ce"
+      "bytes": 14917,
+      "sha256": "98e554798c658dc841aec242a2d4412ec4425ebbba9c8824d96fd8490ea5f664"
     },
     {
       "path": "instruments/AUDCAD/poi.json",
-      "bytes": 324440,
-      "sha256": "693707517457b171d186571f1a2f82be412ccb8fb07cd03890dbd0615bf8bbae"
+      "bytes": 313762,
+      "sha256": "eb3a34b0cd8ddfd79af55b3ce73f1fdc6e3197838eaec8df9986ad54411c33f5"
     },
     {
       "path": "instruments/AUDCHF/analysis.json",
-      "bytes": 322475,
-      "sha256": "e381e2b6f0b538a756264d45cb6d514d8a0b48441d02dce91117efffca879f68"
+      "bytes": 311980,
+      "sha256": "a89ec8a480dfae711d2cf4f10093b8cca395737b3445039739edecbf1e1fa3df"
     },
     {
       "path": "instruments/AUDCHF/analysis.md",
-      "bytes": 6922,
-      "sha256": "9ce0ddb00440f903566fa7095b5ee7ac73e550af7210f42e5c16bcd06c62d9e6"
+      "bytes": 6847,
+      "sha256": "b725001fe9c0bdff5e11c80d1a75b8fdad0e0efba87f1ebf026cbc1cc79c9cb2"
     },
     {
       "path": "instruments/AUDCHF/chart_objects.json",
-      "bytes": 240593,
-      "sha256": "24ceb4a3ffe9eef9398cb52da0bdb77022bf5d9a9f13d626807945a03e6232a2"
+      "bytes": 232299,
+      "sha256": "2c677042c1966b75266824463f8cd50c687006a2d16884e2be96e82e7c65100d"
     },
     {
       "path": "instruments/AUDCHF/events.json",
-      "bytes": 264746,
-      "sha256": "bfb8074d39b0e8c89578f7ecc343539e4a5e09c9caeaf78db79644d4f92f2410"
+      "bytes": 256148,
+      "sha256": "ec74962377e0c43de55eef933fc792811d70c3e87e4a8cc0ea42b699c68e7db8"
     },
     {
       "path": "instruments/AUDCHF/liquidity.json",
-      "bytes": 17422,
-      "sha256": "69147444a9f87da0f993fb5cab3617b11252c399047503122e4c546d7dd97090"
+      "bytes": 16765,
+      "sha256": "bdba68452e5e9c84007612ea675463ba4184f8e983a91d0985b3c1a55f3a5023"
     },
     {
       "path": "instruments/AUDCHF/poi.json",
-      "bytes": 342237,
-      "sha256": "6f2059df4d8e8d206d26c1f3fae679b795e6a902167ebe0e76d6a4b2aae11681"
+      "bytes": 330995,
+      "sha256": "381c651af0f047a80ec68bd226027e215264d366f4ed236f82a443b0a42b3004"
     },
     {
       "path": "instruments/AUDJPY/analysis.json",
-      "bytes": 309655,
-      "sha256": "4d88c2d0003fba74a8ef4bb8148557f94785773a4cb0c12bc05c2c4e68af199d"
+      "bytes": 299532,
+      "sha256": "e0b73baf5ee33c6122fe23a0e7b183242b21d380b91ac1344daa7c7d5513f300"
     },
     {
       "path": "instruments/AUDJPY/analysis.md",
-      "bytes": 5382,
-      "sha256": "9603c50a1e356de0114e65d5f1a8d1f1af32cef2b59d296764c8c455bd7e6826"
+      "bytes": 5307,
+      "sha256": "52620e7bd2c3ed7042a21f1edc149bb04d4988570c406c9e8ba9168a3e1b0c81"
     },
     {
       "path": "instruments/AUDJPY/chart_objects.json",
-      "bytes": 237228,
-      "sha256": "6c071dfc5721ddb33bcad3899f45a707a3c6c5423f73c88d971495899726cfaa"
+      "bytes": 229032,
+      "sha256": "b4dbc502b48e4078c76071c253d7e1d227811de7d56574230aee2795f65a9566"
     },
     {
       "path": "instruments/AUDJPY/events.json",
-      "bytes": 262685,
-      "sha256": "426a309e4540b507988591c7fea7185978641240ac778565f3505f0392d10450"
+      "bytes": 254044,
+      "sha256": "1d09c6d3b5c793d37acd88ac16431cefb4d428b03f21d657b78f8a93ef623998"
     },
     {
       "path": "instruments/AUDJPY/liquidity.json",
-      "bytes": 12691,
-      "sha256": "514ac0ed13418d18deba36becf9c6a3fd2617e5ca2bd2187218310fc34bc8abc"
+      "bytes": 12250,
+      "sha256": "3823a0c15a67468ca0791fb0ffb2cc235f76a182e8525a5eb8739d492d477455"
     },
     {
       "path": "instruments/AUDJPY/poi.json",
-      "bytes": 331831,
-      "sha256": "63718ef79905723d628c0747d338f30f18f63e01eb1542e43474e94bdebea414"
+      "bytes": 320931,
+      "sha256": "03996a3cc9525a71d25ce89e4c8e06dd44ffe392d5e78e96fe5e00aec42d8d57"
     },
     {
       "path": "instruments/AUDUSD/analysis.json",
-      "bytes": 322224,
-      "sha256": "e2083ab9eaedbb1e45c6d7bb51995d48e309d32d4dc72521487463f4687d460a"
+      "bytes": 311765,
+      "sha256": "8d5ecfd4caab6325cde55ef494f4ce2b199b69707ddaedeba1e4a49488595da1"
     },
     {
       "path": "instruments/AUDUSD/analysis.md",
-      "bytes": 6408,
-      "sha256": "05eb117c825abaeff477cd9508224cf06ee63ad46a1555829da476acdaa5a7e5"
+      "bytes": 6333,
+      "sha256": "70a6e1f7ed87ed1ca337649c6da48e1d0d9a7c1481e3a2e53da738a62b143104"
     },
     {
       "path": "instruments/AUDUSD/chart_objects.json",
-      "bytes": 231171,
-      "sha256": "d729c97fb5cb3df4ec4dcae7b03e8df6ee6eebd995524ab03a266e80e097802d"
+      "bytes": 223177,
+      "sha256": "1101604e470e9d8c17f9896193879db9c9430a64f365be0974ee2bfd3100ec55"
     },
     {
       "path": "instruments/AUDUSD/events.json",
-      "bytes": 266392,
-      "sha256": "60301f1e25205dd3d8e8fffef3b7998fc2ba01124818a66a2a55932d62c8407d"
+      "bytes": 257761,
+      "sha256": "433695d5f2ba7edb5de645a998239f1970d17791cd12d28c81fa268bf3d8792d"
     },
     {
       "path": "instruments/AUDUSD/liquidity.json",
-      "bytes": 16459,
-      "sha256": "8c7c1af4b955750cb02003b5ade8a29584c7081e6014adf1ce178f991770486d"
+      "bytes": 15856,
+      "sha256": "d8f9c1c69a18f6a48f8ceb59c4a828efcdd8cbe128e3211c59dcabcc94f7d1a0"
     },
     {
       "path": "instruments/AUDUSD/poi.json",
-      "bytes": 330723,
-      "sha256": "11fdbba0169dd0c4e80c3c5ea4b83d888c8c0ac96760377d9b8c23fa64237c61"
+      "bytes": 319838,
+      "sha256": "623512d5641f75f8aee8a54f1e3462988f306a5f8e7d642bf95d71eb419f9d0e"
     },
     {
       "path": "instruments/CADCHF/analysis.json",
-      "bytes": 253438,
-      "sha256": "a3bc1af11b78b73c11068bec9fb012a5b68e1b38420a923b1d6936eaad1ca624"
+      "bytes": 245125,
+      "sha256": "2c552ee8546383c087eb75e0448a81c0e94bbc11cacc70cb64cf0653c1696162"
     },
     {
       "path": "instruments/CADCHF/analysis.md",
-      "bytes": 5502,
-      "sha256": "c01153877706cf91d7ea000bced0f14bc9576ceb377e1945635c8311193daa2a"
+      "bytes": 5427,
+      "sha256": "6c8d6fbf000741c596d223489fb9121a2d90e44c8934f230d6e205a57de1d76f"
     },
     {
       "path": "instruments/CADCHF/chart_objects.json",
-      "bytes": 219403,
-      "sha256": "c1fb22085b684bed69307bb27802476e1836e0e003cc57a90c37843996ddbae8"
+      "bytes": 211847,
+      "sha256": "80396d9470842457d4ab4500e48ab7ea6b6faedeba8bf502ba6a4a7664a6b4f2"
     },
     {
       "path": "instruments/CADCHF/events.json",
-      "bytes": 208239,
-      "sha256": "a123aea018e79323d686eeee8713f261d63ee030c5ca2958c736899f0eae2a6f"
+      "bytes": 201471,
+      "sha256": "26d46c17146fb2d4cb15049ad2ffa0559af667340c686049f7340a81b7840ed9"
     },
     {
       "path": "instruments/CADCHF/liquidity.json",
-      "bytes": 10676,
-      "sha256": "e700ce133602d40efd776d137c7da42e397273e23b551a2dc5e0c1c07c81d8a5"
+      "bytes": 10289,
+      "sha256": "671d27a8bca6b1f135ab25d649cfcf13ca2bd616e679195e17281acbd143c0e5"
     },
     {
       "path": "instruments/CADCHF/poi.json",
-      "bytes": 314000,
-      "sha256": "65903e6eae6b9879563517f8708894a46d41dee12aa303ff2aed43d3bbbd03d6"
+      "bytes": 303676,
+      "sha256": "af49238a9c72ab0577d1b034fd7eac4339bb0d99c3ed99d9314ecb8b22b62097"
     },
     {
       "path": "instruments/CADJPY/analysis.json",
-      "bytes": 314210,
-      "sha256": "34ca7cc3f5b9fab678b38bbd38307d6cd3950cd7df43c78b70c902f205e7ef4f"
+      "bytes": 303995,
+      "sha256": "7a8f6a0107e363139c3f9044205d6c521693d7d1ddaf041a957028ca3859e193"
     },
     {
       "path": "instruments/CADJPY/analysis.md",
-      "bytes": 5897,
-      "sha256": "4a2b6d173e234883b236c1ba0d94c487978152e779c9c3c8f57ebc2ac9a257dc"
+      "bytes": 5822,
+      "sha256": "07d51178c088a6f836e9be40ed36eed109cd03b208f595eb1f729c78132dac9d"
     },
     {
       "path": "instruments/CADJPY/chart_objects.json",
-      "bytes": 250882,
-      "sha256": "b7d7bc5f26ca244a9e1e34f098077f428157f3797d05e70d1b468810a75872a1"
+      "bytes": 242232,
+      "sha256": "1523fb0ec6b040bc312d83ca0f5f0d8307e3ba66491ea6fed7f335d405269bd3"
     },
     {
       "path": "instruments/CADJPY/events.json",
-      "bytes": 261841,
-      "sha256": "8301b8ee365c135d4121bdf5a52baa178906bf60ec0649d17bbc5a9a735b118d"
+      "bytes": 253327,
+      "sha256": "cadafa3ef97bad31e13b2f8ff2154a5d683710ac65209146b40a27751ca963ca"
     },
     {
       "path": "instruments/CADJPY/liquidity.json",
-      "bytes": 16067,
-      "sha256": "9d830dfaafb33050766624444ce98a0ea6a7ea930fccc2736d269b0e15d9934c"
+      "bytes": 15500,
+      "sha256": "dd78905db35019fe0a2fef22344cd8f1cae2bda1a662707c5424356b4241f4de"
     },
     {
       "path": "instruments/CADJPY/poi.json",
-      "bytes": 352077,
-      "sha256": "83222d7dfd87aa490bf4ebcf0c03f7e1d8005b2a53bb44e2ba68df64f1f92d16"
+      "bytes": 340521,
+      "sha256": "9dde03a941cb1e84319f0321395008e87f2021096a0a2a5e6e895ea5b788fe65"
     },
     {
       "path": "instruments/EURAUD/analysis.json",
-      "bytes": 365395,
-      "sha256": "e25a671c339b8470e3da970673d0e822b4fd8b74cde07e0a9aaea92d424b68fe"
+      "bytes": 353769,
+      "sha256": "eda709316ea5f28e6b0e56c87e08e23bbc9cd117cfe454f0917a17a895ac35dd"
     },
     {
       "path": "instruments/EURAUD/analysis.md",
-      "bytes": 7069,
-      "sha256": "290acb89dde8f3ad78ce76515665639f333f0682e951e9c502ae95a39715fe7c"
+      "bytes": 6994,
+      "sha256": "7e74716541b59cbbda9946b7bd89fca83255e35e2f6b64fd00ed5eb3e6304b11"
     },
     {
       "path": "instruments/EURAUD/chart_objects.json",
-      "bytes": 234674,
-      "sha256": "40ae46e18f5869bf4041e3b4a95b7c7d6ff68c4ddf329019856927b075c6e409"
+      "bytes": 226666,
+      "sha256": "de477f878fceb322484cec54d700f105b3e5051b6fe59030768cd5428540e57e"
     },
     {
       "path": "instruments/EURAUD/events.json",
-      "bytes": 312902,
-      "sha256": "8bbced5e313c1149a08a66a45c4215d62c3681ac68794e2827881db1c7ea7ea9"
+      "bytes": 302871,
+      "sha256": "788c09adf5a4202627f2de7f521d02e80cc27871bb479d68da31bfcac833d057"
     },
     {
       "path": "instruments/EURAUD/liquidity.json",
-      "bytes": 18429,
-      "sha256": "b2cd245442c02646bd861428bce84169adb3b735dff70c59a4265c743d4d06ba"
+      "bytes": 17736,
+      "sha256": "55338a9d8d2dd4d8e45ccdaa7a4246879e52f283a6e79746b834656082e17df7"
     },
     {
       "path": "instruments/EURAUD/poi.json",
-      "bytes": 335693,
-      "sha256": "d8dd071b4e12a6edac21933fef7b074c44e4a24fa91327bdd27c221751e8b11e"
+      "bytes": 324784,
+      "sha256": "33409d8672ed2deeb812bcb5aa1ff7284e8ee9fa041af77da6c2274b8de90054"
     },
     {
       "path": "instruments/EURCAD/analysis.json",
-      "bytes": 284571,
-      "sha256": "93f045e5cf9fb6d8a3aebd765e2fa2cb4692094794df14484ef482973c604ec1"
+      "bytes": 275479,
+      "sha256": "f70fc7d2b022ed082075c7e01815a86b768baad7e3f56405c7139d8beeb37672"
     },
     {
       "path": "instruments/EURCAD/analysis.md",
-      "bytes": 4904,
-      "sha256": "df9665045e79476b2d28106aa8091dd4d21f50f4c31008295d71c405e8657a3d"
+      "bytes": 4829,
+      "sha256": "1151580705d0f85c4826bd212ea6c49962331449c2bca0fc8a449068c3cb869c"
     },
     {
       "path": "instruments/EURCAD/chart_objects.json",
-      "bytes": 229231,
-      "sha256": "abd48c2f387beaa7ee2ab4c1d06440e00be0fe51614719094160cbda533bd9e3"
+      "bytes": 221405,
+      "sha256": "97c2eff733ecc0287a797b23493d3988ae3c0a16943e5baf50cb4edffce176c6"
     },
     {
       "path": "instruments/EURCAD/events.json",
-      "bytes": 243065,
-      "sha256": "93ae61af1af236c63aff67c5bac10fc56d9526cb9703906848bbe97e38e5d493"
+      "bytes": 235275,
+      "sha256": "3c41e29a228cfe13b18359c69259184289887c07fc4f6f1600a012630a5eb44c"
     },
     {
       "path": "instruments/EURCAD/liquidity.json",
-      "bytes": 9923,
-      "sha256": "fa5ac5c48d05e1dd34d39721925804881a402269e5702db7286f8b0304ea1146"
+      "bytes": 9590,
+      "sha256": "9c8f4a432e5bb30f5354f76bc3321461eb9aac626ed89ec9727fe4ec8923d42b"
     },
     {
       "path": "instruments/EURCAD/poi.json",
-      "bytes": 322625,
-      "sha256": "5e3820f83325c466925226a117a1d91caab3ff4952957919248ffed1088383e6"
+      "bytes": 312131,
+      "sha256": "ef2f8088acb0a9fd1fc41bc4ea59e60213b49228ad4d74b6a47963fb7315c9fd"
     },
     {
       "path": "instruments/EURCHF/analysis.json",
-      "bytes": 298345,
-      "sha256": "ba261b173c6d349d5ba695fad398911a6ee7a6fe5c95fa4469db7a0096493d74"
+      "bytes": 288711,
+      "sha256": "bbc1e0f7909ccac0df567292201f2ed3a42bd4080a1d840c1a25f23ba67034f3"
     },
     {
       "path": "instruments/EURCHF/analysis.md",
-      "bytes": 4886,
-      "sha256": "8333c73c7cfb66b34d221d34d12e0a7652e94e624b29b2e5e99d779e147d0ac2"
+      "bytes": 4811,
+      "sha256": "6e44c92d02041e997b8b18eed476463fb14d24426e83cc9cae8257925d385098"
     },
     {
       "path": "instruments/EURCHF/chart_objects.json",
-      "bytes": 210436,
-      "sha256": "67956391efcac7d8d7c19cdd38e1b5514100f4ce36c56d331d74f7c6d79b001a"
+      "bytes": 203182,
+      "sha256": "2011974527b55b25a48cac5e07a0064581e9b59e51640c537bdbcb1ccddc643a"
     },
     {
       "path": "instruments/EURCHF/events.json",
-      "bytes": 260338,
-      "sha256": "fcc8fd5d01b10fe166d52b6845e8f4c1020130fb2f770f23acd95e7b6d4b321d"
+      "bytes": 251892,
+      "sha256": "ecb617346b621670deba264c2a5def49dd49bada0f8d32b5e7bca5e239aaa946"
     },
     {
       "path": "instruments/EURCHF/liquidity.json",
-      "bytes": 10474,
-      "sha256": "259e41eb5eda680f78f0ffa7b1f74ec8685318b2f62c3c4702a8854987855138"
+      "bytes": 10123,
+      "sha256": "bb762854f9f55a671871e53030e4fd31cdb5d13582453f3b0eac7faba5c99e81"
     },
     {
       "path": "instruments/EURCHF/poi.json",
-      "bytes": 306289,
-      "sha256": "2b9cd3521aa86057ff49716588f1f8662399caa1f49950c38b8e08ff123386d7"
+      "bytes": 296213,
+      "sha256": "d12c0179de02ea756438ea3145e1e9d08e2926b1dbd6275c1a620ca40c17a34c"
     },
     {
       "path": "instruments/EURGBP/analysis.json",
-      "bytes": 286516,
-      "sha256": "ca401d8c25ca51651ba037fe50144d401943e2337a880b479bdb82c12b997fd2"
+      "bytes": 277244,
+      "sha256": "e159c91e90bd7121a4ceb6ff499c356e64e7fadaf185490f339e67483bfb6656"
     },
     {
       "path": "instruments/EURGBP/analysis.md",
-      "bytes": 4753,
-      "sha256": "ec65c42d6ed6da2528ab034bd71b7509e2b45edba7e08b5b5a69dcf4201ca6bf"
+      "bytes": 4678,
+      "sha256": "6d52172cdb562baef68def27a388ad9f9dc8302f7b781cafae4ac8de196ed79a"
     },
     {
       "path": "instruments/EURGBP/chart_objects.json",
-      "bytes": 185875,
-      "sha256": "9f08fbb7d3aa9c7bfc2e920bb93034e1a191ace872b50c3ff538913c2575db30"
+      "bytes": 179461,
+      "sha256": "1fa1f93225c37dd99997a309f673150cdb6b616e732ef3f27458fdb99500b705"
     },
     {
       "path": "instruments/EURGBP/events.json",
-      "bytes": 241218,
-      "sha256": "3437508c67309d81999cafbe5893da41358a5c9e3a56a77df38e0451c0149f24"
+      "bytes": 233361,
+      "sha256": "8056c76c2ed6345dfa75486fbb98236630c9da3ff55c2e2d683cc9349bb59d77"
     },
     {
       "path": "instruments/EURGBP/liquidity.json",
-      "bytes": 12498,
-      "sha256": "d18e3b06f126c116aa8e9d8d4b7a63e666e1c40f87ab0b62af78bf553807ef50"
+      "bytes": 12093,
+      "sha256": "3b9bbd0c334e8eb8ecb69b97f190610b58cc43b4ebca6a9ee11b9bec461e4bcb"
     },
     {
       "path": "instruments/EURGBP/poi.json",
-      "bytes": 261525,
-      "sha256": "a2e29d3f461d0df24482300f5607d6417a21ce1e4b0ff3d1634a3abc692f375f"
+      "bytes": 252941,
+      "sha256": "0894b284e0bfd5257c5bdb27726a2e10f3759d871a75db648da762040f0b1c2d"
     },
     {
       "path": "instruments/EURJPY/analysis.json",
-      "bytes": 378531,
-      "sha256": "faa39c120ec5d65a4813700dff68a3298b214f23e37b0b655aecdb7edbfaec0a"
+      "bytes": 366294,
+      "sha256": "b76baf6c9a2ed0c9a28aacf80663b0d629ae4e0ddb620cad6f4466f15be082da"
     },
     {
       "path": "instruments/EURJPY/analysis.md",
-      "bytes": 5568,
-      "sha256": "046139ad860380a22cd97f53911091cc29bc072623164c0d71b743605e281fe6"
+      "bytes": 5493,
+      "sha256": "c85852e132af70750ddbbf4c669f75578403a2db36cbe3fc976e32d157a310fc"
     },
     {
       "path": "instruments/EURJPY/chart_objects.json",
-      "bytes": 245932,
-      "sha256": "02932f8d4f692c31b79efe149c47c59e5d4611d70ed3e4145406500bc7551834"
+      "bytes": 237438,
+      "sha256": "9d39fd329c13f31a22eff56fd2c0c7dff289164d372d912fb5b6f77e818170b8"
     },
     {
       "path": "instruments/EURJPY/events.json",
-      "bytes": 330457,
-      "sha256": "506e4ee05ac298c28ec2a1ea71fafe65a56daea144ff6cbefbe5dcc7187f5785"
+      "bytes": 319631,
+      "sha256": "dbcb8860f2290fdebb4d23a22464bcb794d656a3d97c8bca5011b65abc44639c"
     },
     {
       "path": "instruments/EURJPY/liquidity.json",
-      "bytes": 13707,
-      "sha256": "bb5493c39d04075568885d786cbdb9200bbf83b0a9cb4585ebf116be03a42045"
+      "bytes": 13230,
+      "sha256": "9e631957e5744d35d13710e39d5f45d2fe6c71ccd2cfcaa0d6c06d8d9818d332"
     },
     {
       "path": "instruments/EURJPY/poi.json",
-      "bytes": 351029,
-      "sha256": "1da5f6f8f6d4b0615dfcd6f09d8166139e4b9766bfbf25b0e3abbf129c48a724"
+      "bytes": 339505,
+      "sha256": "3d216dd8c113074d68a28670aff7d75676574a532961dfdbb74516e20b6e90aa"
     },
     {
       "path": "instruments/EURNZD/analysis.json",
-      "bytes": 334752,
-      "sha256": "60b8112c64a27010eada13cf0092d6c3dc6b8abeb40e9a5ada059613148d7c8a"
+      "bytes": 324055,
+      "sha256": "170008a0b81b89643b9bf4dc13a4becb6cfee6b06f000cf09d1317a0aafb87c7"
     },
     {
       "path": "instruments/EURNZD/analysis.md",
-      "bytes": 5275,
-      "sha256": "309566d90ff18790b8d556e59a64e5a95c6e4c109a155355b6555bb4f4d3c6c3"
+      "bytes": 5200,
+      "sha256": "59133318b85b3292dd3238f47e8c67a51f08684362021801fe8fe6acbee0201d"
     },
     {
       "path": "instruments/EURNZD/chart_objects.json",
-      "bytes": 213783,
-      "sha256": "635de2b953ff3c8a832820036bad39e5e3fcb7c763b949f4d9a30fc5699fcbd9"
+      "bytes": 206469,
+      "sha256": "e0f62acdcb3e5a22b2e9a42caca3524705406b9cb23cdc681123d5c1bebcbd68"
     },
     {
       "path": "instruments/EURNZD/events.json",
-      "bytes": 286503,
-      "sha256": "4f5547b175e01d7a682840f91ba6e3af56391923487e3f3677508af36f207992"
+      "bytes": 277273,
+      "sha256": "196095a12b5e95e299d8a7f1266ad7dd3873e069977b81a7662755f78d2d358d"
     },
     {
       "path": "instruments/EURNZD/liquidity.json",
-      "bytes": 13471,
-      "sha256": "ebd9fc55f89c18db343635fe7e2d414779802e1c8e42649309d6a4c519274b85"
+      "bytes": 13012,
+      "sha256": "2ff798f5712b0608b47a10890728cc97bae1da5be8c94a415b3999eb727bdddd"
     },
     {
       "path": "instruments/EURNZD/poi.json",
-      "bytes": 304448,
-      "sha256": "98af1ce37264a9ca6b4575bbe3ce703f75bb59e09b13da1040bff53613ae3ad9"
+      "bytes": 294529,
+      "sha256": "f68995b60f6922469b9212d1e8cc3dcb2cef050342cfb62c21131dc41af4cb84"
     },
     {
       "path": "instruments/EURUSD/analysis.json",
-      "bytes": 331449,
-      "sha256": "665d9dabfd73299e067d1e1644ba55542047ccfcb37d5b48fab47ff5ec99f4be"
+      "bytes": 320755,
+      "sha256": "b4ab4dc0e8ee5277651084bee2dae51e8a6e202128da89c6bd3f6f6098135910"
     },
     {
       "path": "instruments/EURUSD/analysis.md",
-      "bytes": 4260,
-      "sha256": "4074cb9f3686867772f75121830ae22915b0f1a4faa61969ca93ba8aced8ece9"
+      "bytes": 4185,
+      "sha256": "cc403db59218868e69aa1fa3dce1a7d0e0ee95cba1c63dd9236761882563f7f2"
     },
     {
       "path": "instruments/EURUSD/chart_objects.json",
-      "bytes": 249243,
-      "sha256": "2a22993080948199d5ce361b810b36954324130b7f36830af0f65e86e54c256d"
+      "bytes": 240655,
+      "sha256": "b402b17f27a88f696545f61c64d9fc0eee11046e210ba825acebeede23a533f7"
     },
     {
       "path": "instruments/EURUSD/events.json",
-      "bytes": 279131,
-      "sha256": "003ff17334cc1558f93dbadbd66db14555e8fdaaae8b2476f115ef1efeacd2ee"
+      "bytes": 270100,
+      "sha256": "734eabdce92207c9fe6e86cd4e0512f785383ff6395999235f2d8d8a1e80f06b"
     },
     {
       "path": "instruments/EURUSD/liquidity.json",
-      "bytes": 7929,
-      "sha256": "14ec42bcabbe7024a269ba6ed91b268fb2803bda91c6f9aecb5ca189bf93cd90"
+      "bytes": 7688,
+      "sha256": "516832b4de12217cfa07cc2713ab522efa1954c0acd65a04aadfe969fbac0512"
     },
     {
       "path": "instruments/EURUSD/poi.json",
-      "bytes": 356966,
-      "sha256": "a8a73b2ba61904e865efba1cfeae62d86a99ae667d68f1da402c5164ba776621"
+      "bytes": 345251,
+      "sha256": "3512797c3396e6e9b902cc6efc2b361fdfb01b4b0ee37c098ad0cc416ea243dc"
     },
     {
       "path": "instruments/GBPAUD/analysis.json",
-      "bytes": 376524,
-      "sha256": "a7482e4dcaab00e529aa819fae2771b5ffedf9bc664a85196934fd7425cf2faa"
+      "bytes": 364614,
+      "sha256": "d97c0533ee8e3dd8a5ca363747ccdce7867241ff0f4bfcee036401d8c455b75e"
     },
     {
       "path": "instruments/GBPAUD/analysis.md",
-      "bytes": 4772,
-      "sha256": "02a1dce3f6884a6705407e75b8002c30187db9cb422466edaab4feb1b4c3e325"
+      "bytes": 4697,
+      "sha256": "5b5e76d26de5262aa9a5607cdde8ea4b92184ac95044deee94f0981b117d2429"
     },
     {
       "path": "instruments/GBPAUD/chart_objects.json",
-      "bytes": 230768,
-      "sha256": "9eae15c3f444dfeaf61a46cd124faae18f25f50f31913982d280bb817a76e488"
+      "bytes": 222878,
+      "sha256": "7f1feaee4aeb44daa09f10e1054424ae48d69b9d11cbcfee3f076bc9ff7b77d4"
     },
     {
       "path": "instruments/GBPAUD/events.json",
-      "bytes": 325995,
-      "sha256": "97d12bb91ee2db05ed7b1981d45e316c77da8c35e334d5470a0cda4f499a3166"
+      "bytes": 315562,
+      "sha256": "252661e4d122b7b94b40c6d3e6afc0d6365f35d2cc2dd05c43d62edf80a184cc"
     },
     {
       "path": "instruments/GBPAUD/liquidity.json",
-      "bytes": 12497,
-      "sha256": "d1b507441ecd30791de48ba974b956e0414ff8333526a6e074d2922e35051a7d"
+      "bytes": 12092,
+      "sha256": "78d6b2b14cd1b8c6c46b649a0236d597eb4448ec69dff69fe8bdb33d5da57f91"
     },
     {
       "path": "instruments/GBPAUD/poi.json",
-      "bytes": 334746,
-      "sha256": "bb1220d5a428679dc66ecc37b4df3910c2cad8c7a3ffcbcae94f84767f83f6cc"
+      "bytes": 323842,
+      "sha256": "916d9b216d0e9379bac3aeb898ef89f09a115d1a2b94c46c50e6e9b4c253819b"
     },
     {
       "path": "instruments/GBPCAD/analysis.json",
-      "bytes": 217129,
-      "sha256": "7effa9661ff79e448b7e5eb6163d88c3ba3f8b7f29850f42acbd149af0160716"
+      "bytes": 210070,
+      "sha256": "d6627b349987e6557f4b9498f668879909cae4caf7fefe167de5aa064446f171"
     },
     {
       "path": "instruments/GBPCAD/analysis.md",
-      "bytes": 4771,
-      "sha256": "55b79b1c1c38c08db42c3410e017b18e2547d8bd988563149fcc1ce6705901de"
+      "bytes": 4696,
+      "sha256": "3b31e1dd283fecd49c1367c4ae9e7a60abbae6f52e992100cd9e19631f6d1651"
     },
     {
       "path": "instruments/GBPCAD/chart_objects.json",
-      "bytes": 205233,
-      "sha256": "2a5161603810746920805512d51157ff4d89040b99fae7ae2d191b0310846aa0"
+      "bytes": 198237,
+      "sha256": "229734e9ec96ef1e0365887595fd20b6bd0dba675d9edcb61040d373be7de6db"
     },
     {
       "path": "instruments/GBPCAD/events.json",
-      "bytes": 178014,
-      "sha256": "4c1ffa0ee703df89a2181e244714b3d602e5b1df6373a3626f71cd420286d624"
+      "bytes": 172276,
+      "sha256": "e29ccc85c171bd0c212db2db98b271769dc9b95a6faf1666a383d8342a467afb"
     },
     {
       "path": "instruments/GBPCAD/liquidity.json",
-      "bytes": 8916,
-      "sha256": "888e4dc63fa121c7e130e6f0ffc99da8c3819b88f042dc3c0297070de8b4948d"
+      "bytes": 8619,
+      "sha256": "663ce30d911d1e5ef1ffc58bcfcfaf9c9ed55754e141933e0c9a6efbf8213f25"
     },
     {
       "path": "instruments/GBPCAD/poi.json",
-      "bytes": 285981,
-      "sha256": "ee0d8ac2d60923335ed6b90d7e5af89cfbbc08b55daa212cd2f9b1c7592d749a"
+      "bytes": 276674,
+      "sha256": "2641ede77fcc5438dc5599f52ed1d6b28dd5399ebdcc88c71cab0ae544183402"
     },
     {
       "path": "instruments/GBPCHF/analysis.json",
-      "bytes": 282387,
-      "sha256": "235ffc1796b1f8c32e79204a86495b4d7a6fd65b4b75ae10613db719049c0622"
+      "bytes": 273213,
+      "sha256": "ac386b80657eaf45a50dc3d6183c0315b0c3fe84e99d77dd6bd47b9173d4aabd"
     },
     {
       "path": "instruments/GBPCHF/analysis.md",
-      "bytes": 6566,
-      "sha256": "abc866eca025f787fb665c280e6724f126f6539a77ba3f0aea667af6ae5bb259"
+      "bytes": 6491,
+      "sha256": "405973e9ac24d07d91c945c8fc338524b18754db313506c2a80bfbb4a696da22"
     },
     {
       "path": "instruments/GBPCHF/chart_objects.json",
-      "bytes": 208786,
-      "sha256": "9de2c1cd62d678623304f5a0eb21053bc767a6c10878551fd7ffe203ca61d49e"
+      "bytes": 201596,
+      "sha256": "92a880732a0356de1741584af280a98bd63720885e78cfb7cc8771edd0bdf064"
     },
     {
       "path": "instruments/GBPCHF/events.json",
-      "bytes": 238457,
-      "sha256": "5101dd7989e24305c5569918bbef8f051ecf30adf88190f0c06de03c8e59607e"
+      "bytes": 230722,
+      "sha256": "65011d520e06be414517bf3c51d0a5cdf2773c2506c0ab738ceb70f90c2cc805"
     },
     {
       "path": "instruments/GBPCHF/liquidity.json",
-      "bytes": 15650,
-      "sha256": "0699622ed22df76ae16991a9fcd717c85737e34d3b6db2935509d56d93ca83ab"
+      "bytes": 15065,
+      "sha256": "cd9ee880c26fb87cb940f8911392327ecea061a0b941a45273504a259f59ff49"
     },
     {
       "path": "instruments/GBPCHF/poi.json",
-      "bytes": 297333,
-      "sha256": "1c4614ee20717959396d78a9b7ceb2240badfe6ecaab193c21f03aa7e6946ae4"
+      "bytes": 287576,
+      "sha256": "8c32f1e1d78f6ff79d9b0208b6ab19bbaa19c946cecffcbee967e26d2014d43f"
     },
     {
       "path": "instruments/GBPJPY/analysis.json",
-      "bytes": 392427,
-      "sha256": "d4a86c884089f3113d7bb46e5573c29e42dae65b1e09a2a04cea5a275c943210"
+      "bytes": 379910,
+      "sha256": "956d964cbc4a36e292723f1082802500e5b7834532fe91b7424a600bda90d63c"
     },
     {
       "path": "instruments/GBPJPY/analysis.md",
-      "bytes": 4636,
-      "sha256": "588d28320ccc56d7c7510ec1bea986e424ed403cf8b373f623be27c049b94ab4"
+      "bytes": 4561,
+      "sha256": "4e21aab4cac2253226dfe20acb6fcaa28ab7db98a48c36d3f2aec87ae5242160"
     },
     {
       "path": "instruments/GBPJPY/chart_objects.json",
-      "bytes": 235811,
-      "sha256": "fde67b31e9a48d5ebfd1c8a9e5bba0f28da6eed26d5533a69f32cd5fbc8613b2"
+      "bytes": 227669,
+      "sha256": "6399c8227e1faf1719edf432271bafa249bdb05ee8278da0c3650ff87e9e0517"
     },
     {
       "path": "instruments/GBPJPY/events.json",
-      "bytes": 348112,
-      "sha256": "c0cb3fb42971e0dfd0e41204fb754341dd839cdd3bac005b30659caee9520d2f"
+      "bytes": 336815,
+      "sha256": "bfd8b10f95037052befcfdef1cf305d724ca3a71a83d26cd01fa4514c809c629"
     },
     {
       "path": "instruments/GBPJPY/liquidity.json",
-      "bytes": 10329,
-      "sha256": "63dbca81a700a5b67835e31172cbfc253c6ab815dd6a428670493370b029ae90"
+      "bytes": 9996,
+      "sha256": "aeaef4d937ad5ca08835fa51345d14e720f47907d245631d80e11c6f816f426f"
     },
     {
       "path": "instruments/GBPJPY/poi.json",
-      "bytes": 339039,
-      "sha256": "5173568d8bc2f4717abfab2378a470abfacccbfda427a122307218989b98ebe9"
+      "bytes": 327921,
+      "sha256": "fc3b76e6e7fe092630212e89588fffe9d2122138442d58b17288648a27f97534"
     },
     {
       "path": "instruments/GBPNZD/analysis.json",
-      "bytes": 272676,
-      "sha256": "d6dc222b1d466435985b4eed8063b464eb3ef4937336a4f80a8fa7e28230ab9a"
+      "bytes": 263856,
+      "sha256": "a9770ae5709ca63e1f303d188d20582ec3cb2c108e986d7d785f77f72ff9a990"
     },
     {
       "path": "instruments/GBPNZD/analysis.md",
-      "bytes": 4264,
-      "sha256": "ddeff08ebb7cd75575b08b58397a1fd8acbe0558bc82fcb7765ab4ed65498334"
+      "bytes": 4189,
+      "sha256": "21454b97709983e833824b207aeb6fa5c21de65e0735d0eaad7cac68bc59877f"
     },
     {
       "path": "instruments/GBPNZD/chart_objects.json",
-      "bytes": 204929,
-      "sha256": "0f82b97121b58e65c2271a9d33ea4acf4b5b07431da3c298aab2f6968e61b402"
+      "bytes": 197873,
+      "sha256": "53616b7541f0a678cf51689426b53b3842db37fc1aa1c54ed923621f7984133b"
     },
     {
       "path": "instruments/GBPNZD/events.json",
-      "bytes": 229885,
-      "sha256": "ea3060339d4b74e60a2c32bb54a1c6725da4499c155e55c2dd36b2ce8c3a83cf"
+      "bytes": 222440,
+      "sha256": "16435b9f2cb80daa564ff14267f4823be9df7eef255f54f2f0b8a60aecbe8e45"
     },
     {
       "path": "instruments/GBPNZD/liquidity.json",
-      "bytes": 13267,
-      "sha256": "ffefd631675a3aaef44b7882a23a8fd25d9c5aa752654036f06d2f72910ce1c5"
+      "bytes": 12864,
+      "sha256": "be3dbbe1bff42774c091cadc21fbf024dec520d39bffbdbc4dae9cd7301fbfae"
     },
     {
       "path": "instruments/GBPNZD/poi.json",
-      "bytes": 285422,
-      "sha256": "1aac0a03a5686de2ac7ea37f2ebd60a917443f2d5a93324fa2d336fe61d705ee"
+      "bytes": 276071,
+      "sha256": "a62ef5e02e45ac7e358ce3b8e2060375849ac7c7d19e44858024c14e5293187f"
     },
     {
       "path": "instruments/GBPUSD/analysis.json",
-      "bytes": 440388,
-      "sha256": "569e44165a38429c09cda8ed60079f94bc4f4cb57cc6c1ac4411486769d53ffb"
+      "bytes": 426481,
+      "sha256": "18142a76d9fba7766f70b8876bca2829d911f235b08a2377a65060e49c928fd0"
     },
     {
       "path": "instruments/GBPUSD/analysis.md",
-      "bytes": 4638,
-      "sha256": "afe3a58dc3b2e09602ce4153eba18ad88eab1163949acf2964b4aa3a74b38c8f"
+      "bytes": 4563,
+      "sha256": "bdb5ade85378ced0b23ac983ed63bef8563e9288db11c47816cdee1684ce2585"
     },
     {
       "path": "instruments/GBPUSD/chart_objects.json",
-      "bytes": 246645,
-      "sha256": "c03265857606f009182300c5dc765912f3a8bb0446d4443c349c54c757e10f1f"
+      "bytes": 238175,
+      "sha256": "42394e812ab6f6acfcc98a0db0ca1af367d36f4f37542af82088c9d10cac570b"
     },
     {
       "path": "instruments/GBPUSD/events.json",
-      "bytes": 394944,
-      "sha256": "6ad2c6dbf3858dc16e208a3f85422f58f0ccce14060bcefa52ca0da613ba9a8d"
+      "bytes": 382233,
+      "sha256": "81750abc69f3aae190e0e116908d3e9f8906cd67f635a3297f453cae946d0197"
     },
     {
       "path": "instruments/GBPUSD/liquidity.json",
-      "bytes": 11517,
-      "sha256": "e4bbfa7affe198382ebebbb37dcac315c65a2cd52e0ae0b428bb4afcd7113888"
+      "bytes": 11148,
+      "sha256": "b2ac096fe74ed83ff5ce8b4f8e9fe900979d96f901855fbfaa0c19810750ba03"
     },
     {
       "path": "instruments/GBPUSD/poi.json",
-      "bytes": 361004,
-      "sha256": "7ad00beebe581f3a0f24a94061cad6e5bcdd939b62540107f56c6ec6a39b1533"
+      "bytes": 349211,
+      "sha256": "11c8d84de0dc4ac40cff9935581d9e0973df5b54b7463ab43930f4c2db953739"
     },
     {
       "path": "instruments/GER30/analysis.json",
-      "bytes": 580426,
-      "sha256": "af47450e47e80df667d8f09147180abc5e700953fbd3da7202687118073f86bb"
+      "bytes": 561837,
+      "sha256": "06aafc2759db6ea6f71db6943ff60e71925e9a130294e6a159ebdc8ce04e840b"
     },
     {
       "path": "instruments/GER30/analysis.md",
-      "bytes": 4387,
-      "sha256": "c8cea23f9480cc509ad17becdda3cd62a3b92ee307fe5915f1c2c0960fc3126c"
+      "bytes": 4312,
+      "sha256": "4d5068d413e8267d33f5957a8a369c5170f7d25766e05f38283d1e7535073921"
     },
     {
       "path": "instruments/GER30/chart_objects.json",
-      "bytes": 328293,
-      "sha256": "88b15c324dcb8081e8d4eabd928d0d5c09829df70bcc7bfd89bd919cec6351d5"
+      "bytes": 317001,
+      "sha256": "62f208b11f4b42796521790eb8bad464d379eb546181103affde3cfaabc9f11d"
     },
     {
       "path": "instruments/GER30/events.json",
-      "bytes": 540102,
-      "sha256": "1961da2bc4ac08df61e0fc63d46cff2ac5037c20e661a82365c6a950e9ca6016"
+      "bytes": 522193,
+      "sha256": "50daf051960bee00a39931a53542ed01b61b4beb3756528f732954a8a0167e96"
     },
     {
       "path": "instruments/GER30/liquidity.json",
-      "bytes": 10774,
-      "sha256": "45971e117657d3a431febe394a2872babec8c1a17ca05f4187304a1427b325f9"
+      "bytes": 10441,
+      "sha256": "398613481830359c3550556ee1f69ca2109648497972848345cb306ae38fd805"
     },
     {
       "path": "instruments/GER30/poi.json",
-      "bytes": 455414,
-      "sha256": "07b9dd3aa271a68e0f4e199152cfad01490f205f75dc799206b01c73b4e270f6"
+      "bytes": 440568,
+      "sha256": "18b05c7f7cf2500ce70437d85275778bf445ac0878a23888ebd0d6cdd7a2ae24"
     },
     {
       "path": "instruments/NDX100/analysis.json",
-      "bytes": 374411,
-      "sha256": "2a1bbc0dc8428aae344a58fca872123cb9f8b5ad23f04f9cc0b3856d0f5ed4e3"
+      "bytes": 362442,
+      "sha256": "f63308834af03bbfb994c55131beeb31f5d9d88442cce35db46e638e86ab55a0"
     },
     {
       "path": "instruments/NDX100/analysis.md",
-      "bytes": 6086,
-      "sha256": "d0ae68a1a3c83974560c9aea46b5c15e9559a1b7a564e8c2125a93a3ebf5bd03"
+      "bytes": 6011,
+      "sha256": "4166b9d7407b9376fd1ee50e274c0b099a5b8f3d85cfad3129d77d463f792378"
     },
     {
       "path": "instruments/NDX100/chart_objects.json",
-      "bytes": 271896,
-      "sha256": "37e6f9ae2e5a34733cbc205a9512cb0fb6f0fb8c3e0c8e170583057e16819a0d"
+      "bytes": 262550,
+      "sha256": "c7772ffbd4037686d85cb17c614c9b39dac5e3bce68b09ef8827ce0ec1db35b8"
     },
     {
       "path": "instruments/NDX100/events.json",
-      "bytes": 327531,
-      "sha256": "bdd3101fbb926928412b0ab20ad6098805928cb4128d9b7b82b8e07905b16ef1"
+      "bytes": 316947,
+      "sha256": "28d0b282210f72f438e7bd7e1ca1d398e17188271019a52e47befd812dd3df8f"
     },
     {
       "path": "instruments/NDX100/liquidity.json",
-      "bytes": 15959,
-      "sha256": "90a38e997a4660f0a85b558c612ff8ae3541f58c2870b0d15bb8188b9a333c27"
+      "bytes": 15392,
+      "sha256": "cfc34af66bc673f6d282b047131f0d59cb563efadb54e6ce831a8f42e2374fb5"
     },
     {
       "path": "instruments/NDX100/poi.json",
-      "bytes": 382396,
-      "sha256": "7412412dca7aa650a09c980d4fcebc27de6c8105d8561ed8921a0c4a21614283"
+      "bytes": 369901,
+      "sha256": "55122b36049584a6a996e81edbc948c66fd0e1e389bafab6e122851ffab5c212"
     },
     {
       "path": "instruments/NZDCAD/analysis.json",
-      "bytes": 345155,
-      "sha256": "e998f49a1e67aa7bf3a514b50d5131f2d3095da834d7f2ea7e632c21409b9c3f"
+      "bytes": 334011,
+      "sha256": "2bbd689a891c530b9d34f7fa0163c5caeab1778f42028def4459770dfd836636"
     },
     {
       "path": "instruments/NZDCAD/analysis.md",
-      "bytes": 4891,
-      "sha256": "130b6b264650e8c5fd3510dc92ef8b467b999a3105dd02e758d6b6f4a4466d80"
+      "bytes": 4816,
+      "sha256": "7837f9e33ef22ef81833185c45b705cd6a7f60d744c92780906cc9eb66c934e9"
     },
     {
       "path": "instruments/NZDCAD/chart_objects.json",
-      "bytes": 215723,
-      "sha256": "ec9e1ea6f8a3b118cb3136b1160fafd6176fa42cf1635478d051f0b02314af95"
+      "bytes": 208285,
+      "sha256": "4a54002d4527ce639e82903cd5d4c5820e66b86aa07b42cdfb2b5ce79addc492"
     },
     {
       "path": "instruments/NZDCAD/events.json",
-      "bytes": 289767,
-      "sha256": "943ac671c81effc1e5d76134ac3280de7a57a35c0df759a9e8f34326ee24ffa6"
+      "bytes": 280347,
+      "sha256": "c28a12b1c3f778dea263f1303194887bbdb7d3f5e3a0bf4627a78cb6122de96a"
     },
     {
       "path": "instruments/NZDCAD/liquidity.json",
-      "bytes": 12296,
-      "sha256": "4cb944a5c12dc8ee9a212232d66793627274653c50c4117e2a8ef8303d24286b"
+      "bytes": 11891,
+      "sha256": "060279e52021043ee84b700b9cf0b32315c1699e52939d8beeb2ef8671528ecf"
     },
     {
       "path": "instruments/NZDCAD/poi.json",
-      "bytes": 309028,
-      "sha256": "b0a06f4041b3b30817825648181c6211ae47fc263e79d266ec6edbd7f5902b20"
+      "bytes": 298890,
+      "sha256": "6f66399f326c477d6d151417f7d20df97c74900eff65d20e7496fb46f40ad159"
     },
     {
       "path": "instruments/NZDCHF/analysis.json",
-      "bytes": 278653,
-      "sha256": "ff804ee17f12957df3faf7794df4bd256ba38468891e58bb2c9594932cae876c"
+      "bytes": 269572,
+      "sha256": "3773753e9e46d2e206da0a74be2fcea69276d79428a5a70bc6153ce884bfcf47"
     },
     {
       "path": "instruments/NZDCHF/analysis.md",
-      "bytes": 5658,
-      "sha256": "79161be1734abc3f867aef37a8e910b345a1c0500a6eab8de48f5a734b4611c5"
+      "bytes": 5583,
+      "sha256": "999b55cff2a8e11f686bec5f43c1eb2e6fd66c7a8c45ccf0224666a2bc05e92c"
     },
     {
       "path": "instruments/NZDCHF/chart_objects.json",
-      "bytes": 207971,
-      "sha256": "83d4914afc22ab276f49d071ad8530fa07ed7e9ed0c8a8521e5db12821662d3f"
+      "bytes": 200789,
+      "sha256": "8feca91030aef0e630471425e6ee4ac65dfcce190d8bb3f789ed214e1379ae43"
     },
     {
       "path": "instruments/NZDCHF/events.json",
-      "bytes": 228239,
-      "sha256": "3b57652da3de59246660302a837c02acb222c48181db8ec4211d59374a5f5a72"
+      "bytes": 220823,
+      "sha256": "3f9abe405e1ee19e62b85237e8a0c90a41a80e577d97734545d217cd4933b67a"
     },
     {
       "path": "instruments/NZDCHF/liquidity.json",
-      "bytes": 15827,
-      "sha256": "b8b6b17583a4caf0814cfcb1db9d959d8f3a087e3da7f66a2d3c753b64bcf91f"
+      "bytes": 15278,
+      "sha256": "b36fb155550e9da038cf8c56873bfb5a901877bcdf06a89afbcbbcc303d3f9ce"
     },
     {
       "path": "instruments/NZDCHF/poi.json",
-      "bytes": 291011,
-      "sha256": "afcaade92e73e176fd6f41a337fd95038730ef5481d0b3f1918b5abcc33f564d"
+      "bytes": 281452,
+      "sha256": "77c7b5a007b2d33c32c8b94b05fd9183bb6ca26ac25ae87b6cac8b60d0e49c81"
     },
     {
       "path": "instruments/NZDJPY/analysis.json",
-      "bytes": 357904,
-      "sha256": "c8931933bcdaa945208d3a197a8e1cadd08beb0953a3c4d4c34b0c5f84afb363"
+      "bytes": 346323,
+      "sha256": "42055a97ca877885b98a2640852b5be8cfd9b1e9674a356ebf8b46be4c84635a"
     },
     {
       "path": "instruments/NZDJPY/analysis.md",
-      "bytes": 5464,
-      "sha256": "e37bd1ad18b3b1f82fc76696fad685d8cc604c51fa319ece8db8244511021d36"
+      "bytes": 5389,
+      "sha256": "35fb82253c18a2655b1a5814286ebef5d88b9ee0b488716772c4a61803ef5396"
     },
     {
       "path": "instruments/NZDJPY/chart_objects.json",
-      "bytes": 240770,
-      "sha256": "a65bd943c1914347873f774ec68f5a3a2a5581b7ab601e2414bfab61f429f666"
+      "bytes": 232426,
+      "sha256": "5ec05e53ff4a286cb87a7efab7aafc3f7f381f0c091e69c52c64d2c7b41af96a"
     },
     {
       "path": "instruments/NZDJPY/events.json",
-      "bytes": 311773,
-      "sha256": "03c65bf84c065e334ca41986b58f8f50299d96908d40e64541231c3132dab878"
+      "bytes": 301586,
+      "sha256": "1d2df6f9be3caf42a64d4b774308b695886aeb91265b3996273c57c4d1f38927"
     },
     {
       "path": "instruments/NZDJPY/liquidity.json",
-      "bytes": 13591,
-      "sha256": "b2c3b9127944ad6c6b4f27c7af53a650111f4193ac962b4fe042ea6e2e79e665"
+      "bytes": 13114,
+      "sha256": "703b9182902f1de424498b58dad1071468c9c259f8e74be377a3a9bdf52832d4"
     },
     {
       "path": "instruments/NZDJPY/poi.json",
-      "bytes": 343911,
-      "sha256": "53fa5b685e847dbcc99cd51aad9e7d7163d71d07bfdf48150080986bb2961398"
+      "bytes": 332581,
+      "sha256": "13f20bc836f5727ecfeb125d60cac180acefb497d4c401e85fc1a4ee66f2c890"
     },
     {
       "path": "instruments/NZDUSD/analysis.json",
-      "bytes": 371567,
-      "sha256": "2aa40660e5b7d08fae16cb5113a792572d99d4d3bce9282b8443449ada10c719"
+      "bytes": 359615,
+      "sha256": "ef3e9ecfbfd4dbec8ae948ad229f70de8dbcc2e23cc204b5c4a0234ac39c908c"
     },
     {
       "path": "instruments/NZDUSD/analysis.md",
-      "bytes": 5286,
-      "sha256": "a28c37626cb2a8941895f014e45028ebac30ecf28daf34e4fa752a87a9e02394"
+      "bytes": 5211,
+      "sha256": "242daf72957da027034b25690b535df449855f978623343a84e6c1c9d17cbfac"
     },
     {
       "path": "instruments/NZDUSD/chart_objects.json",
-      "bytes": 242722,
-      "sha256": "5c8229faa8fb38866859f6c762c95997ef00b8794d1c05949954b4e4a8c7d877"
+      "bytes": 234346,
+      "sha256": "4a6ea8bd6e4f82e05a695b60db534f258ffdfebc96ee84c430eb73e1e58be1b4"
     },
     {
       "path": "instruments/NZDUSD/events.json",
-      "bytes": 318796,
-      "sha256": "fc4125d797b3d6c216cc5993c53c03906a89ee23b6cce498e81c60d7068eaed2"
+      "bytes": 308448,
+      "sha256": "50d4655d505e3e45157e1c3c08bf93a37f626d0455fb5e5791a08ccdf8b2463d"
     },
     {
       "path": "instruments/NZDUSD/liquidity.json",
-      "bytes": 14090,
-      "sha256": "784b17cbf770a487f9c795df55bbec839f18ce449e695369b4d499c582b86af2"
+      "bytes": 13613,
+      "sha256": "ea081ca8775de44db695a5c1f7bccee5a791423abc3a35f9f95a3dae600f4d8a"
     },
     {
       "path": "instruments/NZDUSD/poi.json",
-      "bytes": 347532,
-      "sha256": "d1abf3bc94a54c4471e1f2aca1d0f21bca199b4dca9b79b3ac37bc85d01b6269"
+      "bytes": 336124,
+      "sha256": "9db5f2eb62c34007ec1e561f5fa4a56c945ecf0c9bb576f291bc17c0bb66f2f0"
     },
     {
       "path": "instruments/SPX500/analysis.json",
-      "bytes": 325190,
-      "sha256": "e169fd58bfe42169c84f567ae1be117726b1022cea6dd7433da1521a290ddbe4"
+      "bytes": 314567,
+      "sha256": "df7485c960565f2674a93c71a59d99fbbf2ac8830b8974323868da838fd5ff9a"
     },
     {
       "path": "instruments/SPX500/analysis.md",
-      "bytes": 5910,
-      "sha256": "504fbdee136b0bd470d23564a4ead7ccd4452ee6ccfe368c7d7af78642c625be"
+      "bytes": 5835,
+      "sha256": "330b01eb0a491fcc6733f19bbc370cb3a34fa0fed1bba9211f4c1f8ed87cd58f"
     },
     {
       "path": "instruments/SPX500/chart_objects.json",
-      "bytes": 253823,
-      "sha256": "f48d5196d2aa6e541e24599f382ad920cb50a410f14e932d6a9971269de40fc2"
+      "bytes": 245059,
+      "sha256": "56463b75e917388737b78774f6361379b8eaf8391321832f31c7921226e2f407"
     },
     {
       "path": "instruments/SPX500/events.json",
-      "bytes": 275509,
-      "sha256": "f00dacc3658e9e47ca6a263d96d15389377022436b5c967ee13a529247043fb5"
+      "bytes": 266451,
+      "sha256": "d7d62c66eb8f64f33560ba9d5514d6a2ff13bb438defbd80113e0b8cbc7db614"
     },
     {
       "path": "instruments/SPX500/liquidity.json",
-      "bytes": 13094,
-      "sha256": "54d72f94fe1477c50c487ee2dbbed22cd047e9d9066f4caa62438c4cdece2f05"
+      "bytes": 12617,
+      "sha256": "d7b0c3aa3761dbaa25e79105ae22ceadbea957541d994f1f3ad5cf08321ea5e7"
     },
     {
       "path": "instruments/SPX500/poi.json",
-      "bytes": 357230,
-      "sha256": "1ffbf27f2f19b99a7fd2fda2107dac4804ba26ef7d5158afaf4316e14a00dbfa"
+      "bytes": 345497,
+      "sha256": "817cacd270e2e1b6146ea8fef3de33d6b92dabab887357a817922c9725678fb0"
     },
     {
       "path": "instruments/UKOUSD/analysis.json",
-      "bytes": 357229,
-      "sha256": "e5a3edb0f4e539758536a19639750d112f2d83aa4b8b2c6dfca952e2b8754713"
+      "bytes": 345681,
+      "sha256": "bd98d36e436b9bcd6a4787feb082e252d859dd8a02ae2e586229673c4b09a932"
     },
     {
       "path": "instruments/UKOUSD/analysis.md",
-      "bytes": 5965,
-      "sha256": "b23a471a0b496285bf7f2164aa5ae624862513c278325c3873c677026a5be8f4"
+      "bytes": 5890,
+      "sha256": "bfe858108453da74af1aaf21a65489ad32d3cbe03628d554791f08e7940a150c"
     },
     {
       "path": "instruments/UKOUSD/chart_objects.json",
-      "bytes": 281541,
-      "sha256": "c25fbf6a4879a9acfa88e9ac7971c0d945eb362b7cede3d681e29bdeaa599350"
+      "bytes": 271795,
+      "sha256": "80511b8a941f2f48e620e042cfbca0100f7f7dc887412d8a668e3a0849f74d71"
     },
     {
       "path": "instruments/UKOUSD/events.json",
-      "bytes": 313646,
-      "sha256": "c8fc4b6f731ec3fbcaeda7db31873af9fc7a585ef8f074ae668af9952b88abc2"
+      "bytes": 303411,
+      "sha256": "8778ec387e96123031acd16b82765507d98aa22200fe4e819f2c1069d7c3173a"
     },
     {
       "path": "instruments/UKOUSD/liquidity.json",
-      "bytes": 14574,
-      "sha256": "8e20404379cab5eb1953a7a739662f16e39af4565c745929b579f8aeec526041"
+      "bytes": 14043,
+      "sha256": "b7cd213de52567e96b0ddd48654360bfb0592cbad5c025e799cd8dbb1cccf946"
     },
     {
       "path": "instruments/UKOUSD/poi.json",
-      "bytes": 390209,
-      "sha256": "c12c26e371b86b74ce83f8efa70cae046260e1061e3be1be7850efc32eea817c"
+      "bytes": 377397,
+      "sha256": "d23b36c27c965c8f4433fa2ca1e545bbd734b35c94e71c6ac5e50b8ca23afa26"
     },
     {
       "path": "instruments/US30/analysis.json",
-      "bytes": 410727,
-      "sha256": "18ae1c81bc6014f56a557a955a6d6dfec7aed65627525e8d58c909dc09fc5c24"
+      "bytes": 397430,
+      "sha256": "0efbecac77524623af06829c0f7eb9f980d0de5700b48fe5c5301c984eb86003"
     },
     {
       "path": "instruments/US30/analysis.md",
-      "bytes": 6369,
-      "sha256": "0c9135ffbadee7abbe840e1078e1f84f547d5179c95aba664645d409774a25b3"
+      "bytes": 6294,
+      "sha256": "dfe925869f1a562f1bf3f7eaecaa026db6cfb12bf17053f11a89ffbb35a1b730"
     },
     {
       "path": "instruments/US30/chart_objects.json",
-      "bytes": 264977,
-      "sha256": "9c3548a2b9bcbdd8a57d59c4fbdd0a4e5e02e9a1041ffe9f36a4e58abd16665b"
+      "bytes": 255871,
+      "sha256": "e1c02d469202b44fe20730a20876b786fa7077ea731439c8ad2dd284766107a4"
     },
     {
       "path": "instruments/US30/events.json",
-      "bytes": 364593,
-      "sha256": "1d48d427890f70b4e085deec5ad7ad11361cd4c8356975954461cbdb75b40e10"
+      "bytes": 352565,
+      "sha256": "926520a414fdb0dea65a729840f373a9fd0a761d7afea111052e8aaf15a98755"
     },
     {
       "path": "instruments/US30/liquidity.json",
-      "bytes": 16189,
-      "sha256": "0677347c20601a46b9d656de1eb9f952c8ba17ff9cc9d986aff2cd9e389118ff"
+      "bytes": 15604,
+      "sha256": "17dce2c6f929a29dec9c6759cca031225ff7443f5745abdc863fb6747f04b9e5"
     },
     {
       "path": "instruments/US30/poi.json",
-      "bytes": 374484,
-      "sha256": "a884fd7975d655198076b29079b6d20e288f40426767076360cbfed3eda58288"
+      "bytes": 362199,
+      "sha256": "5f7ee4cd721161e1a7e924620acb3092cedc3da1458e55ff94916e801f651b3b"
     },
     {
       "path": "instruments/USDCAD/analysis.json",
-      "bytes": 287727,
-      "sha256": "3f1bd7f36b9219f16a625774d4b0bf03aa97f37dc3017e2bed03c0d6e5ef18bd"
+      "bytes": 278403,
+      "sha256": "3a40d60f980d83a685b577518e7083f1026eba03edfe01f22f604ae82d8345ef"
     },
     {
       "path": "instruments/USDCAD/analysis.md",
-      "bytes": 4232,
-      "sha256": "7eb9341ecbe28e277899be04fdc1ac2903919691bb0f922f1782af7eca30ef66"
+      "bytes": 4157,
+      "sha256": "5d469249ee951e22b93f8567c7bed3e2538df333ff4a89ca503ca1ce3a6a270e"
     },
     {
       "path": "instruments/USDCAD/chart_objects.json",
-      "bytes": 266946,
-      "sha256": "367e48f34c1b9d4b1c90b714bd579b82bf33767478a771d0e822afb7d1a0fe57"
+      "bytes": 257784,
+      "sha256": "00440d04742cc934adae718d570baecce9c664c1d29c31e0719e6d0c9b65ccaf"
     },
     {
       "path": "instruments/USDCAD/events.json",
-      "bytes": 240620,
-      "sha256": "38b2bae15b73f1160abb9bf68c258319d8cfbd86f9e94ba1f9e260f2587693e2"
+      "bytes": 232858,
+      "sha256": "5a767962ec2585d1df0ec7eea7df8c2798ce82e7e97d4c8cbc6c3a771bad3fb4"
     },
     {
       "path": "instruments/USDCAD/liquidity.json",
-      "bytes": 6730,
-      "sha256": "9f05b5e48b0706e3696c9536b0685881e0c646ee5e18552a52ce145b563abebd"
+      "bytes": 6525,
+      "sha256": "25593603c709504d39c73e44a579e6a76184be699e8f5262ad7fbdb4491f97c7"
     },
     {
       "path": "instruments/USDCAD/poi.json",
-      "bytes": 380571,
-      "sha256": "7d98fbdf8e4e1399aad9005305f0eafa184a0bce861385df291252b672213c73"
+      "bytes": 368110,
+      "sha256": "f10c2f3d8339833e8f1e8f7773652d1e4a15cd5420b3a1bd8983c95dd5566e1c"
     },
     {
       "path": "instruments/USDCHF/analysis.json",
-      "bytes": 346459,
-      "sha256": "0eda07e830179a2fde177ff03c2446d189470eecd756e5f81376eae0e5af86c6"
+      "bytes": 335237,
+      "sha256": "b6f68ee1354a56d56f9118236d747b518367e1015acfb2d62a9f42b2beca0707"
     },
     {
       "path": "instruments/USDCHF/analysis.md",
-      "bytes": 5762,
-      "sha256": "fa06eac41601486e281f458826f698fe6b94989f0175bd0b2079831e4eacc329"
+      "bytes": 5687,
+      "sha256": "73ceebff5b36c2606404aaa4dcc8a74837c93d37d6e7d07b398fa01bce8f6959"
     },
     {
       "path": "instruments/USDCHF/chart_objects.json",
-      "bytes": 252168,
-      "sha256": "20d287dd504207f76041a35ed975e31df30e00a6be537c48aaa03049de7d2afa"
+      "bytes": 243466,
+      "sha256": "8f13995cd7c475a89d0bd5b18c85b1f82d0e1eece0714b1cedc79c46963691d9"
     },
     {
       "path": "instruments/USDCHF/events.json",
-      "bytes": 290477,
-      "sha256": "7516d76db7a97021e306e37f6c8e235674211c0093c128fe095ee10beed8e49c"
+      "bytes": 281075,
+      "sha256": "bd38cf6383ba887b45b6eb291263e16747551cd80683c4d9374b52cb4273f6c4"
     },
     {
       "path": "instruments/USDCHF/liquidity.json",
-      "bytes": 15044,
-      "sha256": "0b4bbcad7ffdaf3b64e142fa292687eec2ad81aac8b447226be61a5dd873dfb9"
+      "bytes": 14513,
+      "sha256": "cd9378fdf7e964b20996abe8908409f8c216af072cc398573d61628032a7d60f"
     },
     {
       "path": "instruments/USDCHF/poi.json",
-      "bytes": 361051,
-      "sha256": "73467bb60274082c75b4ca04f971258300dfdcf18413232f08ba1cab5517ac56"
+      "bytes": 349183,
+      "sha256": "1e6ee1f65b13ddb796335abbcf5cee85122a095bfc0f25309aa57d13a950a9e0"
     },
     {
       "path": "instruments/USDJPY/analysis.json",
-      "bytes": 291822,
-      "sha256": "8cdf6541a188a90efb3d04e9e87e439adc779fd5e55fb7e9069c5bef6678facd"
+      "bytes": 282351,
+      "sha256": "d96f5a883580e292269b49d6f0711cbcb9005c8dba1f5c46dc2354bd364e25a9"
     },
     {
       "path": "instruments/USDJPY/analysis.md",
-      "bytes": 4760,
-      "sha256": "75c6e7fbb2f0bc158917997ff8cf6c39a554a2cbb95f7c068a75f578060f930e"
+      "bytes": 4685,
+      "sha256": "46a845fd2ae0c4d0e24042f2ff6daeebe0b740119a328406defd48ea1abb5a1c"
     },
     {
       "path": "instruments/USDJPY/chart_objects.json",
-      "bytes": 245137,
-      "sha256": "09dba7b6e03ffce07b6c1bece6efce31cd347ed2d3544efd811a06bb3521e6a1"
+      "bytes": 236681,
+      "sha256": "22c247f9197e49c79ace54cde540f0efdb82a45490b36c15dc34e2be1b98728b"
     },
     {
       "path": "instruments/USDJPY/events.json",
-      "bytes": 244933,
-      "sha256": "1c185749c905760976181d292eb4cffc2249c96981d779f34c6a7b3973d40ff7"
+      "bytes": 236970,
+      "sha256": "a90766665ec9720cfba475917eb457381ff1ab75b7fb901b73e7a0937ee3b217"
     },
     {
       "path": "instruments/USDJPY/liquidity.json",
-      "bytes": 8904,
-      "sha256": "911aa9ae8de6e573d7f1cd7ff19b05100832731218c8df8efb2f52448de42632"
+      "bytes": 8607,
+      "sha256": "710b97e21141ac358d73154d3007d1fe5636f39f869f55d474e85b175db11d5f"
     },
     {
       "path": "instruments/USDJPY/poi.json",
-      "bytes": 342573,
-      "sha256": "33a09a7b70313091d5f9811c7e9b71199ff8914da97c29979cbe28fe606e6bfd"
+      "bytes": 331335,
+      "sha256": "9dec2a4304bb77e5cfe6182fbe73f591612655a35372fe107e705dc73fbe00be"
     },
     {
       "path": "instruments/USOUSD/analysis.json",
-      "bytes": 447013,
-      "sha256": "bcc5f0cdeb32221e4944fff2b5a3098590744b4b25cf7fb2b566a2e4c7976b7c"
+      "bytes": 432669,
+      "sha256": "93d25f901092cd7a55217005403b51c441dd25cbe586d904d99817f50e250c1c"
     },
     {
       "path": "instruments/USOUSD/analysis.md",
-      "bytes": 5621,
-      "sha256": "96588b7791dd78cc97372420df37e302578c988deb9086adf519cfa99f3600a0"
+      "bytes": 5546,
+      "sha256": "8d84283efea640024745dfc05d38aa7bc7f46f91dcbdf2dc10a2d37c45d74db8"
     },
     {
       "path": "instruments/USOUSD/chart_objects.json",
-      "bytes": 287063,
-      "sha256": "349ed6cfd205af5f9534fe4e7686413d2fec81618e2d5b433cdc3a83ac5e7dc9"
+      "bytes": 277127,
+      "sha256": "2ea4b06c7b4a48f016cda210642f7e64a4d1443e0778aea27c95752fa6ba0a4f"
     },
     {
       "path": "instruments/USOUSD/events.json",
-      "bytes": 397253,
-      "sha256": "7a22b4e30456873dab61751c8e8c9a991b30c0fcb4961dd178cd8e1f37e71731"
+      "bytes": 384291,
+      "sha256": "275667033cc826785c65eed1da1a5d08a61fddccc1d3ea6a4aeb2d0e9e22d8ac"
     },
     {
       "path": "instruments/USOUSD/liquidity.json",
-      "bytes": 15792,
-      "sha256": "c8c796f5c2e79805191abff495c93c589945caa76963088227ca4f47c512738d"
+      "bytes": 15243,
+      "sha256": "c6660e507a88f2a31d75940132875b742cca05929671e63b67b856053833957a"
     },
     {
       "path": "instruments/USOUSD/poi.json",
-      "bytes": 408126,
-      "sha256": "d1207e7c9acd585f26083b7ac11107f195d5027da9abb6e4fe214a80abbbf26f"
+      "bytes": 394720,
+      "sha256": "f7f227c6c050e868ae06a97feff070ee22e74bc581863676fe4802cc073552d4"
     },
     {
       "path": "instruments/XAUUSD/analysis.json",
-      "bytes": 303497,
-      "sha256": "282d4fe2769f4b9aa3585c2b8c2bc5440fe34b62eb62ed8aa4de3f224ec07497"
+      "bytes": 293503,
+      "sha256": "ec4ef39dec7b9d6eae8a19f64ec549dca340dc89e89091df7ddf837a0cb135bb"
     },
     {
       "path": "instruments/XAUUSD/analysis.md",
-      "bytes": 4619,
-      "sha256": "5f44e7a6833f5159dfb2372c80fec50464eefffe10015d1a94d55534059e45d4"
+      "bytes": 4544,
+      "sha256": "c391042cb6c2e0c8e843762665337c8f1a398df7fe1182e57f3c0c8c35eb55eb"
     },
     {
       "path": "instruments/XAUUSD/chart_objects.json",
-      "bytes": 268009,
-      "sha256": "a3821a8a665b313cd5ac8488b03937d53a011ec5890e87128737622044787ec7"
+      "bytes": 258751,
+      "sha256": "c69a9674992c9a63c6fc0a68d87591d43df544115ff4a09e5f2e832aaa5f1052"
     },
     {
       "path": "instruments/XAUUSD/events.json",
-      "bytes": 252787,
-      "sha256": "1418340ebc24f5c3e962076bb7af0f74d89cb17334be3e215584e42f47c97626"
+      "bytes": 244464,
+      "sha256": "99e30a4ad9a5c91db00b183fec84ac4b276b0ef434b36391d6610a08e6389388"
     },
     {
       "path": "instruments/XAUUSD/liquidity.json",
-      "bytes": 7340,
-      "sha256": "8a631bee8240c091f0563b364606e0cfd644578eb34fb7e4f75c46035d5b22ed"
+      "bytes": 7097,
+      "sha256": "180da1e701246929e9890cb089fa288fa30a63d1c6504c8fa15cad70add9cdeb"
     },
     {
       "path": "instruments/XAUUSD/poi.json",
-      "bytes": 380482,
-      "sha256": "e5266f28b9422599d4a1c0b165df6fa0e6e12af91c67348caa6f4b7e04019f4c"
+      "bytes": 367959,
+      "sha256": "5c048d305180c47ce9a561cd4e588abb9f198e1f8df5e8a9deed72e86f1357dc"
     },
     {
       "path": "motor_capabilities.md",
@@ -1742,18 +1743,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 2149,
-      "sha256": "8ade05a213eabaf542b20a9b4c2a3bffde184df6924e90bde39d6bcfe44f11a3"
+      "bytes": 2109,
+      "sha256": "8d4e381fe7a9cffe6fd7700c74ad9c46e71a6ec58ea34544709185fa6d3924b6"
     },
     {
       "path": "schema.json",
-      "bytes": 14882,
-      "sha256": "a359893cf08de1b0cb69c1d195cf20d79710deb5625aee9764a0f838aa44b8b3"
+      "bytes": 14339,
+      "sha256": "4d23f74dd45ac049c5183a713ab351a044259f2968c21d818110095161ea5341"
     },
     {
       "path": "snapshot_global.md",
-      "bytes": 6597,
-      "sha256": "38bf6c8e3ba774b5e25638a3e120c54d5e40378bae93d3db29e22ad20acc4841"
+      "bytes": 6545,
+      "sha256": "2181762b5467ab1da4f53c02d3ece7d257887ed67b40c3b1191536e70988541f"
     }
   ]
 }

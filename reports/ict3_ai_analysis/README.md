@@ -1,6 +1,6 @@
 # ICT 3.0 — exportación forense para interpretación por IA
 
-Generado: 2026-11-22T20:56:41Z · revisión del motor: `f453bf2a9d35997cec774048a7ead25237399ac9`
+Generado: 2026-11-22T20:59:42Z · revisión del motor: `f453bf2a9d35997cec774048a7ead25237399ac9`
 
 Este paquete expone **la salida real del motor ICT 3.0**, sin un segundo motor de análisis y sin
 conclusiones subjetivas. Está pensado para que otra IA reconstruya lo que el sistema observa.

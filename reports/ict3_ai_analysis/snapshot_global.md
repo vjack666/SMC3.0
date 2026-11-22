@@ -1,6 +1,6 @@
 # Snapshot global ICT 3.0
 
-Generado: 2026-11-22T20:56:41Z · instrumentos exportados: **33** · no disponibles: **0**.
+Generado: 2026-11-22T20:59:42Z · instrumentos exportados: **33** · no disponibles: **0**.
 
 > Todos los valores proceden de `ict.ict_chart` con la última vela cerrada disponible. No hay recomendaciones de trading: el modo del motor es `OBSERVE_ONLY_NO_ORDER`.
 
