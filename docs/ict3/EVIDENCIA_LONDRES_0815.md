@@ -61,3 +61,16 @@ Tras las correcciones, `latest.json` se escribió únicamente con la verificaci�
 Dos tareas locales en hora America/Guayaquil: `ICT3_Londres_0815_BST` (02:20) e
 `ICT3_Londres_0815_GMT` (03:20). `run_daily.py` comprueba la hora real de Londres con IANA y decide
 cuál disparador es válido; el otro termina sin publicar. La tarea de 07:45 Ecuador no se modifica.
+Ambas se crearon con estado `Listo`, próxima ejecución 24/11/2026 02:20 y 03:20 respectivamente,
+en modo interactivo (requiere sesión de usuario abierta, igual que la terminal MT5).
+
+Prueba real de cableado: `schtasks /run /tn ICT3_Londres_0815_GMT` ejecutó el script; el log
+`data/londres_run.log` registró `el snapshot ya existe; usa --force para regenerar` y `exit=1`,
+confirmando que el disparador llega al orquestador y que la idempotencia bloquea duplicados.
+
+## Commits
+
+- `bd691df…`: snapshot validado y publicado.
+- `429228c…`: código, documentación, `latest.json` y verificador corregido.
+
+Estado final: `latest.json` → `VALIDATED`, commit verificado `bd691df…`, 202 archivos, PASS.
