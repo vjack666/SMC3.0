@@ -11,6 +11,11 @@ contrastarlo con macroeconomía con timestamps explícitos.
 - `snapshots/YYYY-MM-DD/london_0815/manifest.json`: índice inmutable con SHA-256 de cada archivo.
 - `snapshots/YYYY-MM-DD/london_0815/instruments/<SÍMBOLO>/`: detalle por instrumento.
 
+## Lectura por instrumento
+
+- Abre primero `snapshot_global.md`: incluye enlaces directos a `analysis.md` por instrumento.
+- El JSON detallado se conserva sin eliminar campos. El corte no se publica si la carga compacta alcanza o supera 32.000.000 bytes.
+
 ## Reglas de lectura
 
 1. Verificar `latest.json` → seguir `manifest` → comprobar `cutoff`, `london_date` y que el commit

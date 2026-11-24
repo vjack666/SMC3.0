@@ -4,19 +4,17 @@ Uso:
   python publish_london.py --repo <root> --folder reports/ict3_london --message "..."
   python publish_london.py --verify-only --sha <commit> --folder reports/ict3_london
 
-El token se lee del Administrador de credenciales de Windows mediante
-git-credential-manager get y nunca se imprime ni se escribe en archivos.
+Git usa el administrador de credenciales configurado; no se leen ni se imprimen tokens.
 """
 import argparse
-import base64
 import hashlib
 import json
 import os
-import shutil
 import subprocess
 import sys
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 REPO_SLUG = "vjack666/SMC3.0"
@@ -35,28 +33,6 @@ def run(cmd, *, cwd=None, input_bytes=None, env=None, secret=None):
     return out
 
 
-def gcm_credentials():
-    gcm = shutil.which("git-credential-manager.exe") or shutil.which("git-credential-manager")
-    if not gcm:
-        for candidate in ("/ucrt64/bin/git-credential-manager.exe",
-                          "C:/Program Files/Git/mingw64/bin/git-credential-manager.exe"):
-            if os.path.isfile(candidate):
-                gcm = candidate
-                break
-    if not gcm:
-        raise RuntimeError("git-credential-manager no disponible")
-    out = subprocess.run([gcm, "get"], input=b"protocol=https\nhost=github.com\n",
-                         capture_output=True).stdout.decode("utf-8", "replace")
-    values = {}
-    for line in out.splitlines():
-        if "=" in line:
-            k, v = line.split("=", 1)
-            values[k.strip()] = v.strip()
-    if not values.get("username") or not values.get("password"):
-        raise RuntimeError("credenciales de GitHub no disponibles")
-    return values["username"], values["password"]
-
-
 def push_folder(repo_root, folder, message):
     if isinstance(folder, (list, tuple)):
         return push_paths(repo_root, list(folder), message)
@@ -65,24 +41,28 @@ def push_folder(repo_root, folder, message):
 
 def push_paths(repo_root, paths, message):
     repo_root = Path(repo_root).resolve()
+    target = f"https://github.com/{REPO_SLUG}.git"
+    allowed = tuple(p.rstrip("/") for p in paths)
+    def check_staged():
+        staged = run(["git", "diff", "--cached", "--name-only", "-z"], cwd=repo_root)
+        if any(not any(line == p or line.startswith(p + "/") for p in allowed)
+               for line in staged.split("\0") if line):
+            raise RuntimeError("el staged incluye archivos fuera de " + repr(paths))
+        return bool(staged)
+    check_staged()
+    head = run(["git", "rev-parse", "HEAD"], cwd=repo_root).strip()
+    remote = run(["git", "ls-remote", "--exit-code", target, "refs/heads/" + BRANCH],
+                 cwd=repo_root).split()[0]
+    if head != remote:
+        raise RuntimeError("HEAD local no coincide con main remoto; no se publican commits ajenos")
     for path in paths:
         run(["git", "add", "--", path], cwd=repo_root)
-    staged = run(["git", "diff", "--cached", "--name-only"], cwd=repo_root).strip()
-    if not staged:
+    if not check_staged():
         raise RuntimeError("no hay archivos nuevos para publicar")
-    allowed = set()
-    for path in paths:
-        allowed.add(path)
-        allowed.add(path.rstrip("/") + "/")
-    if any(not any(line == a or line.startswith(a) for a in allowed)
-           for line in staged.splitlines() if line):
-        raise RuntimeError("el staged incluye archivos fuera de " + repr(paths))
     run(["git", "commit", "-m", message], cwd=repo_root)
     sha = run(["git", "rev-parse", "HEAD"], cwd=repo_root).strip()
-    user, token = gcm_credentials()
-    url = "https://{}:{}@github.com/{}.git".format(
-        urllib.parse.quote(user, safe=""), urllib.parse.quote(token, safe=""), REPO_SLUG)
-    run(["git", "push", url, BRANCH], cwd=repo_root, secret=token)
+    env = dict(os.environ, GIT_TERMINAL_PROMPT="0", GCM_INTERACTIVE="Never")
+    run(["git", "push", target, f"{sha}:refs/heads/{BRANCH}"], cwd=repo_root, env=env)
     return sha
 
 
@@ -108,17 +88,21 @@ def verify(repo_root, folder, sha):
     root = Path(repo_root).resolve()
     manifest_path = root / folder / "manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    entries = manifest.get("files", [])
     errors = []
-    for entry in manifest.get("files", []):
+    if json.loads(remote_bytes(folder + "/manifest.json", sha)) != manifest:
+        errors.append(folder + "/manifest.json")
+
+    def verify_entry(entry):
         rel = folder + "/" + entry["path"]
-        remote = remote_bytes(rel, sha)
-        local = (root / rel).read_bytes().replace(b"\r\n", b"\n")
-        digest = hashlib.sha256(remote.replace(b"\r\n", b"\n")).hexdigest()
-        if digest != entry["sha256"] or len(remote.replace(b"\r\n", b"\n")) != entry["bytes"]:
-            errors.append(rel)
-    readme = remote_bytes(folder + "/snapshot_global.md", sha)
-    if b"ICT" not in readme:
-        errors.append(folder + "/snapshot_global.md")
+        raw = remote_bytes(rel, sha).replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+        if (hashlib.sha256(raw).hexdigest() != entry["sha256"] or len(raw) != entry["bytes"]
+                or (entry["path"] == "snapshot_global.md" and b"ICT" not in raw)):
+            return rel
+        return None
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        errors.extend(rel for rel in pool.map(verify_entry, entries) if rel)
     return {
         "ok": not errors, "sha": sha, "files_checked": len(manifest.get("files", [])),
         "errors": errors,

@@ -184,8 +184,14 @@ def main(argv=None):
         raise SystemExit("verificación remota fallida; latest.json no se actualiza")
 
     # --- latest.json: solo tras publicación válida ---
+    latest_path = repo / BASE / "latest.json"
+    if latest_path.exists() and read_json(latest_path).get("london_date", "") > london_date:
+        step("latest", "SKIPPED", {"reason": "a newer validated snapshot is already indexed"})
+        return 0
     latest = {
         "status": "VALIDATED",
+        "validation_status": validation["status"],
+        "files_verified": result["files_checked"],
         "snapshot_id": manifest["snapshot_id"],
         "london_date": london_date,
         "snapshot_cutoff_utc": cutoff,
@@ -199,7 +205,6 @@ def main(argv=None):
         "engine_mode": manifest["engine_mode"],
         "broker_clock_offset_seconds": offset,
     }
-    latest_path = repo / BASE / "latest.json"
     write_json(latest_path, latest)
     publish_london.push_folder(
         str(repo), [BASE + "/latest.json", rel_snapshot + "/run_log.json"],

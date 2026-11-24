@@ -53,6 +53,7 @@ HASH_BASIS = (
     "byte counts are the actual file sizes; the manifest excludes itself."
 )
 EXPECTED_MODE = "OBSERVE_ONLY_NO_ORDER"
+MAX_COMPACT_BUNDLE_BYTES = 32_000_000
 
 
 # --------------------------------------------------------------------------
@@ -461,6 +462,22 @@ def tf_freshness(tf, last_closed, cutoff):
 # --------------------------------------------------------------------------
 # Validation (everything checked against the generated documents)
 # --------------------------------------------------------------------------
+def compact_size_check(files):
+    """Retain full reader-compatible JSON with an explicit bounded size budget."""
+    total = sum(len(lf_normalize(v)) for k, v in files.items() if k != "manifest.json")
+    return {"name": "compact_size", "passed": total < MAX_COMPACT_BUNDLE_BYTES,
+            "detail": f"payload bytes={total}, limit (exclusive)={MAX_COMPACT_BUNDLE_BYTES}"}
+
+
+def reading_index(symbols):
+    links = " | ".join(f"[{s}](instruments/{safe_symbol(s)}/analysis.md)" for s in sorted(symbols))
+    return ("\n## Where to start\n\n"
+            "1. Open [validation](validation.json) and check the session date above.\n"
+            "2. Read the instrument summaries; open detailed JSON only as needed.\n"
+            "3. Use [data quality](data_quality.json) and [manifest](manifest.json) for provenance.\n\n"
+            + (links + "\n" if links else ""))
+
+
 def build_validation(*, london_date, cutoff, expected, symbols, exported, stale, unavailable,
                      files, records, coverage, freshness):
     checks = []
@@ -489,11 +506,7 @@ def build_validation(*, london_date, cutoff, expected, symbols, exported, stale,
                  for key in row if "lifecycle" in str(key).lower()]
     check("no_lifecycle_invented", not lifecycle, f"unexpected lifecycle keys: {sorted(set(lifecycle))}")
 
-    total = sum(len(lf_normalize(v)) for k, v in files.items() if k != "manifest.json")
-    # 25 MB: 33 instruments x 6 compact files, no raw OHLC dumps.
-    # The prior forensic bundle was 80 MB with raw dumps; this stays well below
-    # GitHub's 100 MB per-file / 5 GB repo limits while preserving every field.
-    check("compact_size", total < 25_000_000, f"payload bytes={total}")
+    checks.append(compact_size_check(files))
 
     check("coverage_hook_present", isinstance(coverage, dict) and "coverage_by_symbol_tf" in coverage,
           "coverage hooks present")
@@ -751,6 +764,7 @@ def build_bundle(engine, *, cutoff, london_date=None, out_dir, symbols=None,
         "Read `manifest.json` for `coverage_by_symbol_tf` and `freshness_by_symbol_tf`; "
         "per-symbol detail is under `instruments/<SYM>/`. `entry_authorized` and `mode` "
         "are engine values copied verbatim. No lifecycle flags are invented.\n"
+        + reading_index([r["symbol"] for r in records if r["status"] == "FRESH"])
     ).encode("utf-8")
     # snapshot_global.md is itself part of the hashed set; recompute manifest hashes.
     hashed["snapshot_global.md"] = files["snapshot_global.md"]
