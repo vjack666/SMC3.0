@@ -1,18 +1,17 @@
 {
   "broker_clock_offset_seconds": 7200,
-  "engine_cutoff": 1795428900,
   "engine_mode": "OBSERVE_ONLY_NO_ORDER",
   "files_verified": 202,
-  "london_date": "2026-11-23",
-  "manifest": "reports/ict3_london/snapshots/2026-11-23/london_0815/manifest.json",
-  "path": "reports/ict3_london/snapshots/2026-11-23/london_0815",
-  "snapshot_cutoff_guayaquil": "2026-11-23T03:15:00-05:00",
-  "snapshot_cutoff_london": "2026-11-23T08:15:00+00:00",
-  "snapshot_cutoff_utc": 1795421700,
-  "snapshot_cutoff_utc_iso": "2026-11-23T08:15:00Z",
-  "snapshot_id": "london0815_20261123_1795421700_c25e4c199a",
+  "london_date": "2026-11-24",
+  "manifest": "reports/ict3_london/snapshots/2026-11-24/london_0815/manifest.json",
+  "path": "reports/ict3_london/snapshots/2026-11-24/london_0815",
+  "snapshot_cutoff_guayaquil": "2026-11-24T03:15:00-05:00",
+  "snapshot_cutoff_london": "2026-11-24T08:15:00+00:00",
+  "snapshot_cutoff_utc": 1795508100,
+  "snapshot_cutoff_utc_iso": "2026-11-24T08:15:00Z",
+  "snapshot_id": "london0815_20261124_1795508100_f91651feed",
   "status": "VALIDATED",
   "validation_status": "PASS",
-  "verified_at_utc": "2026-11-23T18:44:34Z",
-  "verified_commit": "bd691df2472b31402b14163c12caa5c06e5d2526"
+  "verified_at_utc": "2026-11-24T13:18:49Z",
+  "verified_commit": "ea5f83e7d5f1c1c7d370e813a34a92e7225a1992"
 }
