@@ -1,0 +1,2608 @@
+{
+  "bar_count": 550,
+  "broker_clock_offset_seconds": 7200,
+  "coverage": {
+    "coverage_by_symbol_tf": {
+      "AUDCAD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "AUDCHF": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "AUDJPY": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "AUDUSD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "CADCHF": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "CADJPY": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "EURAUD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "EURCAD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "EURCHF": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "EURGBP": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "EURJPY": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "EURNZD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "EURUSD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "GBPAUD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "GBPCAD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "GBPCHF": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "GBPJPY": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "GBPNZD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "GBPUSD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "GER30": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "NDX100": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "NZDCAD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "NZDCHF": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "NZDJPY": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "NZDUSD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "SPX500": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "UKOUSD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "US30": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "USDCAD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "USDCHF": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "USDJPY": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "USOUSD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      },
+      "XAUUSD": {
+        "D1": {
+          "last_closed": 1795651200,
+          "last_closed_engine_utc": "2026-11-26T00:00:00Z",
+          "last_closed_utc": "2026-11-25T22:00:00Z",
+          "present": true
+        },
+        "H1": {
+          "last_closed": 1795687200,
+          "last_closed_engine_utc": "2026-11-26T10:00:00Z",
+          "last_closed_utc": "2026-11-26T08:00:00Z",
+          "present": true
+        },
+        "H4": {
+          "last_closed": 1795680000,
+          "last_closed_engine_utc": "2026-11-26T08:00:00Z",
+          "last_closed_utc": "2026-11-26T06:00:00Z",
+          "present": true
+        },
+        "M15": {
+          "last_closed": 1795689000,
+          "last_closed_engine_utc": "2026-11-26T10:30:00Z",
+          "last_closed_utc": "2026-11-26T08:30:00Z",
+          "present": true
+        }
+      }
+    },
+    "hook": "coverage_by_symbol_tf[symbol][tf] = {last_closed, last_closed_utc, present}",
+    "profile": [
+      "M15",
+      "H4",
+      "H1",
+      "D1"
+    ],
+    "snapshot_id": "london0830_20261126_1795681800_70967d48c6",
+    "symbols_expected": 33,
+    "symbols_with_engine_data": 33
+  },
+  "cutoff_matches_date": true,
+  "engine_cutoff": 1795689000,
+  "engine_cutoff_clock": "MT5 encoded clock; real UTC = engine_cutoff - broker_clock_offset_seconds",
+  "engine_mode": "OBSERVE_ONLY_NO_ORDER",
+  "engine_revision": "f453bf2a9d35997cec774048a7ead25237399ac9",
+  "engine_schema_version": [
+    "0.2-research"
+  ],
+  "expected_cutoff_from_date": 1795681800,
+  "file_count": 204,
+  "files": [
+    {
+      "bytes": 20074,
+      "path": "data_quality.json",
+      "sha256": "25e3c87cd1a66f1f21713db4f060eae7b93893ecbaf9440b819f67fdd9046e96"
+    },
+    {
+      "bytes": 132559,
+      "path": "freshness_report.json",
+      "sha256": "155ca1f4e3b6c582ad59a53853ac748f4badf2431ea565114c963e8955aa58a9"
+    },
+    {
+      "bytes": 198455,
+      "path": "instruments/AUDCAD/analysis.json",
+      "sha256": "03331553fb18813fb606e7f85a974da4db64d103f3e1e4f16eb2ed9a57eb100f"
+    },
+    {
+      "bytes": 1553,
+      "path": "instruments/AUDCAD/analysis.md",
+      "sha256": "48b09a25ee1633cd021efd5c828a63771d3f35fa0744f87f87caaefbc63f8802"
+    },
+    {
+      "bytes": 164710,
+      "path": "instruments/AUDCAD/chart_objects.json",
+      "sha256": "a2d7c2840b803580b9c441d3e3a9304988fa2f4c1d86099e19f96c9388d5eb2a"
+    },
+    {
+      "bytes": 129784,
+      "path": "instruments/AUDCAD/events.json",
+      "sha256": "526552afe2c521d9eb7b11623a84ae67dfd3299355f68250eff0b681ef8b87f9"
+    },
+    {
+      "bytes": 6340,
+      "path": "instruments/AUDCAD/liquidity.json",
+      "sha256": "a820d6ed5fa04745754000eb7c2cf9b83070c33c13d4ede839e6660428cec076"
+    },
+    {
+      "bytes": 237377,
+      "path": "instruments/AUDCAD/poi.json",
+      "sha256": "ec61942e03a144204de87bec977cd712986c7310ba3b5a645af470091215d855"
+    },
+    {
+      "bytes": 185396,
+      "path": "instruments/AUDCHF/analysis.json",
+      "sha256": "7817f9d270e283e7f064ce61f3cf759aa773e7d34a4669f6b465b79dcb774f72"
+    },
+    {
+      "bytes": 1538,
+      "path": "instruments/AUDCHF/analysis.md",
+      "sha256": "b9017ada7b76e547e5ff188d16fe67afbcd9aeb4eb5496c74c80ddc03b6d863f"
+    },
+    {
+      "bytes": 169425,
+      "path": "instruments/AUDCHF/chart_objects.json",
+      "sha256": "b2556b58540bbe4e1d5e63b0636a79b49cf8b9c9054891d29a68eff4c24772ee"
+    },
+    {
+      "bytes": 117458,
+      "path": "instruments/AUDCHF/events.json",
+      "sha256": "2e119c642fdef1598a727eed913891c717da84e225ae6930d7db23ef8242c4cd"
+    },
+    {
+      "bytes": 5031,
+      "path": "instruments/AUDCHF/liquidity.json",
+      "sha256": "6c1149e5f8f34664bb877da2f984083a3a39147288d20bfef299ac66598d53f8"
+    },
+    {
+      "bytes": 239505,
+      "path": "instruments/AUDCHF/poi.json",
+      "sha256": "3652923330765bf7f22d1d65c44b79ed63852aaf3b9682426f51048ae4cd40d5"
+    },
+    {
+      "bytes": 167545,
+      "path": "instruments/AUDJPY/analysis.json",
+      "sha256": "76184b16da2f7d54fb3079a6241b879a1a1c4d1b14f7def7b1f48b82026563e7"
+    },
+    {
+      "bytes": 1526,
+      "path": "instruments/AUDJPY/analysis.md",
+      "sha256": "1f23c52eb338ec1647a05389c1ca6db6c1c86d5262ac44cee5d351643ba10368"
+    },
+    {
+      "bytes": 172857,
+      "path": "instruments/AUDJPY/chart_objects.json",
+      "sha256": "88e3a7acbdd3502a1a5fe40ca5b1b57b7bbb23a716f19596c0fe899f37738328"
+    },
+    {
+      "bytes": 93583,
+      "path": "instruments/AUDJPY/events.json",
+      "sha256": "80947efd3752fec894f4eaee21fc8f887e306681bd770381400e2006c6b89ce0"
+    },
+    {
+      "bytes": 4141,
+      "path": "instruments/AUDJPY/liquidity.json",
+      "sha256": "ba513484acb46ec070196b4966badc108cbf21baea840af95953c6df3c6dbf92"
+    },
+    {
+      "bytes": 244324,
+      "path": "instruments/AUDJPY/poi.json",
+      "sha256": "719171b4a9e3f94af5ab95e9f667c3065d09cfb7b6cc128e4a1cf50ecf5a83c5"
+    },
+    {
+      "bytes": 221128,
+      "path": "instruments/AUDUSD/analysis.json",
+      "sha256": "9e28133294cd3ecf25bccf5db0028cd358574ee4eedcc1f81b1ece8917dea4a2"
+    },
+    {
+      "bytes": 1526,
+      "path": "instruments/AUDUSD/analysis.md",
+      "sha256": "5118dea4c8625265fc01f2b6156882d249a307fac788b8e783bcb70660b5bea0"
+    },
+    {
+      "bytes": 175588,
+      "path": "instruments/AUDUSD/chart_objects.json",
+      "sha256": "9f9c41c139be893a64aa7c7c0f825a12953b0aaf58c77ad42ee49e6b388b0b88"
+    },
+    {
+      "bytes": 140553,
+      "path": "instruments/AUDUSD/events.json",
+      "sha256": "c0a263c944f20dbb596cd556e96b08573127c92b5e98531f4d8f102d4084c52b"
+    },
+    {
+      "bytes": 4592,
+      "path": "instruments/AUDUSD/liquidity.json",
+      "sha256": "1f776a12b921f3968cd9555c96e29e7628d362ad09263fc86b8d7b4f7ccfff03"
+    },
+    {
+      "bytes": 256478,
+      "path": "instruments/AUDUSD/poi.json",
+      "sha256": "8a9be0bc2feec62a21fd7c4debd5a01f6d2195f6e56948139aca9d9b4be65c7a"
+    },
+    {
+      "bytes": 249268,
+      "path": "instruments/CADCHF/analysis.json",
+      "sha256": "b2baa9dd72365ba269e2170ef88215797734bc14d890f72ccb6751b3468fd4ed"
+    },
+    {
+      "bytes": 1526,
+      "path": "instruments/CADCHF/analysis.md",
+      "sha256": "8f5a3d51ff040d97d647597611a8b8cb0706e55100af949068bef76b8b6d1def"
+    },
+    {
+      "bytes": 160429,
+      "path": "instruments/CADCHF/chart_objects.json",
+      "sha256": "b0a4c2642786dd67736addf4c50b93810196621c21c5c26ff14d33b2bbf531ad"
+    },
+    {
+      "bytes": 173508,
+      "path": "instruments/CADCHF/events.json",
+      "sha256": "f75d03f17b147314b2c1d38db277d55f9d15f126db0c9373c444ed1488ba68b0"
+    },
+    {
+      "bytes": 6808,
+      "path": "instruments/CADCHF/liquidity.json",
+      "sha256": "5dc197c925cec5ccc03625223e5cdc3e4a40caa2820354456f8dc19ba2571d5d"
+    },
+    {
+      "bytes": 231437,
+      "path": "instruments/CADCHF/poi.json",
+      "sha256": "bcfe0df42e8ecf0b98e81d2ba9b58b201e5637c62a0e502ced7444fd5a3f27a8"
+    },
+    {
+      "bytes": 240351,
+      "path": "instruments/CADJPY/analysis.json",
+      "sha256": "05605d49a46e35008b41727452b95ef06c2947e5735294d835b6668b65653766"
+    },
+    {
+      "bytes": 1554,
+      "path": "instruments/CADJPY/analysis.md",
+      "sha256": "f1cd736264f1d74043b160faca0e4bffec7ddbf93585bed812a3f82ae6a388fb"
+    },
+    {
+      "bytes": 185779,
+      "path": "instruments/CADJPY/chart_objects.json",
+      "sha256": "f35ec4e24654182666b404a8a5200bce87827e5bf87a8cb294776bfa63c89ef8"
+    },
+    {
+      "bytes": 164671,
+      "path": "instruments/CADJPY/events.json",
+      "sha256": "da389d3f441f9d6bc06cc8d7c587b06dfcd3dad8b456aad14ad30aabfd6081ec"
+    },
+    {
+      "bytes": 7664,
+      "path": "instruments/CADJPY/liquidity.json",
+      "sha256": "99be7cd0a3c4d621ae20dffc795c2da8e8f358f4623c6df520084d80eeb4da8f"
+    },
+    {
+      "bytes": 265719,
+      "path": "instruments/CADJPY/poi.json",
+      "sha256": "f4707adfb34b6abdc27f3d260c90a5e6727fcd41cfff7007da996e2ba1910d70"
+    },
+    {
+      "bytes": 194084,
+      "path": "instruments/EURAUD/analysis.json",
+      "sha256": "1fdd452e44b589ea8e6b8ed9d7f70e4dbaf8a8da2e091d359884ed1e37a0ce62"
+    },
+    {
+      "bytes": 1542,
+      "path": "instruments/EURAUD/analysis.md",
+      "sha256": "6fc5864abc3484235263581534bbd88a327b229a97fcfa82bf393f7ca2c49d73"
+    },
+    {
+      "bytes": 171470,
+      "path": "instruments/EURAUD/chart_objects.json",
+      "sha256": "cce0fa184ff55edbd079f711c9ad3c3c9b16727bf7f98b720b066480529c3b54"
+    },
+    {
+      "bytes": 122717,
+      "path": "instruments/EURAUD/events.json",
+      "sha256": "c5888036293d1007230a6c21c22b41db7b8af2c0cb032647e45f7e9fb06a1948"
+    },
+    {
+      "bytes": 5026,
+      "path": "instruments/EURAUD/liquidity.json",
+      "sha256": "3a925788600c08d7cbcbbf4cb0b7f5493998a3922957157ac90dc39c06634f21"
+    },
+    {
+      "bytes": 242519,
+      "path": "instruments/EURAUD/poi.json",
+      "sha256": "380671cd6260692ae75239b37d04ffe06812223758808b3107c619c72c74afaa"
+    },
+    {
+      "bytes": 245608,
+      "path": "instruments/EURCAD/analysis.json",
+      "sha256": "d25ca96041da1ec88fa7ed936b1cc0c11626020aa50afd66322c453495b0acdd"
+    },
+    {
+      "bytes": 1558,
+      "path": "instruments/EURCAD/analysis.md",
+      "sha256": "eb9d9e5476141e30dbb8399ec59831651e000b31efecce3719ee705fee762cd5"
+    },
+    {
+      "bytes": 177942,
+      "path": "instruments/EURCAD/chart_objects.json",
+      "sha256": "48ff5545821acc90082d1dd7f6672d3dc9a0988e2121d7f61d2790a7d2ec5d66"
+    },
+    {
+      "bytes": 169725,
+      "path": "instruments/EURCAD/events.json",
+      "sha256": "0eebcaaa142256584ec3caf368d7e502db77d78f39ee9bb7c4b0270129e6bdd3"
+    },
+    {
+      "bytes": 6785,
+      "path": "instruments/EURCAD/liquidity.json",
+      "sha256": "46b20f9d710ab4a4077df8405706b2d7bf548af77bd0ff33ed9f20de3286e144"
+    },
+    {
+      "bytes": 257756,
+      "path": "instruments/EURCAD/poi.json",
+      "sha256": "5a1fe3b556626ee2bf58447b8cb812b298bc6ff72495853bdab03de273e2d2ad"
+    },
+    {
+      "bytes": 228035,
+      "path": "instruments/EURCHF/analysis.json",
+      "sha256": "7f5f11cf225b167ce82045c936628ae09c665ba0c64865f4480eef8dbf9006bf"
+    },
+    {
+      "bytes": 1556,
+      "path": "instruments/EURCHF/analysis.md",
+      "sha256": "f5d980b465f4314d12e5ea981f997150e73af2e1076e7764855ed1975200cffa"
+    },
+    {
+      "bytes": 151884,
+      "path": "instruments/EURCHF/chart_objects.json",
+      "sha256": "37495b418159102b096b06d34c52be72a698ea3e5dfd8113a4d167735ee92776"
+    },
+    {
+      "bytes": 171328,
+      "path": "instruments/EURCHF/events.json",
+      "sha256": "07aaed57e7a86bb6c9b36319f665da44ede64e3733afd3b0867c713c667cd938"
+    },
+    {
+      "bytes": 5490,
+      "path": "instruments/EURCHF/liquidity.json",
+      "sha256": "45873dd3e39a47f12ed2b7828fb77d04afb23007e4ff108581b5b2423a2092a7"
+    },
+    {
+      "bytes": 221481,
+      "path": "instruments/EURCHF/poi.json",
+      "sha256": "8f53a49afd7455674e82dbf5b28e26fac23bed5472bd29d28eb841f15b32f788"
+    },
+    {
+      "bytes": 158091,
+      "path": "instruments/EURGBP/analysis.json",
+      "sha256": "fc373d548dfff8dc3ab85e2092e22ff30b4621055cfcae4832f9000e5a410d1d"
+    },
+    {
+      "bytes": 1536,
+      "path": "instruments/EURGBP/analysis.md",
+      "sha256": "cf8a68c21caff2b11377b04f32f0021ffdcd6b236cdfaad641fb01a1dc11adbb"
+    },
+    {
+      "bytes": 135809,
+      "path": "instruments/EURGBP/chart_objects.json",
+      "sha256": "fb75a85fcdf0026991428d9930ee5503bb459839a373b84add777363c4b33100"
+    },
+    {
+      "bytes": 81313,
+      "path": "instruments/EURGBP/events.json",
+      "sha256": "9918c126cab19001249d8ecb35142fed0c1e439d038e5640ccf60ffd66674eec"
+    },
+    {
+      "bytes": 5445,
+      "path": "instruments/EURGBP/liquidity.json",
+      "sha256": "f113a67e18ac52041fc0ef271c3e0442d67b2e99f2481bcbf1b493972fae602c"
+    },
+    {
+      "bytes": 193157,
+      "path": "instruments/EURGBP/poi.json",
+      "sha256": "ce30fba13a545131eb983dc18861b82ba03e48da2227317f8705641c88f390aa"
+    },
+    {
+      "bytes": 255399,
+      "path": "instruments/EURJPY/analysis.json",
+      "sha256": "d13981a21fe7ce16e7af26b375641370756d355675b749145af0c72986e5d6ef"
+    },
+    {
+      "bytes": 1564,
+      "path": "instruments/EURJPY/analysis.md",
+      "sha256": "0ac079180b6a41985c038157a2c12c907c4c8d038d39ad607eaa9d01df1a83c6"
+    },
+    {
+      "bytes": 186793,
+      "path": "instruments/EURJPY/chart_objects.json",
+      "sha256": "07d8a9f6df2b3f662288c91dffbce1732746a8b88bcaca2550344e2364375354"
+    },
+    {
+      "bytes": 175687,
+      "path": "instruments/EURJPY/events.json",
+      "sha256": "ef1388f41830417c73a993f15ea94d23ca63c7bc188fc1cc393e0f2253f46899"
+    },
+    {
+      "bytes": 5044,
+      "path": "instruments/EURJPY/liquidity.json",
+      "sha256": "a66fdacf0deec0099ef268c67c9791132be1325e9ac848dd876cf624f8251381"
+    },
+    {
+      "bytes": 273276,
+      "path": "instruments/EURJPY/poi.json",
+      "sha256": "3d87a2d84cda760ae0f45adae6c4840b2aff97559172ceebeac3a3cf98643ab2"
+    },
+    {
+      "bytes": 204111,
+      "path": "instruments/EURNZD/analysis.json",
+      "sha256": "43ee53de4226fde0f72bc7591c4546c212d78f20599417d68a5900ad5524d4dc"
+    },
+    {
+      "bytes": 1554,
+      "path": "instruments/EURNZD/analysis.md",
+      "sha256": "0b928aca29f99553e26c7d1d26fd3da943f4e712a80f5eab748bee640531281f"
+    },
+    {
+      "bytes": 149778,
+      "path": "instruments/EURNZD/chart_objects.json",
+      "sha256": "37b797aef61ad171a3e323fa1acf61560d067c4a4866ede1cf3a44e4cc4e9ab6"
+    },
+    {
+      "bytes": 132371,
+      "path": "instruments/EURNZD/events.json",
+      "sha256": "0842c7c98b25a8b7d32dbe53c98e1a2530b21e722ba6586c484f63827f0f9651"
+    },
+    {
+      "bytes": 7680,
+      "path": "instruments/EURNZD/liquidity.json",
+      "sha256": "b468b97fb07db85255e8f14e3b0926fbdf8592910bec88ac329c731b117a91bb"
+    },
+    {
+      "bytes": 211059,
+      "path": "instruments/EURNZD/poi.json",
+      "sha256": "d17bd79d39a5a91bf9fe0e524dee34b5ccc1c1f79b7882c984892bbec558ebe3"
+    },
+    {
+      "bytes": 239126,
+      "path": "instruments/EURUSD/analysis.json",
+      "sha256": "be39c97416cf1f187e88fe2d1e976f99894d35241e31f692061e239c19df23d8"
+    },
+    {
+      "bytes": 1554,
+      "path": "instruments/EURUSD/analysis.md",
+      "sha256": "e55e1e6051c1cdb4f914121b00564b352ceb86af5db827754aa8ffe5341acce2"
+    },
+    {
+      "bytes": 186575,
+      "path": "instruments/EURUSD/chart_objects.json",
+      "sha256": "3120d1cdcc98bae778daa17d3ae55844d579306c1afa93790678d2a451e2a231"
+    },
+    {
+      "bytes": 162065,
+      "path": "instruments/EURUSD/events.json",
+      "sha256": "df00f047d3103b312f69ebd21d244f5b680a16dfdd1addc28e9b7f49fd7aefbd"
+    },
+    {
+      "bytes": 5022,
+      "path": "instruments/EURUSD/liquidity.json",
+      "sha256": "65f6787202f68db274f5a86bc7256a2dd9ff1925f7f2aef8d4a816aebf0ad188"
+    },
+    {
+      "bytes": 267581,
+      "path": "instruments/EURUSD/poi.json",
+      "sha256": "68a1ccada5afd36da46747172699585b31b72814c3ec1b448eb7a8c683ed9a22"
+    },
+    {
+      "bytes": 149515,
+      "path": "instruments/GBPAUD/analysis.json",
+      "sha256": "3217e168a898919a0d57f31fbc7ad411ad8d77be5d2301bc1933b2c4c9b138f5"
+    },
+    {
+      "bytes": 1535,
+      "path": "instruments/GBPAUD/analysis.md",
+      "sha256": "95723eed906b1e4889fb1ea5c22bb0a1cf2f3bc5002138d34854a1d497d62ab2"
+    },
+    {
+      "bytes": 162586,
+      "path": "instruments/GBPAUD/chart_objects.json",
+      "sha256": "ff9e817a1964fcb0b2b0bc31588f7bc05233df069e59ebd56e6a100dde4212f0"
+    },
+    {
+      "bytes": 84605,
+      "path": "instruments/GBPAUD/events.json",
+      "sha256": "4115bf8c144a9aec6b946cb1d15ba9d3627f5389c148ea9317bdfdb4fce20eff"
+    },
+    {
+      "bytes": 4568,
+      "path": "instruments/GBPAUD/liquidity.json",
+      "sha256": "517b1b455d9526d41fe4385bf40b7218b4aee6fc17dde407a3bc68a0fa1572ea"
+    },
+    {
+      "bytes": 226209,
+      "path": "instruments/GBPAUD/poi.json",
+      "sha256": "77ec15eee15c7772a2b3cf422240cecc763627e4a73cea76457a12f50c4ea33c"
+    },
+    {
+      "bytes": 229342,
+      "path": "instruments/GBPCAD/analysis.json",
+      "sha256": "03a4df9a6d6b1105672703db254b8dfd6a3527768f06202af45220df462e358c"
+    },
+    {
+      "bytes": 1589,
+      "path": "instruments/GBPCAD/analysis.md",
+      "sha256": "30dd274af60032e87a2d402085ce107229b1b790f2a6dbecfcc9665632f37d5a"
+    },
+    {
+      "bytes": 160485,
+      "path": "instruments/GBPCAD/chart_objects.json",
+      "sha256": "3faa5bdd58ae14e963366b95af26101c56a78893f0c689e8c71fbb7552e64f6d"
+    },
+    {
+      "bytes": 157450,
+      "path": "instruments/GBPCAD/events.json",
+      "sha256": "ccd1397fb4a89efb10d2cb23c14ce1315a48001faee1abde9c57abfda81065e8"
+    },
+    {
+      "bytes": 7225,
+      "path": "instruments/GBPCAD/liquidity.json",
+      "sha256": "90b063cb5539045a12efcc1d80a930032a0ccb36a2a3a2d63c81394ad9e7e221"
+    },
+    {
+      "bytes": 232424,
+      "path": "instruments/GBPCAD/poi.json",
+      "sha256": "83401f83bf8df981251ff1db887d333d9d5178c1252b87132760500d5cc281dc"
+    },
+    {
+      "bytes": 209024,
+      "path": "instruments/GBPCHF/analysis.json",
+      "sha256": "c514c8f4e990a54ddd92cb1ba71bcc7fb2773cecfd098836b9933a088da4dddb"
+    },
+    {
+      "bytes": 1574,
+      "path": "instruments/GBPCHF/analysis.md",
+      "sha256": "2b48f0ab4acfdb41439333afb82d37fba19051ff4691905cc25687ab292f9c31"
+    },
+    {
+      "bytes": 155637,
+      "path": "instruments/GBPCHF/chart_objects.json",
+      "sha256": "de42a3f2949ee339a0bdb6ddececafd98f0adeddcc15023ea702c4cec1f11e16"
+    },
+    {
+      "bytes": 145018,
+      "path": "instruments/GBPCHF/events.json",
+      "sha256": "ca3d304539fff866ee20c6d5b660300ad184ca1800241bf5ebfe498983994703"
+    },
+    {
+      "bytes": 8983,
+      "path": "instruments/GBPCHF/liquidity.json",
+      "sha256": "c0433f65b83dfb9e1c46d7c927fc07978031c350bc93d334f254af7537d3d99e"
+    },
+    {
+      "bytes": 221506,
+      "path": "instruments/GBPCHF/poi.json",
+      "sha256": "6f02027516f388d415ab1abba3cfcff3b89797b30cdff5fbb3e56a2a9d0bb533"
+    },
+    {
+      "bytes": 201591,
+      "path": "instruments/GBPJPY/analysis.json",
+      "sha256": "54a05eff80f8eedc6602f3046193ebd220ab5e833fa52aca08ff0caea1ec03a1"
+    },
+    {
+      "bytes": 1506,
+      "path": "instruments/GBPJPY/analysis.md",
+      "sha256": "0ee859db73e391292cf8693aeb5f3e5d16ee79e96bc000babc1d2b23661422c3"
+    },
+    {
+      "bytes": 176350,
+      "path": "instruments/GBPJPY/chart_objects.json",
+      "sha256": "1ab837f31cefafacef6e90bdb1ed120e5a17dd1f5d4e2f14424c3aed8bf9992b"
+    },
+    {
+      "bytes": 123327,
+      "path": "instruments/GBPJPY/events.json",
+      "sha256": "f79fc51467464dc9e3275eb4cf626915292a4ded4e1d4f1b42ecda2b619ebc7e"
+    },
+    {
+      "bytes": 3714,
+      "path": "instruments/GBPJPY/liquidity.json",
+      "sha256": "6b2649351976d301557638fdeb846892ed5c6cee231c025aa7a7aaf31b2d1ab3"
+    },
+    {
+      "bytes": 250792,
+      "path": "instruments/GBPJPY/poi.json",
+      "sha256": "ed448098d4736914c531294b086a02eea85722405af43322d98f60dcfced910f"
+    },
+    {
+      "bytes": 216134,
+      "path": "instruments/GBPNZD/analysis.json",
+      "sha256": "b3b72e043c2b09cd432e978be9938f8c859e02ff2e1b741ae8f1f4ae57aa9473"
+    },
+    {
+      "bytes": 1537,
+      "path": "instruments/GBPNZD/analysis.md",
+      "sha256": "a8afcd7252220688825b12a53ff9ecb69e05b071a5f8af6f76bab4eef86cc005"
+    },
+    {
+      "bytes": 150821,
+      "path": "instruments/GBPNZD/chart_objects.json",
+      "sha256": "31a4794e1e5fd055da67c6016a261eee621dbd4b0bfda46358370b88a4070e0a"
+    },
+    {
+      "bytes": 144063,
+      "path": "instruments/GBPNZD/events.json",
+      "sha256": "bba4a71ad8c3174b8ee03c0ce411340875e54b5ecac917d0336f8a64bcd8c3b2"
+    },
+    {
+      "bytes": 8441,
+      "path": "instruments/GBPNZD/liquidity.json",
+      "sha256": "7921c420c87b65fa5811e37f8b0ec4d59ba39a727bea71e30891445a0db932e8"
+    },
+    {
+      "bytes": 218049,
+      "path": "instruments/GBPNZD/poi.json",
+      "sha256": "5743b12535baf0cddc19892754b1e66cb3a68cc99871e9eb4ac73719b9da46ad"
+    },
+    {
+      "bytes": 295389,
+      "path": "instruments/GBPUSD/analysis.json",
+      "sha256": "94b996db2d2a5d9c3142953a2941b7c3375164c3e62cf689c5e469d69bc61df4"
+    },
+    {
+      "bytes": 1554,
+      "path": "instruments/GBPUSD/analysis.md",
+      "sha256": "22caeb3a2031f3b3c68c36e7b6e3cc0c6c293a64692d5b46cef82e2964c127aa"
+    },
+    {
+      "bytes": 188618,
+      "path": "instruments/GBPUSD/chart_objects.json",
+      "sha256": "5ffd4afb170d7a32d6a9eca8ebf7ec733e957f1087ba90d1e975d24923df9338"
+    },
+    {
+      "bytes": 213949,
+      "path": "instruments/GBPUSD/events.json",
+      "sha256": "ba0723289c4e1813bd7612347e57f5bb765c56e4fe566b87de09e5e2232b29c9"
+    },
+    {
+      "bytes": 5931,
+      "path": "instruments/GBPUSD/liquidity.json",
+      "sha256": "05dac52142cff6ba3f7b04bc80c0755815d10591bca30dabe8a7404b93fc51e1"
+    },
+    {
+      "bytes": 277750,
+      "path": "instruments/GBPUSD/poi.json",
+      "sha256": "c9bfbeab16072e73accf478073faee3358afb89d4c20e278b86c657e500a4c28"
+    },
+    {
+      "bytes": 373462,
+      "path": "instruments/GER30/analysis.json",
+      "sha256": "272c4be748a1f65c3b5183b62ae3f207fc0ea34d3b26fa255c4a24e169fb8e49"
+    },
+    {
+      "bytes": 1570,
+      "path": "instruments/GER30/analysis.md",
+      "sha256": "45a5c750c0323822ab881a8155de0f8c9371f39d03880f7dec97997b0d3686d8"
+    },
+    {
+      "bytes": 246392,
+      "path": "instruments/GER30/chart_objects.json",
+      "sha256": "57633d7729ede8ec361d3b606baf93303383f5c3d997f38712259367e1bcbe1f"
+    },
+    {
+      "bytes": 305194,
+      "path": "instruments/GER30/events.json",
+      "sha256": "2533e83bee296ebca9efeb72c6d1cd7bb838a89b2ee3861aacf4e049fdd067f8"
+    },
+    {
+      "bytes": 7536,
+      "path": "instruments/GER30/liquidity.json",
+      "sha256": "03c7b0b06f878c056889da7e71ef26c66fd460a62e971f744bdc16f367a70615"
+    },
+    {
+      "bytes": 347844,
+      "path": "instruments/GER30/poi.json",
+      "sha256": "87ff0fc70f551e2a51cc0bc8a3df24b04d4ab349c8274422e552ae1d2ac02f79"
+    },
+    {
+      "bytes": 257126,
+      "path": "instruments/NDX100/analysis.json",
+      "sha256": "f86393e82ea2e7cc7ef124990284d6c022a46da8a66ba1350e13a6b8affcd00a"
+    },
+    {
+      "bytes": 1537,
+      "path": "instruments/NDX100/analysis.md",
+      "sha256": "59fbfe828d1c91513678d41fbd74bd9cfa38f1292b404805a0ec1b65576a0de0"
+    },
+    {
+      "bytes": 200169,
+      "path": "instruments/NDX100/chart_objects.json",
+      "sha256": "74f37ae7dff523798ad80a89f7055953de466dda760ae64c1a4dc6cd9bd1f8e7"
+    },
+    {
+      "bytes": 186886,
+      "path": "instruments/NDX100/events.json",
+      "sha256": "9e8f0071ec02672b91e13ee9eb01044d8d577111a6c03f2662a157078c4501fd"
+    },
+    {
+      "bytes": 7343,
+      "path": "instruments/NDX100/liquidity.json",
+      "sha256": "28f971ad55cb3084ca7ca192d4e447bfe3a4be025b31cd706da53638e1f904ca"
+    },
+    {
+      "bytes": 283196,
+      "path": "instruments/NDX100/poi.json",
+      "sha256": "0a0df3254a1a23ee68ca05ff7c6741702d475a6d1dfdefb990437aeb96248aa2"
+    },
+    {
+      "bytes": 194754,
+      "path": "instruments/NZDCAD/analysis.json",
+      "sha256": "0b8cda4ad8542900ed162820fea236648265aa9fe59188a274e61b0882ccaac1"
+    },
+    {
+      "bytes": 1554,
+      "path": "instruments/NZDCAD/analysis.md",
+      "sha256": "c911979e346cc691dc41927cf4fc145ab99b56d5cd3920450294585f0067476c"
+    },
+    {
+      "bytes": 151708,
+      "path": "instruments/NZDCAD/chart_objects.json",
+      "sha256": "c2ade5bf2e22fcd5bbd70a988b28298ffa321468299e625e4f4751534e2cf333"
+    },
+    {
+      "bytes": 132517,
+      "path": "instruments/NZDCAD/events.json",
+      "sha256": "0f08f669732ba888fa96308c129a56ea29a156805988f5dcbf35cd079ab0c75f"
+    },
+    {
+      "bytes": 6360,
+      "path": "instruments/NZDCAD/liquidity.json",
+      "sha256": "36805b614bb0b3ee81287192928b9597839e160e1aa5fde48e7eb660bf984302"
+    },
+    {
+      "bytes": 214693,
+      "path": "instruments/NZDCAD/poi.json",
+      "sha256": "5d3bf8aca81a0452d28aef4b2a819a6e0187bfa779a9be332fb6d31cffb7d4fd"
+    },
+    {
+      "bytes": 197129,
+      "path": "instruments/NZDCHF/analysis.json",
+      "sha256": "6bd9ecd4d01ffbe9a4dbfa8c68aa74aca18761149bb28b221b4412fd0089c2e7"
+    },
+    {
+      "bytes": 1539,
+      "path": "instruments/NZDCHF/analysis.md",
+      "sha256": "228faf3d601a0e53d6921d9b815e0d643913c5787c2ee74db2262098304320fc"
+    },
+    {
+      "bytes": 148587,
+      "path": "instruments/NZDCHF/chart_objects.json",
+      "sha256": "2c0a5a73035f1ab1600b47ad93593bade5685eec068144dc04be531824c76a00"
+    },
+    {
+      "bytes": 130655,
+      "path": "instruments/NZDCHF/events.json",
+      "sha256": "353c5be68cd642ed6f2282ae2ce7c14310fa7ec6a45cff1ce036c00654daedaa"
+    },
+    {
+      "bytes": 6787,
+      "path": "instruments/NZDCHF/liquidity.json",
+      "sha256": "b051ad0b760ef2a940ab370e1bb8d966a6d6aa0784ff957760537101242f6bca"
+    },
+    {
+      "bytes": 210085,
+      "path": "instruments/NZDCHF/poi.json",
+      "sha256": "56ce5c96a49a11052a2261ba6afce20d7738977c9501b3f7f8ab0983d5830950"
+    },
+    {
+      "bytes": 209608,
+      "path": "instruments/NZDJPY/analysis.json",
+      "sha256": "e87dab98a6d12961c16a4f5884b3a95178c0b151c87ef76c196da26586f43fdb"
+    },
+    {
+      "bytes": 1537,
+      "path": "instruments/NZDJPY/analysis.md",
+      "sha256": "b20e169f266ab52d35fbbf117eb1f74c7150f658dc94ab26127ab7521e601c2b"
+    },
+    {
+      "bytes": 177726,
+      "path": "instruments/NZDJPY/chart_objects.json",
+      "sha256": "23702798b9170f7ca45d88ebf39fd70cbbc05ee5fa06a8a6a04798d7417e0ac0"
+    },
+    {
+      "bytes": 136022,
+      "path": "instruments/NZDJPY/events.json",
+      "sha256": "057196bf44fed03bfcfb863a30304f83bdc8ef1cc59c95dfe88c1a4a215bb585"
+    },
+    {
+      "bytes": 4572,
+      "path": "instruments/NZDJPY/liquidity.json",
+      "sha256": "c36b2cffe361d50c9524a8ac244701784efed455a0a02a3e1448aa62957d091f"
+    },
+    {
+      "bytes": 257585,
+      "path": "instruments/NZDJPY/poi.json",
+      "sha256": "2ac9a91e5d11c876247f938a5942e4270a58180ef2aafd3cda64465acc66a2d7"
+    },
+    {
+      "bytes": 262425,
+      "path": "instruments/NZDUSD/analysis.json",
+      "sha256": "860488c83aa7e238ce4809d1708a3fb139c0b2591304275e2493637ff21a6f34"
+    },
+    {
+      "bytes": 1558,
+      "path": "instruments/NZDUSD/analysis.md",
+      "sha256": "260b5222d8ffc56154f9add4fdb2db902c8b16bfe3b315b701f7b0587b1f3745"
+    },
+    {
+      "bytes": 179454,
+      "path": "instruments/NZDUSD/chart_objects.json",
+      "sha256": "5767802ecf0ad231116c88700ff509c04b2538f91cbd5334d28ccd3042ac7697"
+    },
+    {
+      "bytes": 193263,
+      "path": "instruments/NZDUSD/events.json",
+      "sha256": "f122029c443451dd312581754b5c7393e26b7542546cd6346e8a16a91744aa91"
+    },
+    {
+      "bytes": 5928,
+      "path": "instruments/NZDUSD/liquidity.json",
+      "sha256": "165875a05b121d0e79502c9a0e75a9063cb46ed10ed86036c15445d335b7ce53"
+    },
+    {
+      "bytes": 261361,
+      "path": "instruments/NZDUSD/poi.json",
+      "sha256": "52bf7f01133880bdf98b97e91c184f9f6bc0932b566ecba774ef9c2c4bb873db"
+    },
+    {
+      "bytes": 248521,
+      "path": "instruments/SPX500/analysis.json",
+      "sha256": "297e6b3cdf575469d1ce67325ec55b825c0469e6a3ddd3c7689f2cd2faa862e1"
+    },
+    {
+      "bytes": 1568,
+      "path": "instruments/SPX500/analysis.md",
+      "sha256": "c9c2ef3bd76cb16611a564c04bb555e0766babd24ee2499f55c6d0c05e5d7a2a"
+    },
+    {
+      "bytes": 195571,
+      "path": "instruments/SPX500/chart_objects.json",
+      "sha256": "6efbf5fdbfcd765d85be8552cce9794ef2a4b765e1f383ba2eb9b0a5dccc02fb"
+    },
+    {
+      "bytes": 174555,
+      "path": "instruments/SPX500/events.json",
+      "sha256": "c7a881502892d2cf49f6dcb637be155bb6b503956f9c038be4a41edc95796b62"
+    },
+    {
+      "bytes": 7287,
+      "path": "instruments/SPX500/liquidity.json",
+      "sha256": "da629c2f132b36c0eb70a10e740888a736b90374d44caddaa68bc7afeb9d8137"
+    },
+    {
+      "bytes": 279918,
+      "path": "instruments/SPX500/poi.json",
+      "sha256": "f50d76aedb7cc1c51dab58893a775eb1d608035294d59583f7eb0eb33c18b6f3"
+    },
+    {
+      "bytes": 281172,
+      "path": "instruments/UKOUSD/analysis.json",
+      "sha256": "0e1551432de5dfc18672329f34f564372be76eda1c3851b0a1634286b82599ef"
+    },
+    {
+      "bytes": 1527,
+      "path": "instruments/UKOUSD/analysis.md",
+      "sha256": "07725f01863edb7a8d37f5a8ce378be8ddcab48c044f9f6715e837d0915b6d46"
+    },
+    {
+      "bytes": 211000,
+      "path": "instruments/UKOUSD/chart_objects.json",
+      "sha256": "0d52f09ec8bf2fceaf25b1107be1f2f063dc96625b7a46527e8403b24144b532"
+    },
+    {
+      "bytes": 198529,
+      "path": "instruments/UKOUSD/events.json",
+      "sha256": "35f7179708bd1af9b06922ee4b72c17bbf49f6bda18bd5ff47d16f9bb6a877c0"
+    },
+    {
+      "bytes": 8558,
+      "path": "instruments/UKOUSD/liquidity.json",
+      "sha256": "8f154ec00cfb523b030e70abc2fc18989e551e11f10be48cb6f2dc27ab92a197"
+    },
+    {
+      "bytes": 298750,
+      "path": "instruments/UKOUSD/poi.json",
+      "sha256": "255eb59e38f80a6c8b8bf84e48a26d4f922ec10738a24120605eee118680547c"
+    },
+    {
+      "bytes": 324075,
+      "path": "instruments/US30/analysis.json",
+      "sha256": "5ccce8b5bd4f549daf4ec68fedefc56a79e2d0704427b872fb97926489fcc907"
+    },
+    {
+      "bytes": 1565,
+      "path": "instruments/US30/analysis.md",
+      "sha256": "de68d8d21463dc55a8af1fad97d5714c5a864af4fe6daa227cb0ac7cedfba2c7"
+    },
+    {
+      "bytes": 200816,
+      "path": "instruments/US30/chart_objects.json",
+      "sha256": "55cb45d2c55434a2d4b3eae1aa7694df59eaa7851cc32c47d81576a309a1763d"
+    },
+    {
+      "bytes": 255504,
+      "path": "instruments/US30/events.json",
+      "sha256": "c5c6a78254e401c9e5c8d118b934fe20f900ed3fd9dd310a782e5c46d845aaa6"
+    },
+    {
+      "bytes": 11133,
+      "path": "instruments/US30/liquidity.json",
+      "sha256": "51695733874b4ef38bac38b3052ae4ff75a5cc1090d712f1102b7b4e854b369c"
+    },
+    {
+      "bytes": 289846,
+      "path": "instruments/US30/poi.json",
+      "sha256": "8bb42a303764c9f8fbc357670768766458f2a2f4f2624b0a982fe9b93972386a"
+    },
+    {
+      "bytes": 258538,
+      "path": "instruments/USDCAD/analysis.json",
+      "sha256": "b050080e21460cd20f970c257422e0104924017e4755c0f8957e22ba250027cc"
+    },
+    {
+      "bytes": 1553,
+      "path": "instruments/USDCAD/analysis.md",
+      "sha256": "3b6691c17f195e9e75601bdcc342352fecbbc0e9c3ee7b9f960523f121c3b7c5"
+    },
+    {
+      "bytes": 201864,
+      "path": "instruments/USDCAD/chart_objects.json",
+      "sha256": "118f041da42c69b14edadac05bd08c3c8579cc749ac2fbe11ea78efb2f3d0d06"
+    },
+    {
+      "bytes": 181586,
+      "path": "instruments/USDCAD/events.json",
+      "sha256": "1220b2530d50921ae207b3dd5f626b8f781deea6b183fc787a2c6254762b987d"
+    },
+    {
+      "bytes": 5915,
+      "path": "instruments/USDCAD/liquidity.json",
+      "sha256": "a374a75224c2d6bba71283f2cb7b6ee62b4e8c4a7e1436c1478995f907682a23"
+    },
+    {
+      "bytes": 291141,
+      "path": "instruments/USDCAD/poi.json",
+      "sha256": "548e724c7bfcc15ebe0baa5ed612d56644dbfb741c21d5dcfa6b0e11e01ce255"
+    },
+    {
+      "bytes": 205827,
+      "path": "instruments/USDCHF/analysis.json",
+      "sha256": "7fa64f05540f2b7a956de62cd0c1affa92f85781284908dd34e797ab8dac71dd"
+    },
+    {
+      "bytes": 1552,
+      "path": "instruments/USDCHF/analysis.md",
+      "sha256": "71a1356a3d6431af963b7d8db07a0655194570b21d1aa03c7d59d7a9f61f8f11"
+    },
+    {
+      "bytes": 177898,
+      "path": "instruments/USDCHF/chart_objects.json",
+      "sha256": "79a5050ae35545f5df75beaa44d1a7ad6fde34621938fb3eda610c6d1c8bc710"
+    },
+    {
+      "bytes": 132040,
+      "path": "instruments/USDCHF/events.json",
+      "sha256": "8302b7e9b14ecb2ea076ddcd7e53c2b40496d023c56debce7e220cd891c15a64"
+    },
+    {
+      "bytes": 5899,
+      "path": "instruments/USDCHF/liquidity.json",
+      "sha256": "52bdbc09d12308805bb60ea7c769bc1617fb15021c426f999156c0c02856b312"
+    },
+    {
+      "bytes": 254079,
+      "path": "instruments/USDCHF/poi.json",
+      "sha256": "747a459c514cbb0049cbb69c1c0e9c8721353cbd468f11cb0594a6f6686f6d95"
+    },
+    {
+      "bytes": 178767,
+      "path": "instruments/USDJPY/analysis.json",
+      "sha256": "93659d7596a9eb8255dcfcec93bf4af454a780061d39cb6a4203de6ef57998bd"
+    },
+    {
+      "bytes": 1534,
+      "path": "instruments/USDJPY/analysis.md",
+      "sha256": "8203417f4c8928eca19ba66363f950dde904a4dd628fe5615cefcec762cbd479"
+    },
+    {
+      "bytes": 183231,
+      "path": "instruments/USDJPY/chart_objects.json",
+      "sha256": "a445f44b6f017e4342042c923b9271decfeb7c5cf80e95ab17e4f8ce1248e910"
+    },
+    {
+      "bytes": 95116,
+      "path": "instruments/USDJPY/events.json",
+      "sha256": "6cda3b87be73b682fb96b395a4022f19d6a5dac2542697687876ca8de3a5fc56"
+    },
+    {
+      "bytes": 3258,
+      "path": "instruments/USDJPY/liquidity.json",
+      "sha256": "ce21a4d7fef8e8b7963459ccb1d5e8b8e1d952d87d7cde166b6993731d2a9d66"
+    },
+    {
+      "bytes": 258769,
+      "path": "instruments/USDJPY/poi.json",
+      "sha256": "f3e642b5dccbb14247aa54d94e9cf89783dc3106a3cda1d9ae8a1d9b9c8c17c2"
+    },
+    {
+      "bytes": 289503,
+      "path": "instruments/USOUSD/analysis.json",
+      "sha256": "8281670f9da72ccd4b809fb60d0f9a156c9e595985be719d3014463559697ff6"
+    },
+    {
+      "bytes": 1555,
+      "path": "instruments/USOUSD/analysis.md",
+      "sha256": "d46707b359330aba0306d4c03d952d97186431fc7200fb3f90070702abd72ce7"
+    },
+    {
+      "bytes": 210964,
+      "path": "instruments/USOUSD/chart_objects.json",
+      "sha256": "0a147be58347e3c49ef434643f4651eff63a8dc6854b4704a211336ab8e8e6cc"
+    },
+    {
+      "bytes": 207114,
+      "path": "instruments/USOUSD/events.json",
+      "sha256": "943eb238ab50d9276e2efbf706e64a2687de87ca1d854abb6bd49973964f3a4d"
+    },
+    {
+      "bytes": 10115,
+      "path": "instruments/USOUSD/liquidity.json",
+      "sha256": "be34e7f1b9bcb677d97ac52e7f7790683c9d99b8987dec0fa42107146930b2c7"
+    },
+    {
+      "bytes": 300785,
+      "path": "instruments/USOUSD/poi.json",
+      "sha256": "47da3ca5a6315811e32c50a8aa1c115c4fc14155d78cd21c3b9851d048a5f482"
+    },
+    {
+      "bytes": 260532,
+      "path": "instruments/XAUUSD/analysis.json",
+      "sha256": "82c82fa274aea631ec23c27192050811230a1542e9ddc997e0ea65a896999cea"
+    },
+    {
+      "bytes": 1555,
+      "path": "instruments/XAUUSD/analysis.md",
+      "sha256": "2a72a262a9a0512f05c2467618c40a74390f53c1764ba3f8d13b1a01fe50bdf9"
+    },
+    {
+      "bytes": 195871,
+      "path": "instruments/XAUUSD/chart_objects.json",
+      "sha256": "7a130cb039b4a13d2d400590ecdbc7cbc0c1cab0c9ce99beea716dee838d1dc8"
+    },
+    {
+      "bytes": 192080,
+      "path": "instruments/XAUUSD/events.json",
+      "sha256": "40be33d4fa9dc9fef428c44c9ee36da4757d005d01f88fe291932a17abc9df81"
+    },
+    {
+      "bytes": 8386,
+      "path": "instruments/XAUUSD/liquidity.json",
+      "sha256": "1723a2f0cff218dcc74d0c34a0e94bb5c9c2d2488aa37d7c98ed0b42a2506dc6"
+    },
+    {
+      "bytes": 279443,
+      "path": "instruments/XAUUSD/poi.json",
+      "sha256": "dda37886c3ad7ae7ba50d700fdd5fc16b250e6fb48daa7738d0943413a50549c"
+    },
+    {
+      "bytes": 16249,
+      "path": "opening_m15.json",
+      "sha256": "6bbdfa53cff3be1cc97a94dfe664f522a099b8561540de277f2506672cf5cd06"
+    },
+    {
+      "bytes": 2676,
+      "path": "snapshot_global.md",
+      "sha256": "9ece3df1b3c71950bab94d0bc9942f08a0f538a922877d40042ce46ee0793a17"
+    },
+    {
+      "bytes": 1353,
+      "path": "validation.json",
+      "sha256": "2ba91bf74141902d4465ac89df5ccf44d37acae1079bf213216fb419810f2b52"
+    },
+    {
+      "bytes": 20366,
+      "path": "watchlist.json",
+      "sha256": "df778f212a854d306b7959b7029351f472298d6809d3d8ccd2e24e2989f9032c"
+    }
+  ],
+  "freshness": {
+    "broker_clock_offset_seconds": 7200,
+    "cutoff": 1795681800,
+    "engine_cutoff": 1795689000,
+    "freshness_by_symbol_tf": {
+      "AUDCAD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "AUDCHF": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "AUDJPY": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "AUDUSD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "CADCHF": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "CADJPY": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "EURAUD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "EURCAD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "EURCHF": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "EURGBP": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "EURJPY": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "EURNZD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "EURUSD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "GBPAUD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "GBPCAD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "GBPCHF": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "GBPJPY": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "GBPNZD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "GBPUSD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "GER30": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "NDX100": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "NZDCAD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "NZDCHF": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "NZDJPY": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "NZDUSD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "SPX500": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "UKOUSD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "US30": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "USDCAD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "USDCHF": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "USDJPY": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "USOUSD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      },
+      "XAUUSD": {
+        "D1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795651200
+        },
+        "H1": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795687200
+        },
+        "H4": {
+          "freshness_status": "SCHEDULE_DEPENDENT",
+          "last_closed": 1795680000
+        },
+        "M15": {
+          "freshness_status": "FRESH",
+          "last_closed": 1795689000
+        }
+      }
+    },
+    "hook": "freshness_by_symbol_tf[symbol][tf] = {last_closed, freshness_status}",
+    "rule": "M15 freshness compares the engine latest_closed to the engine cutoff (real UTC cutoff + broker clock offset). D1/H4/H1 are SCHEDULE_DEPENDENT and are never called stale merely for closing before 08:15.",
+    "snapshot_id": "london0830_20261126_1795681800_70967d48c6",
+    "tolerance_seconds": 900
+  },
+  "generated_at_basis": "SOURCE_DATE_EPOCH (defaults to cutoff)",
+  "generated_at_utc": 1795681800,
+  "generated_at_utc_iso": "2026-11-26T08:30:00Z",
+  "hash_basis": "SHA-256 computed over UTF-8 bytes with line endings normalized to LF; byte counts are the actual file sizes; the manifest excludes itself.",
+  "london_date": "2026-11-26",
+  "profile": [
+    "M15",
+    "H4",
+    "H1",
+    "D1"
+  ],
+  "provider": "MetaTrader5",
+  "run_log_note": "run_log.json se genera tras el hash y no está incluido en files[].",
+  "schema_version": "ict3-london-snapshot/1.0",
+  "snapshot_cutoff_guayaquil": "2026-11-26T03:30:00-05:00",
+  "snapshot_cutoff_london": "2026-11-26T08:30:00+00:00",
+  "snapshot_cutoff_utc": 1795681800,
+  "snapshot_cutoff_utc_iso": "2026-11-26T08:30:00Z",
+  "snapshot_id": "london0830_20261126_1795681800_70967d48c6",
+  "source_repository": "https://github.com/vjack666/SMC3.0",
+  "symbols_exported": [
+    "AUDCAD",
+    "AUDCHF",
+    "AUDJPY",
+    "AUDUSD",
+    "CADCHF",
+    "CADJPY",
+    "EURAUD",
+    "EURCAD",
+    "EURCHF",
+    "EURGBP",
+    "EURJPY",
+    "EURNZD",
+    "EURUSD",
+    "GBPAUD",
+    "GBPCAD",
+    "GBPCHF",
+    "GBPJPY",
+    "GBPNZD",
+    "GBPUSD",
+    "GER30",
+    "NDX100",
+    "NZDCAD",
+    "NZDCHF",
+    "NZDJPY",
+    "NZDUSD",
+    "SPX500",
+    "UKOUSD",
+    "US30",
+    "USDCAD",
+    "USDCHF",
+    "USDJPY",
+    "USOUSD",
+    "XAUUSD"
+  ],
+  "symbols_requested": [
+    "EURUSD",
+    "EURAUD",
+    "EURCAD",
+    "EURCHF",
+    "EURGBP",
+    "EURJPY",
+    "EURNZD",
+    "AUDCAD",
+    "AUDCHF",
+    "AUDJPY",
+    "AUDUSD",
+    "GBPUSD",
+    "GBPAUD",
+    "GBPCAD",
+    "GBPCHF",
+    "GBPJPY",
+    "GBPNZD",
+    "NZDCAD",
+    "NZDCHF",
+    "NZDJPY",
+    "NZDUSD",
+    "USDCAD",
+    "USDCHF",
+    "USDJPY",
+    "CADCHF",
+    "CADJPY",
+    "GER30",
+    "NDX100",
+    "SPX500",
+    "US30",
+    "XAUUSD",
+    "UKOUSD",
+    "USOUSD"
+  ],
+  "symbols_stale": [],
+  "symbols_unavailable": [],
+  "total_bytes": 27571318,
+  "validation_ok": true,
+  "validation_status": "PASS"
+}

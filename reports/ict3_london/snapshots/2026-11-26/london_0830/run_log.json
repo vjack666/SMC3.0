@@ -1,0 +1,50 @@
+{
+  "broker_clock_offset_seconds": 7200,
+  "cutoff": 1795681800,
+  "cutoff_guayaquil": "2026-11-26T03:30:00-05:00",
+  "cutoff_london": "2026-11-26T08:30:00+00:00 GMT",
+  "date": "2026-11-26",
+  "started_at": "2026-11-26T08:35:02Z",
+  "steps": [
+    {
+      "at": "2026-11-26T08:35:12Z",
+      "detail": {
+        "offset": 7200,
+        "statuses": [
+          "FRESH",
+          "PARTIAL_FEED"
+        ],
+        "symbols": 33
+      },
+      "status": "ok",
+      "step": "freshness"
+    },
+    {
+      "at": "2026-11-26T08:40:17Z",
+      "detail": {
+        "baseline": "BASELINE_UNAVAILABLE",
+        "scenarios": 3
+      },
+      "status": "ok",
+      "step": "watchlist"
+    },
+    {
+      "at": "2026-11-26T08:40:17Z",
+      "detail": {
+        "files": 204,
+        "snapshot_id": "london0830_20261126_1795681800_70967d48c6",
+        "validation": "PASS"
+      },
+      "status": "ok",
+      "step": "export"
+    },
+    {
+      "at": "2026-11-26T08:40:21Z",
+      "detail": [
+        "............................................................             [100%]"
+      ],
+      "status": "ok",
+      "step": "invariants"
+    }
+  ]
+}
